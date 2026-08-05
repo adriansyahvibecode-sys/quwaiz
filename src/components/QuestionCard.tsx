@@ -10,6 +10,7 @@ interface QuestionCardProps {
   totalQuestions: number;
   onTimeOut: () => void;
   disabled?: boolean;
+  defaultTimerSeconds?: number;
 }
 
 export const QuestionCard: React.FC<QuestionCardProps> = ({
@@ -18,13 +19,16 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   totalQuestions,
   onTimeOut,
   disabled = false,
+  defaultTimerSeconds,
 }) => {
-  const [timeLeft, setTimeLeft] = useState<number>(question.timerSeconds || 20);
+  const [timeLeft, setTimeLeft] = useState<number>(
+    defaultTimerSeconds !== undefined ? defaultTimerSeconds : (question.timerSeconds || 20)
+  );
   const [isSpeaking, setIsSpeaking] = useState<boolean>(false);
 
   // Timer countdown
   useEffect(() => {
-    setTimeLeft(question.timerSeconds || 20);
+    setTimeLeft(defaultTimerSeconds !== undefined ? defaultTimerSeconds : (question.timerSeconds || 20));
 
     if (disabled) return;
 
@@ -46,7 +50,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [question, disabled, onTimeOut]);
+  }, [question, disabled, onTimeOut, defaultTimerSeconds]);
 
   // Manual speaker button handler
   const handleSpeakQuestion = () => {
@@ -64,7 +68,8 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
     }, 2500);
   };
 
-  const progressPct = Math.max(0, (timeLeft / (question.timerSeconds || 20)) * 100);
+  const maxTime = defaultTimerSeconds !== undefined ? defaultTimerSeconds : (question.timerSeconds || 20);
+  const progressPct = Math.max(0, (timeLeft / maxTime) * 100);
   const timerColorClass =
     progressPct > 50
       ? 'bg-[#4ECDC4]'
@@ -92,45 +97,52 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto bg-white rounded-2xl border-3 border-[#2D3436] shadow-[6px_6px_0_0_#54A0FF] p-3 sm:p-4 text-[#2D3436] relative overflow-hidden">
-      {/* Top Header Row: Question Counter & Category & Speak Button */}
+    <div className="w-full max-w-3xl mx-auto bg-white rounded-2xl border-3 border-[#2D3436] shadow-[6px_6px_0_0_#54A0FF] p-3 sm:p-4 text-[#2D3436] relative">
+      {/* Floating Circular Countdown Timer */}
+      <div className="absolute -top-7 -right-3 sm:-right-4 md:-right-24 md:top-2 w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-white rounded-full border-3 border-[#2D3436] shadow-[3px_3px_0_0_#2D3436] z-30 select-none">
+        <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+          {/* Background Circle */}
+          <circle
+            cx="50"
+            cy="50"
+            r="40"
+            className="stroke-slate-100 fill-white"
+            strokeWidth="10"
+          />
+          {/* Progress Circle */}
+          <circle
+            cx="50"
+            cy="50"
+            r="40"
+            className="fill-none transition-all duration-1000 ease-linear"
+            style={{
+              stroke: timeLeft <= 5 ? '#FF7675' : '#4ECDC4',
+            }}
+            strokeWidth="10"
+            strokeDasharray={2 * Math.PI * 40}
+            strokeDashoffset={2 * Math.PI * 40 * (1 - timeLeft / maxTime)}
+            strokeLinecap="round"
+          />
+        </svg>
+        {/* Seconds text in the center */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+          <span className={`font-black text-base sm:text-lg md:text-xl leading-none ${timeLeft <= 5 ? 'text-[#FF7675] animate-pulse' : 'text-[#2D3436]'}`}>
+            {timeLeft}
+          </span>
+          <span className="text-[7px] sm:text-[8px] md:text-[9px] font-black uppercase text-[#2D3436]/60 leading-none mt-0.5">Detik</span>
+        </div>
+      </div>
+
+      {/* Top Header Row: Question Counter & Category */}
       <div className="flex flex-wrap items-center justify-between gap-1.5 mb-2 pb-2 border-b-2 border-[#2D3436]/20">
         <div className="flex items-center gap-2">
           <span className="bg-[#FFE66D] text-[#2D3436] font-black text-xs sm:text-sm px-3 py-0.5 rounded-full border border-[#2D3436] shadow-[0_2px_0_0_#2D3436]">
             Soal {questionNumber} / {totalQuestions}
           </span>
-          <span className="bg-[#4ECDC4] text-white font-black text-[11px] sm:text-xs px-2.5 py-0.5 rounded-full uppercase border border-[#2D3436]">
-            {question.category.replace('_', ' ')}
+          <span className="bg-[#4ECDC4] text-white font-black text-[11px] sm:text-xs px-2.5 py-0.5 rounded-full uppercase border border-[#2D3436] flex items-center gap-1">
+            <span className="text-xs sm:text-sm animate-pulse">{question.visualItem}</span>
+            <span>{question.category.replace('_', ' ')}</span>
           </span>
-        </div>
-
-        {/* Speak Button */}
-        <button
-          onClick={handleSpeakQuestion}
-          className={`flex items-center gap-1.5 px-3 py-1 rounded-full font-black text-xs transition-all border border-[#2D3436] shadow-[0_2px_0_0_#2D3436] cursor-pointer active:translate-y-0.5 active:shadow-none ${
-            isSpeaking
-              ? 'bg-[#FFE66D] text-[#2D3436] scale-105'
-              : 'bg-[#A29BFE] text-white hover:bg-[#6c5ce7]'
-          }`}
-        >
-          <Volume2 className={`w-3.5 h-3.5 ${isSpeaking ? 'animate-bounce' : ''}`} />
-          <span>Dengarkan Soal</span>
-        </button>
-      </div>
-
-      {/* Countdown Timer Bar */}
-      <div className="mb-3">
-        <div className="flex justify-between items-center mb-0.5 text-xs font-black text-[#2D3436]">
-          <span className="flex items-center gap-1">⏱️ WAKTU:</span>
-          <span className={timeLeft <= 5 ? 'text-[#FF7675] font-black animate-bounce text-xs' : 'text-[#2D3436]'}>
-            {timeLeft} Detik
-          </span>
-        </div>
-        <div className="w-full h-3 bg-slate-100 rounded-full border-2 border-[#2D3436] p-0.5 overflow-hidden">
-          <motion.div
-            className={`h-full rounded-full transition-all duration-300 ${timerColorClass}`}
-            style={{ width: `${progressPct}%` }}
-          />
         </div>
       </div>
 
@@ -142,9 +154,34 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       )}
 
       {/* Main Concrete Math Visual Area */}
-      <div className="my-2 p-3 sm:p-4 bg-[#FFE66D]/20 rounded-2xl border-2 border-[#2D3436] flex flex-col items-center justify-center gap-3">
-        {/* Math Visual Expression */}
-        {question.operator === '+' || question.operator === '-' ? (
+      <div className={`my-2 p-3 sm:p-4 rounded-2xl border-2 border-[#2D3436] flex flex-col items-center justify-center gap-3 ${
+        question.optionsText ? 'bg-[#FF7675]' : 'bg-[#FFE66D]/20'
+      }`}>
+        {/* Math Visual Expression or Coding Multiple Choice */}
+        {question.optionsText ? (
+          <div className="flex flex-col gap-3 w-full max-w-xl mx-auto">
+            {/* List of Options */}
+            <div className="space-y-2.5">
+              {question.optionsText.map((optText, optIdx) => {
+                const optNumber = optIdx + 1;
+                return (
+                  <motion.div
+                    key={optIdx}
+                    whileHover={{ scale: 1.01 }}
+                    className="p-2 sm:p-2.5 bg-white hover:bg-[#FFE66D]/10 rounded-xl border-2 border-[#2D3436] flex items-center gap-3 shadow-[2px_2px_0_0_#2D3436] text-left transition-colors"
+                  >
+                    <span className="w-9 h-9 rounded-full bg-[#FFE66D] border-2 border-[#2D3436] font-black text-[#2D3436] flex items-center justify-center text-base shrink-0">
+                      {optNumber}
+                    </span>
+                    <span className="font-bold text-sm sm:text-base md:text-lg text-[#2D3436]">
+                      {optText}
+                    </span>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </div>
+        ) : question.operator === '+' || question.operator === '-' ? (
           <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 w-full">
             {/* Group A */}
             <div className="flex flex-col items-center gap-1">

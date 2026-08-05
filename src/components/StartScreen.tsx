@@ -71,46 +71,37 @@ export const StartScreen: React.FC<StartScreenProps> = ({
         value={settings.playerName || ''}
         onChange={(newName) => onUpdateSettings({ ...settings, playerName: newName })}
       />
-
-      {/* Mascot Selection Section */}
+      {/* Game Mode Selection */}
       <div className="bg-white rounded-2xl p-3 sm:p-4 border-3 border-[#2D3436] shadow-[4px_4px_0_0_#2D3436] space-y-2">
-        <div className="flex items-center justify-between">
-          <h2 className="font-black text-[#2D3436] text-sm sm:text-base flex items-center gap-1.5">
-            <span>🐾</span> PILIH TEMAN KARAKTERMU:
-          </h2>
-          <span className="text-[11px] font-black text-[#2D3436] bg-[#FFE66D] px-2.5 py-0.5 rounded-full border border-[#2D3436]">
-            {selectedMascot.name}
-          </span>
-        </div>
+        <h2 className="font-black text-[#2D3436] text-sm sm:text-base flex items-center gap-1.5">
+          <span>🧠</span> PILIH MODE BELAJAR:
+        </h2>
+        <div className="grid grid-cols-2 gap-3">
+          <button
+            onClick={() => onUpdateSettings({ ...settings, gameMode: 'matematika_umum' })}
+            className={`p-3 rounded-2xl border-3 border-[#2D3436] font-black text-xs sm:text-sm flex flex-col items-center justify-center gap-1 transition-all cursor-pointer ${
+              settings.gameMode === 'matematika_umum'
+                ? 'bg-[#FFE66D] text-[#2D3436] shadow-[0_4px_0_0_#2D3436] -translate-y-0.5'
+                : 'bg-slate-50 text-[#2D3436] hover:bg-[#FFE66D]/30'
+            }`}
+          >
+            <span className="text-2xl">🧮</span>
+            <span className="font-black">MATEMATIKA UMUM</span>
+            <span className="text-[9px] text-[#2D3436]/60 font-bold hidden sm:inline">Penjumlahan, Pengurangan, Hitung Benda</span>
+          </button>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-          {MASCOTS.map((m) => {
-            const isSelected = m.id === selectedMascot.id;
-            return (
-              <motion.button
-                key={m.id}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => handleSelectMascot(m)}
-                className={`flex flex-col items-center p-2 rounded-xl border-2 border-[#2D3436] transition-all cursor-pointer relative ${
-                  isSelected
-                    ? 'bg-[#FFE66D] shadow-[0_3px_0_0_#2D3436] -translate-y-0.5'
-                    : 'bg-slate-50 hover:bg-[#FFE66D]/40'
-                }`}
-              >
-                <span className="text-2xl sm:text-3xl mb-0.5">{m.emoji}</span>
-                <span className="font-black text-xs text-[#2D3436] text-center">
-                  {m.name}
-                </span>
-
-                {isSelected && (
-                  <span className="absolute -top-1.5 -right-1.5 bg-[#FF7675] text-white rounded-full p-0.5 text-[10px] border border-[#2D3436]">
-                    ⭐
-                  </span>
-                )}
-              </motion.button>
-            );
-          })}
+          <button
+            onClick={() => onUpdateSettings({ ...settings, gameMode: 'matematika_coding' })}
+            className={`p-3 rounded-2xl border-3 border-[#2D3436] font-black text-xs sm:text-sm flex flex-col items-center justify-center gap-1 transition-all cursor-pointer ${
+              settings.gameMode === 'matematika_coding'
+                ? 'bg-[#4ECDC4] text-white shadow-[0_4px_0_0_#2D3436] -translate-y-0.5 border-[#2D3436]'
+                : 'bg-slate-50 text-[#2D3436] hover:bg-[#4ECDC4]/20'
+            }`}
+          >
+            <span className="text-2xl">💻</span>
+            <span className="font-black">ALGORITMA CODING</span>
+            <span className="text-[9px] text-white/80 font-bold hidden sm:inline">Algoritma, Pengenalan Pola, Navigasi</span>
+          </button>
         </div>
       </div>
 
@@ -122,25 +113,33 @@ export const StartScreen: React.FC<StartScreenProps> = ({
             <span>🎯</span> KATEGORI SOAL:
           </h2>
 
-          <div className="grid grid-cols-2 gap-2">
-            {categories.map((cat) => {
-              const isSelected = settings.selectedCategory === cat.id;
-              return (
-                <button
-                  key={cat.id}
-                  onClick={() => handleSelectCategory(cat.id)}
-                  className={`p-2 rounded-xl font-black text-xs border-2 border-[#2D3436] flex items-center justify-center gap-1 transition-all cursor-pointer ${
-                    isSelected
-                      ? `${cat.bg} text-white shadow-[0_3px_0_0_#2D3436] -translate-y-0.5`
-                      : 'bg-slate-100 text-[#2D3436] hover:bg-slate-200'
-                  }`}
-                >
-                  <span>{cat.icon}</span>
-                  <span>{cat.label}</span>
-                </button>
-              );
-            })}
-          </div>
+          {settings.gameMode === 'matematika_coding' ? (
+            <div className="flex flex-col items-center justify-center p-3 bg-[#4ECDC4]/10 border-2 border-dashed border-[#4ECDC4] rounded-xl text-center h-24 justify-center">
+              <span className="text-2xl">💻</span>
+              <span className="font-black text-[#2D3436] text-xs mt-1">LOGIKA CODING & CT</span>
+              <span className="text-[9px] text-[#2D3436]/70 font-bold">Algoritma, Pola, Navigasi, Kondisional, dll.</span>
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 gap-2">
+              {categories.map((cat) => {
+                const isSelected = settings.selectedCategory === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => handleSelectCategory(cat.id)}
+                    className={`p-2 rounded-xl font-black text-xs border-2 border-[#2D3436] flex items-center justify-center gap-1 transition-all cursor-pointer ${
+                      isSelected
+                        ? `${cat.bg} text-white shadow-[0_3px_0_0_#2D3436] -translate-y-0.5`
+                        : 'bg-slate-100 text-[#2D3436] hover:bg-slate-200'
+                    }`}
+                  >
+                    <span>{cat.icon}</span>
+                    <span>{cat.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {/* Question Count Picker */}
@@ -179,6 +178,48 @@ export const StartScreen: React.FC<StartScreenProps> = ({
               </span>
             )}
           </div>
+        </div>
+      </div>
+
+      {/* Mascot Selection Section */}
+      <div className="bg-white rounded-2xl p-3 sm:p-4 border-3 border-[#2D3436] shadow-[4px_4px_0_0_#2D3436] space-y-2">
+        <div className="flex items-center justify-between">
+          <h2 className="font-black text-[#2D3436] text-sm sm:text-base flex items-center gap-1.5">
+            <span>🐾</span> PILIH TEMAN KARAKTERMU:
+          </h2>
+          <span className="text-[11px] font-black text-[#2D3436] bg-[#FFE66D] px-2.5 py-0.5 rounded-full border border-[#2D3436]">
+            {selectedMascot.name}
+          </span>
+        </div>
+
+        <div className="grid grid-cols-5 gap-1 sm:gap-2">
+          {MASCOTS.map((m) => {
+            const isSelected = m.id === selectedMascot.id;
+            return (
+              <motion.button
+                key={m.id}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => handleSelectMascot(m)}
+                className={`flex flex-col items-center p-1 sm:p-1.5 rounded-xl border-2 border-[#2D3436] transition-all cursor-pointer relative ${
+                  isSelected
+                    ? 'bg-[#FFE66D] shadow-[0_3px_0_0_#2D3436] -translate-y-0.5'
+                    : 'bg-slate-50 hover:bg-[#FFE66D]/40'
+                }`}
+              >
+                <span className="text-xl sm:text-2xl mb-0.5">{m.emoji}</span>
+                <span className="font-black text-[10px] sm:text-xs text-[#2D3436] text-center truncate w-full">
+                  {m.name}
+                </span>
+
+                {isSelected && (
+                  <span className="absolute -top-1 -right-1 bg-[#FF7675] text-white rounded-full p-0.5 text-[8px] border border-[#2D3436]">
+                    ⭐
+                  </span>
+                )}
+              </motion.button>
+            );
+          })}
         </div>
       </div>
 

@@ -9,6 +9,8 @@ interface AdminModalProps {
   onSaveQuestions: (updated: Question[]) => Promise<void>;
   onResetQuestions: () => Promise<void>;
   onClose: () => void;
+  generalTimer: number;
+  onUpdateGeneralTimer: (seconds: number) => void;
 }
 
 export const AdminModal: React.FC<AdminModalProps> = ({
@@ -16,10 +18,13 @@ export const AdminModal: React.FC<AdminModalProps> = ({
   onSaveQuestions,
   onResetQuestions,
   onClose,
+  generalTimer,
+  onUpdateGeneralTimer,
 }) => {
   const [activeTab, setActiveTab] = useState<'list' | 'add'>('list');
   const [questionList, setQuestionList] = useState<Question[]>(questions);
   const [isSaving, setIsSaving] = useState<boolean>(false);
+  const [generalTimerVal, setGeneralTimerVal] = useState<number>(generalTimer);
   const [isAiLoading, setIsAiLoading] = useState<boolean>(false);
   const [aiCount, setAiCount] = useState<number>(5);
   const [aiCategory, setAiCategory] = useState<Category>('penjumlahan');
@@ -175,7 +180,26 @@ export const AdminModal: React.FC<AdminModalProps> = ({
                   <RotateCcw className="w-3.5 h-3.5" /> Reset ke Default
                 </button>
               </div>
-
+              <div className="bg-[#FFE66D]/20 p-3 rounded-2xl border-3 border-[#2D3436] flex items-center justify-between gap-3 text-xs sm:text-sm shadow-[0_3px_0_0_#2D3436]">
+                <span className="font-black text-[#2D3436] flex items-center gap-1.5">
+                  ⏱️ TIMER GENERAL (SEMUA SOAL):
+                </span>
+                <div className="flex items-center gap-2">
+                  <input
+                    type="number"
+                    min="5"
+                    max="120"
+                    value={generalTimerVal}
+                    onChange={(e) => {
+                      const val = parseInt(e.target.value, 10) || 20;
+                      setGeneralTimerVal(val);
+                      onUpdateGeneralTimer(val);
+                    }}
+                    className="w-16 p-1 rounded-lg border-2 border-[#2D3436] text-center font-black text-xs sm:text-sm focus:outline-none bg-white text-[#2D3436]"
+                  />
+                  <span className="font-black text-xs text-[#2D3436]">Detik</span>
+                </div>
+              </div>
               {questionList.map((q, idx) => (
                 <div
                   key={q.id || idx}

@@ -4,7 +4,7 @@ export type VisualType = 'emoji' | 'dots' | 'shapes';
 
 export interface Question {
   id: string;
-  category: Category;
+  category: Category | string;
   title?: string;
   visualType: VisualType;
   visualItem: string; // Emoji e.g., "🍎", "🎈", "⭐️", "🍩", "🚗", "🐰"
@@ -13,7 +13,8 @@ export interface Question {
   operator: '+' | '-' | '?' | '=';
   correctAnswer: number;
   timerSeconds: number;
-  options?: number[]; // For comparison or multiple choice if needed, but standard is numpad 0-9
+  options?: number[];
+  optionsText?: string[]; // Multiple choice options text for coding
   explanation?: string;
 }
 
@@ -38,6 +39,7 @@ export interface QuizSettings {
   selectedMascotId: string;
   selectedQuestionCount: number;
   selectedCategory: Category;
+  gameMode: 'matematika_umum' | 'matematika_coding'; // Game mode selection
   tvInputHint: boolean;
   playerName?: string;
 }

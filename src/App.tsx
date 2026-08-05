@@ -14,10 +14,13 @@ import { ResultScreen } from './components/ResultScreen';
 import { CertificateModal } from './components/CertificateModal';
 import { AdminModal } from './components/AdminModal';
 
+import { CODING_QUESTIONS } from './data/codingQuestions';
+
 export default function App() {
   const [screen, setScreen] = useState<'splash' | 'start' | 'countdown' | 'quiz' | 'feedback' | 'result'>('splash');
   const [countdownVal, setCountdownVal] = useState<number>(3);
   const [questionsBank, setQuestionsBank] = useState<Question[]>([]);
+  const [codingQuestionsBank, setCodingQuestionsBank] = useState<Question[]>([]);
   const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
@@ -70,6 +73,17 @@ export default function App() {
     fetchQuestions().then((qs) => {
       setQuestionsBank(qs);
     });
+
+    const localCoding = localStorage.getItem('kids_coding_questions_v1');
+    if (localCoding) {
+      try {
+        setCodingQuestionsBank(JSON.parse(localCoding));
+      } catch {
+        setCodingQuestionsBank(CODING_QUESTIONS);
+      }
+    } else {
+      setCodingQuestionsBank(CODING_QUESTIONS);
+    }
   }, []);
 
   // Update soundFx flags when settings change
@@ -93,14 +107,18 @@ export default function App() {
 
   // Handle start quiz session
   const handleStartQuiz = () => {
-    // Filter by category if not 'campuran'
-    let filtered = [...questionsBank];
-    if (settings.selectedCategory !== 'campuran') {
+    let sourceQuestions = settings.gameMode === 'matematika_coding'
+      ? [...codingQuestionsBank]
+      : [...questionsBank];
+
+    // Filter by category if not 'campuran' and not in coding mode
+    let filtered = sourceQuestions;
+    if (settings.gameMode !== 'matematika_coding' && settings.selectedCategory !== 'campuran') {
       filtered = filtered.filter((q) => q.category === settings.selectedCategory);
     }
     // Fallback if filtered is empty
     if (filtered.length === 0) {
-      filtered = [...questionsBank];
+      filtered = sourceQuestions;
     }
 
     // Shuffle and pick
@@ -200,9 +218,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-200 via-orange-100 to-amber-300 text-slate-800 flex flex-col font-sans selection:bg-amber-400 select-none pb-2 sm:pb-3">
-      {/* App Header (Hidden during Splash Screen) */}
-      {screen !== 'splash' && (
+    <div className="min-h-screen bg-gradient-to-b from-amber-200 via-orange-100 to-amber-300 text-slate-800 flex flex-col font-sans selection:bg-amber-400 select-none w-full pb-2 sm:pb-3">
+      {/* App Header (Shown only on Start Screen and Result Screen) */}
+      {(screen === 'start' || screen === 'result') && (
         <Header
           mascot={mascot}
           soundEnabled={settings.soundEnabled}
@@ -263,18 +281,15 @@ export default function App() {
                 SIAP-SIAP... 🚀
               </h2>
               
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={countdownVal}
-                  initial={{ scale: 0.5, y: 50, opacity: 0 }}
-                  animate={{ scale: 1, y: 0, opacity: 1 }}
-                  exit={{ scale: 1.5, y: -50, opacity: 0 }}
-                  transition={{ type: 'spring', stiffness: 350, damping: 15 }}
-                  className="text-8xl sm:text-9xl md:text-[12rem] font-black text-[#FF7675] drop-shadow-[6px_6px_0_#2D3436]"
-                >
-                  {countdownVal}
-                </motion.div>
-              </AnimatePresence>
+              <motion.div
+                key={countdownVal}
+                initial={{ scale: 0.3, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ type: 'spring', stiffness: 400, damping: 12 }}
+                className="text-8xl sm:text-9xl md:text-[12rem] font-black text-[#FF7675] drop-shadow-[6px_6px_0_#2D3436]"
+              >
+                {countdownVal}
+              </motion.div>
             </motion.div>
           )}
 
@@ -327,6 +342,7 @@ export default function App() {
                 totalQuestions={activeQuestions.length}
                 onTimeOut={() => handleAnswerQuestion(null)}
                 disabled={screen === 'feedback'}
+                defaultTimerSeconds={settings.defaultTimerSeconds}
               />
 
               {/* Virtual On-screen Numpad for Dual Input Remote Mode */}
@@ -334,6 +350,11 @@ export default function App() {
                 key={currentIndex}
                 onSelectNumber={(num) => handleAnswerQuestion(num)}
                 disabled={screen === 'feedback'}
+                allowedNumbers={
+                  activeQuestions[currentIndex]?.optionsText 
+                    ? [1, 2, 3] 
+                    : undefined
+                }
               />
 
               {/* Feedback Overlay Popup */}
@@ -404,16 +425,28 @@ export default function App() {
       {/* Admin / Question Bank Modal */}
       {isAdminOpen && (
         <AdminModal
-          questions={questionsBank}
+          questions={settings.gameMode === 'matematika_coding' ? codingQuestionsBank : questionsBank}
           onSaveQuestions={async (updated) => {
-            setQuestionsBank(updated);
-            await saveQuestions(updated);
+            if (settings.gameMode === 'matematika_coding') {
+              setCodingQuestionsBank(updated);
+              localStorage.setItem('kids_coding_questions_v1', JSON.stringify(updated));
+            } else {
+              setQuestionsBank(updated);
+              await saveQuestions(updated);
+            }
           }}
           onResetQuestions={async () => {
-            const defaults = await resetQuestionsToDefault();
-            setQuestionsBank(defaults);
+            if (settings.gameMode === 'matematika_coding') {
+              setCodingQuestionsBank(CODING_QUESTIONS);
+              localStorage.setItem('kids_coding_questions_v1', JSON.stringify(CODING_QUESTIONS));
+            } else {
+              const defaults = await resetQuestionsToDefault();
+              setQuestionsBank(defaults);
+            }
           }}
           onClose={() => setIsAdminOpen(false)}
+          generalTimer={settings.defaultTimerSeconds}
+          onUpdateGeneralTimer={(seconds) => setSettings((s) => ({ ...s, defaultTimerSeconds: seconds }))}
         />
       )}
 

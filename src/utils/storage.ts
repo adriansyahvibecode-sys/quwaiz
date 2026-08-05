@@ -70,9 +70,10 @@ export function loadLocalSettings(): QuizSettings {
     defaultTimerSeconds: 20,
     soundEnabled: true,
     speechEnabled: true,
-    selectedMascotId: 'kiki',
+    selectedMascotId: 'alex',
     selectedQuestionCount: 5,
     selectedCategory: 'campuran',
+    gameMode: 'matematika_umum',
     tvInputHint: true,
     playerName: 'MYESHA',
   };

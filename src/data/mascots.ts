@@ -2,91 +2,113 @@ import { Mascot } from '../types';
 
 export const MASCOTS: Mascot[] = [
   {
-    id: 'kiki',
-    name: 'Kiki si Monyet',
-    animal: 'Monyet Cerdik',
-    emoji: '🐒',
-    color: 'from-amber-400 to-orange-500',
-    bgLight: 'bg-amber-100 border-amber-300 text-amber-900',
-    accentColor: '#f59e0b',
-    catchphrase: 'Yuk kita hitung bersama!',
-    greeting: 'Halo teman-teman! Aku Kiki! Siap bermain angka denganku?',
-    correctReactions: [
-      'Horeee! Jawabanmu Tepat Sekali! 🎉',
-      'Hebat! Kamu pintar sekali! ⭐',
-      'Luar biasa! Lanjutkan ya! 🍌',
-      'Aaaa senangnya! Kamu betul lagi! 🥳'
-    ],
-    wrongReactions: [
-      'Tetap semangat! Coba hitung lagi yuk! 💪',
-      'Tidak apa-apa, ayo pelan-pelan kita coba lagi! 💖',
-      'Hampir betul! Jangan menyerah ya! 🎈'
-    ]
-  },
-  {
-    id: 'bella',
-    name: 'Bella si Beruang',
-    animal: 'Beruang Ramah',
-    emoji: '🐻',
-    color: 'from-amber-600 to-yellow-600',
-    bgLight: 'bg-orange-100 border-orange-300 text-amber-950',
-    accentColor: '#d97706',
-    catchphrase: 'Pintar dan selalu ceria!',
-    greeting: 'Halo! Aku Bella! Ayo kita belajar matematika sambil bergembira!',
-    correctReactions: [
-      'Waaah hebat banget! Teuudap!! 🐻✨',
-      'Pintaaar! Kamu cerdas sekali! 🌟',
-      'Mantap! Jawabanmu 100% benar! 🍯',
-      'Superstar! Bintang untukmu! ⭐'
-    ],
-    wrongReactions: [
-      'Oops! Belum tepat, yuk latihan lagi! 😊',
-      'Jangan sedih ya, mari kita pelajari bersama! 🌸',
-      'Ayo semangat, pasti bisa di soal berikutnya! 🧸'
-    ]
-  },
-  {
-    id: 'leo',
-    name: 'Leo si Singa',
-    animal: 'Singa Pemberani',
+    id: 'alex',
+    name: 'Alex',
+    animal: 'Singa Bintang',
     emoji: '🦁',
-    color: 'from-yellow-400 to-amber-500',
-    bgLight: 'bg-yellow-100 border-yellow-300 text-yellow-950',
-    accentColor: '#eab308',
-    catchphrase: 'Pemberani dan pantang menyerah!',
-    greeting: 'Roaaar! Aku Leo si Singa Pemberani! Mari taklukkan angka-angka ini!',
+    color: 'from-yellow-500 to-amber-600',
+    bgLight: 'bg-amber-100 border-amber-300 text-amber-900',
+    accentColor: '#d97706',
+    catchphrase: 'Tunjukkan aksi terbaikmu!',
+    greeting: 'Roaaar! Aku Alex si Singa Bintang dari New York! Mari taklukkan angka-angka ini!',
     correctReactions: [
-      'ROAARR! Jawaban yang sangat tangguh! 🦁🔥',
-      'Luar biasa perkasa! Benar sekali! 👑',
-      'Kamuuu juara matematika sejati! 🏆',
-      'Bagus sekali! Tembakan tepat! 🎯'
+      'Roaaar! Jawabanmu sangat hebat! 🥩',
+      'Bintang panggung sejati! Benar! 🌟',
+      'Tarian kemenangan untukmu! 🕺',
+      'Luar biasa! Aksi yang sempurna! ⭐'
     ],
     wrongReactions: [
-      'Singa tak pernah menyerah! Coba lagi! 🚀',
-      'Fokuskan matamu, kamu pasti bisa! 🦁',
-      'Ayo bangkit dan hitung ulang bersama! ⚡'
+      'Tidak apa-apa, singa New York pantang menyerah! Coba lagi! 💪',
+      'Fokus, kita pasti bisa melakukan aksi berikutnya! 🦁',
+      'Hampir tepat! Ayo tunjukkan taringmu sekali lagi! 🍖'
     ]
   },
   {
-    id: 'pippo',
-    name: 'Pippo si Penguin',
-    animal: 'Penguin Lucu',
-    emoji: '🐧',
-    color: 'from-cyan-400 to-blue-500',
-    bgLight: 'bg-cyan-100 border-cyan-300 text-cyan-950',
-    accentColor: '#06b6d4',
-    catchphrase: 'Belajar dingin, hasil hangat!',
-    greeting: 'Kwek kwek! Aku Pippo! Ayo menari dan berhitung bersama!',
+    id: 'julien',
+    name: 'Raja Julien',
+    animal: 'Lemur Ekor Cincin',
+    emoji: '🦝',
+    color: 'from-slate-400 to-slate-600',
+    bgLight: 'bg-slate-100 border-slate-300 text-slate-900',
+    accentColor: '#64748b',
+    catchphrase: 'Suka menari dan memimpin!',
+    greeting: 'Halo rakyatku! Aku Raja Julien! Mari menari dan berhitung bersama!',
     correctReactions: [
-      'Kwek kwek! Benarrr! Asyik sekali! 🐧❄️',
-      'MANTUL! Kamu keren banget! 🍦',
-      'Wajahku gembira! Jawabanmu betul! 🎉',
-      'Ice cream untuk jawaban benarmu! 🍨'
+      'Hore! Raja Julien bangga padamu! 👑',
+      'Luar biasa manis! Goyang terus! 🕺',
+      'Benar sekali! Raja menyukainya! 🥭',
+      'Hebat! Kamu layak mendapat mahkota! 👑'
     ],
     wrongReactions: [
-      'Brrr, masih dingin! Yuk hangatkan dengan hitungan baru! ❄️',
-      'Santai saja teman, mari kita coba lagi! 🧊',
-      'Pippo percaya kamu pasti bisa! 💙'
+      'Oh tidak, bukan begitu! Coba goyang kepalamu dan hitung lagi! 🌴',
+      'Rakyatku harus tetap semangat, mari coba lagi! 👑',
+      'Jangan sedih, ayo kita berdansa dan hitung ulang! 💃'
+    ]
+  },
+  {
+    id: 'marty',
+    name: 'Marty',
+    animal: 'Zebra Ceria',
+    emoji: '🦓',
+    color: 'from-zinc-300 to-zinc-500',
+    bgLight: 'bg-zinc-100 border-zinc-300 text-zinc-900',
+    accentColor: '#27272a',
+    catchphrase: 'Sangat liar dan bebas!',
+    greeting: 'Yee-haw! Aku Marty si Zebra! Ayo lari cepat dan berhitung bersamaku!',
+    correctReactions: [
+      'Crack-a-lackin! Jawabanmu super tepat! 🦓✨',
+      'Luar biasa cepat! Kamu benar! 🍏',
+      'Yee-haw! Lompatan yang bagus! 🏃‍♂️',
+      'Mantap! Itu baru namanya gaya zebra! ⭐'
+    ],
+    wrongReactions: [
+      'Ayo coba lagi, jangan biarkan harimu kurang liar! 🌿',
+      'Pelan-pelan temanku, kita coba lari sekali lagi! 🦓',
+      'Tidak masalah! Ayo lari lagi ke lintasan berikutnya! 🌾'
+    ]
+  },
+  {
+    id: 'gloria',
+    name: 'Gloria',
+    animal: 'Kuda Nil Anggun',
+    emoji: '🦛',
+    color: 'from-pink-400 to-purple-500',
+    bgLight: 'bg-pink-100 border-pink-300 text-pink-950',
+    accentColor: '#ec4899',
+    catchphrase: 'Selalu anggun dan berani!',
+    greeting: 'Halo sayang! Aku Gloria si Kuda Nil manis! Ayo kita berhitung sambil bersenang-senang!',
+    correctReactions: [
+      'Oh sayang, itu sangat luar biasa! Benar! 💖',
+      'Hebat sekali! Gaya berhitung yang anggun! 🌸',
+      'Tepat sekali! Ibu menyukainya! 🍉',
+      'Cantik sekali jawabanmu! Bintang untukmu! ⭐'
+    ],
+    wrongReactions: [
+      'Jangan menyerah sayang, coba hitung perlahan sekali lagi! 💕',
+      'Oops! Sedikit lagi tepat, yuk semangat! 🧸',
+      'Santai saja manis, ayo kita coba hitung ulang! 🍃'
+    ]
+  },
+  {
+    id: 'skipper',
+    name: 'Skipper',
+    animal: 'Penguin Pemimpin',
+    emoji: '🐧',
+    color: 'from-blue-600 to-cyan-700',
+    bgLight: 'bg-sky-100 border-sky-300 text-sky-950',
+    accentColor: '#0284c7',
+    catchphrase: 'Kowalski, analisis!',
+    greeting: 'Dengar prajurit! Aku Skipper! Siapkan strategimu dan mari kita selesaikan kuis ini!',
+    correctReactions: [
+      'Analisis tepat! Misi berhasil, prajurit! 🐧🎖️',
+      'Hebat! Taktik yang sangat jitu! 🐟',
+      'Kerja bagus! Lanjutkan operasi ini! 🚀',
+      'Tepat sasaran! Kamu memang andalan! 🎯'
+    ],
+    wrongReactions: [
+      'Strategi meleset! Atur ulang rencana dan coba lagi! 🗺️',
+      'Jangan panik prajurit, tetap fokus pada target! 🎯',
+      'Kowalski mendeteksi sedikit kesalahan, mari koreksi! 🔍'
     ]
   }
 ];
