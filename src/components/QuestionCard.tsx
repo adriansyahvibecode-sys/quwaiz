@@ -154,7 +154,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             {/* Operator Sign */}
             <motion.div
               initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
+              animate={{ 
+                scale: [1, 1.15, 1.15, 1, 1],
+                rotate: [0, 8, -8, 8, -8, 0] 
+              }}
+              transition={{
+                duration: 1.8,
+                repeat: Infinity,
+                repeatDelay: 0.8
+              }}
               className={`text-2xl sm:text-3xl font-black text-white w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center border-2 border-[#2D3436] shadow-[0_3px_0_0_#2D3436] select-none ${
                 question.operator === '+' ? 'bg-[#4ECDC4]' : 'bg-[#FF7675]'
               }`}

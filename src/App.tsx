@@ -15,7 +15,8 @@ import { CertificateModal } from './components/CertificateModal';
 import { AdminModal } from './components/AdminModal';
 
 export default function App() {
-  const [screen, setScreen] = useState<'splash' | 'start' | 'quiz' | 'feedback' | 'result'>('splash');
+  const [screen, setScreen] = useState<'splash' | 'start' | 'countdown' | 'quiz' | 'feedback' | 'result'>('splash');
+  const [countdownVal, setCountdownVal] = useState<number>(3);
   const [questionsBank, setQuestionsBank] = useState<Question[]>([]);
   const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -44,6 +45,25 @@ export default function App() {
     }, 2000);
     return () => clearTimeout(timer);
   }, []);
+
+  // Countdown Screen (3-2-1) Effect
+  useEffect(() => {
+    if (screen !== 'countdown') return;
+
+    if (countdownVal > 0) {
+      soundFx.playTick();
+      soundFx.speakText(countdownVal.toString());
+
+      const timer = setTimeout(() => {
+        setCountdownVal((prev) => prev - 1);
+      }, 1000);
+      return () => clearTimeout(timer);
+    } else {
+      soundFx.speakText("Mulai!");
+      soundFx.playClick();
+      setScreen('quiz');
+    }
+  }, [screen, countdownVal]);
 
   // Initial load
   useEffect(() => {
@@ -91,7 +111,8 @@ export default function App() {
     setCurrentIndex(0);
     setUserAnswers([]);
     setFeedback(null);
-    setScreen('quiz');
+    setCountdownVal(3);
+    setScreen('countdown');
   };
 
   // Handle answer submission
@@ -226,6 +247,34 @@ export default function App() {
                 SELAMAT DATANG DI QUAIZ
                 <span className="text-[#FF7675] text-2xl sm:text-3xl font-black block mt-3">— QUIZ DARI UWAIZ —</span>
               </h1>
+            </motion.div>
+          )}
+
+          {/* SCREEN: COUNTDOWN SCREEN */}
+          {screen === 'countdown' && (
+            <motion.div
+              key="countdown"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 1.2 }}
+              className="flex flex-col items-center justify-center text-center p-6 space-y-6 my-auto select-none"
+            >
+              <h2 className="text-3xl sm:text-4xl font-black text-[#2D3436] tracking-wide uppercase">
+                SIAP-SIAP... 🚀
+              </h2>
+              
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={countdownVal}
+                  initial={{ scale: 0.5, y: 50, opacity: 0 }}
+                  animate={{ scale: 1, y: 0, opacity: 1 }}
+                  exit={{ scale: 1.5, y: -50, opacity: 0 }}
+                  transition={{ type: 'spring', stiffness: 350, damping: 15 }}
+                  className="text-8xl sm:text-9xl md:text-[12rem] font-black text-[#FF7675] drop-shadow-[6px_6px_0_#2D3436]"
+                >
+                  {countdownVal}
+                </motion.div>
+              </AnimatePresence>
             </motion.div>
           )}
 
