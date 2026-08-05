@@ -11,6 +11,7 @@ interface QuestionCardProps {
   onTimeOut: () => void;
   disabled?: boolean;
   defaultTimerSeconds?: number;
+  onSelectOption?: (optionNumber: number) => void;
 }
 
 export const QuestionCard: React.FC<QuestionCardProps> = ({
@@ -20,6 +21,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   onTimeOut,
   disabled = false,
   defaultTimerSeconds,
+  onSelectOption,
 }) => {
   const [timeLeft, setTimeLeft] = useState<number>(
     defaultTimerSeconds !== undefined ? defaultTimerSeconds : (question.timerSeconds || 20)
@@ -165,10 +167,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
               {question.optionsText.map((optText, optIdx) => {
                 const optNumber = optIdx + 1;
                 return (
-                  <motion.div
+                  <motion.button
                     key={optIdx}
-                    whileHover={{ scale: 1.01 }}
-                    className="p-2 sm:p-2.5 bg-white hover:bg-[#FFE66D]/10 rounded-xl border-2 border-[#2D3436] flex items-center gap-3 shadow-[2px_2px_0_0_#2D3436] text-left transition-colors"
+                    disabled={disabled}
+                    whileHover={disabled ? {} : { scale: 1.015 }}
+                    whileTap={disabled ? {} : { scale: 0.985 }}
+                    onClick={() => !disabled && onSelectOption?.(optNumber)}
+                    className={`w-full p-2 sm:p-2.5 bg-white rounded-xl border-2 border-[#2D3436] flex items-center gap-3 shadow-[2px_2px_0_0_#2D3436] text-left transition-colors select-none ${
+                      disabled ? 'opacity-70 cursor-not-allowed' : 'hover:bg-[#FFE66D]/40 cursor-pointer'
+                    }`}
                   >
                     <span className="w-9 h-9 rounded-full bg-[#FFE66D] border-2 border-[#2D3436] font-black text-[#2D3436] flex items-center justify-center text-base shrink-0">
                       {optNumber}
@@ -176,7 +183,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
                     <span className="font-bold text-sm sm:text-base md:text-lg text-[#2D3436]">
                       {optText}
                     </span>
-                  </motion.div>
+                  </motion.button>
                 );
               })}
             </div>

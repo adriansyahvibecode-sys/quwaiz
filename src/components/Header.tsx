@@ -11,6 +11,7 @@ interface HeaderProps {
   onToggleSpeech: () => void;
   onOpenAdmin: () => void;
   onOpenTvGuide?: () => void;
+  playerName?: string;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -20,6 +21,7 @@ export const Header: React.FC<HeaderProps> = ({
   onToggleSound,
   onToggleSpeech,
   onOpenAdmin,
+  playerName,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
 
@@ -43,11 +45,8 @@ export const Header: React.FC<HeaderProps> = ({
           {mascot.emoji}
         </div>
         <div>
-          <span className="font-black text-white text-xs sm:text-sm tracking-tight leading-tight block uppercase">
-            QUAIZ
-          </span>
-          <span className="text-[9px] sm:text-[10px] text-[#FFE66D] font-black flex items-center gap-0.5 uppercase">
-            <Sparkles className="w-2.5 h-2.5 text-[#FFE66D]" /> {mascot.name}
+          <span className="text-xs sm:text-base font-black text-[#FFE66D] uppercase drop-shadow-[1px_1px_0_#2D3436]">
+            {playerName || 'MYESHA'}
           </span>
         </div>
       </div>

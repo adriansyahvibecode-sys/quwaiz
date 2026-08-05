@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Question, QuizResult, QuizSettings, UserAnswer } from './types';
 import { MASCOTS } from './data/mascots';
-import { fetchQuestions, saveQuestions, resetQuestionsToDefault, loadLocalSettings, saveLocalSettings, saveQuizResult, loadQuizHistory } from './utils/storage';
+import { fetchGoogleSheetQuestions, loadLocalSettings, saveLocalSettings, saveQuizResult, loadQuizHistory } from './utils/storage';
 import { soundFx } from './utils/sound';
 
 import { Header } from './components/Header';
@@ -70,20 +70,10 @@ export default function App() {
 
   // Initial load
   useEffect(() => {
-    fetchQuestions().then((qs) => {
-      setQuestionsBank(qs);
+    fetchGoogleSheetQuestions().then(({ math, coding }) => {
+      setQuestionsBank(math.length > 0 ? math : []);
+      setCodingQuestionsBank(coding.length > 0 ? coding : CODING_QUESTIONS);
     });
-
-    const localCoding = localStorage.getItem('kids_coding_questions_v1');
-    if (localCoding) {
-      try {
-        setCodingQuestionsBank(JSON.parse(localCoding));
-      } catch {
-        setCodingQuestionsBank(CODING_QUESTIONS);
-      }
-    } else {
-      setCodingQuestionsBank(CODING_QUESTIONS);
-    }
   }, []);
 
   // Update soundFx flags when settings change
@@ -219,8 +209,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-200 via-orange-100 to-amber-300 text-slate-800 flex flex-col font-sans selection:bg-amber-400 select-none w-full pb-2 sm:pb-3">
-      {/* App Header (Shown only on Start Screen and Result Screen) */}
-      {(screen === 'start' || screen === 'result') && (
+      {/* App Header (Shown on all screens except Splash and Countdown) */}
+      {screen !== 'splash' && screen !== 'countdown' && (
         <Header
           mascot={mascot}
           soundEnabled={settings.soundEnabled}
@@ -228,6 +218,7 @@ export default function App() {
           onToggleSound={() => setSettings((s) => ({ ...s, soundEnabled: !s.soundEnabled }))}
           onToggleSpeech={() => setSettings((s) => ({ ...s, speechEnabled: !s.speechEnabled }))}
           onOpenAdmin={() => setIsAdminOpen(true)}
+          playerName={settings.playerName}
         />
       )}
 
@@ -343,19 +334,17 @@ export default function App() {
                 onTimeOut={() => handleAnswerQuestion(null)}
                 disabled={screen === 'feedback'}
                 defaultTimerSeconds={settings.defaultTimerSeconds}
+                onSelectOption={(num) => handleAnswerQuestion(num)}
               />
 
               {/* Virtual On-screen Numpad for Dual Input Remote Mode */}
-              <VirtualKeypad
-                key={currentIndex}
-                onSelectNumber={(num) => handleAnswerQuestion(num)}
-                disabled={screen === 'feedback'}
-                allowedNumbers={
-                  activeQuestions[currentIndex]?.optionsText 
-                    ? [1, 2, 3] 
-                    : undefined
-                }
-              />
+              {!activeQuestions[currentIndex]?.optionsText && (
+                <VirtualKeypad
+                  key={currentIndex}
+                  onSelectNumber={(num) => handleAnswerQuestion(num)}
+                  disabled={screen === 'feedback'}
+                />
+              )}
 
               {/* Feedback Overlay Popup */}
               <AnimatePresence>
@@ -426,23 +415,10 @@ export default function App() {
       {isAdminOpen && (
         <AdminModal
           questions={settings.gameMode === 'matematika_coding' ? codingQuestionsBank : questionsBank}
-          onSaveQuestions={async (updated) => {
-            if (settings.gameMode === 'matematika_coding') {
-              setCodingQuestionsBank(updated);
-              localStorage.setItem('kids_coding_questions_v1', JSON.stringify(updated));
-            } else {
-              setQuestionsBank(updated);
-              await saveQuestions(updated);
-            }
-          }}
           onResetQuestions={async () => {
-            if (settings.gameMode === 'matematika_coding') {
-              setCodingQuestionsBank(CODING_QUESTIONS);
-              localStorage.setItem('kids_coding_questions_v1', JSON.stringify(CODING_QUESTIONS));
-            } else {
-              const defaults = await resetQuestionsToDefault();
-              setQuestionsBank(defaults);
-            }
+            const { math, coding } = await fetchGoogleSheetQuestions();
+            setQuestionsBank(math);
+            setCodingQuestionsBank(coding);
           }}
           onClose={() => setIsAdminOpen(false)}
           generalTimer={settings.defaultTimerSeconds}
