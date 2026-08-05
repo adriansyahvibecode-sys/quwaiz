@@ -1,0 +1,6 @@
+{
+  "name": "Kuis Matematika Anak Ceria",
+  "description": "Aplikasi kuis matematika interaktif dan ceria untuk anak TK dengan dukungan Dual Input Remote Smart TV & Numpad",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
