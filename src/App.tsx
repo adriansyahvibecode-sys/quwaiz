@@ -15,7 +15,7 @@ import { CertificateModal } from './components/CertificateModal';
 import { AdminModal } from './components/AdminModal';
 
 export default function App() {
-  const [screen, setScreen] = useState<'start' | 'quiz' | 'feedback' | 'result'>('start');
+  const [screen, setScreen] = useState<'splash' | 'start' | 'quiz' | 'feedback' | 'result'>('splash');
   const [questionsBank, setQuestionsBank] = useState<Question[]>([]);
   const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -36,6 +36,14 @@ export default function App() {
   // Modals state
   const [isAdminOpen, setIsAdminOpen] = useState<boolean>(false);
   const [isCertOpen, setIsCertOpen] = useState<boolean>(false);
+
+  // Splash Screen 2-Second Timeout Timer
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setScreen('start');
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   // Initial load
   useEffect(() => {
@@ -172,19 +180,55 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-200 via-orange-100 to-amber-300 text-slate-800 flex flex-col font-sans selection:bg-amber-400 select-none pb-2 sm:pb-3">
-      {/* App Header */}
-      <Header
-        mascot={mascot}
-        soundEnabled={settings.soundEnabled}
-        speechEnabled={settings.speechEnabled}
-        onToggleSound={() => setSettings((s) => ({ ...s, soundEnabled: !s.soundEnabled }))}
-        onToggleSpeech={() => setSettings((s) => ({ ...s, speechEnabled: !s.speechEnabled }))}
-        onOpenAdmin={() => setIsAdminOpen(true)}
-      />
+      {/* App Header (Hidden during Splash Screen) */}
+      {screen !== 'splash' && (
+        <Header
+          mascot={mascot}
+          soundEnabled={settings.soundEnabled}
+          speechEnabled={settings.speechEnabled}
+          onToggleSound={() => setSettings((s) => ({ ...s, soundEnabled: !s.soundEnabled }))}
+          onToggleSpeech={() => setSettings((s) => ({ ...s, speechEnabled: !s.speechEnabled }))}
+          onOpenAdmin={() => setIsAdminOpen(true)}
+        />
+      )}
 
       {/* Main Content Body */}
       <main className="flex-1 flex flex-col justify-center px-1.5 sm:px-3 max-w-5xl w-full mx-auto">
         <AnimatePresence mode="wait">
+          {/* SCREEN 0: SPLASH SCREEN */}
+          {screen === 'splash' && (
+            <motion.div
+              key="splash"
+              initial={{ opacity: 0, scale: 0.85 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 1.1 }}
+              transition={{ type: 'spring', duration: 0.6 }}
+              className="flex flex-col items-center justify-center text-center p-4 my-auto space-y-6 select-none"
+            >
+              {/* Animated Game Console Icon */}
+              <motion.div
+                animate={{ 
+                  y: [0, -15, 0],
+                  rotate: [0, 5, -5, 0]
+                }}
+                transition={{ 
+                  repeat: Infinity, 
+                  duration: 2, 
+                  ease: "easeInOut" 
+                }}
+                className="text-8xl sm:text-9xl drop-shadow-xl"
+              >
+                🎮
+              </motion.div>
+
+              {/* Main Welcome Badge */}
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#2D3436] tracking-wider leading-tight max-w-2xl bg-[#FFE66D] border-4 border-[#2D3436] px-8 py-6 rounded-[32px] shadow-[8px_8px_0_0_#2D3436] uppercase">
+                SELAMAT DATANG DI QUAIZ
+                <span className="text-[#FF7675] text-2xl sm:text-3xl font-black block mt-3">— QUIZ DARI UWAIZ —</span>
+              </h1>
+            </motion.div>
+          )}
+
           {/* SCREEN 1: START SCREEN */}
           {screen === 'start' && (
             <motion.div

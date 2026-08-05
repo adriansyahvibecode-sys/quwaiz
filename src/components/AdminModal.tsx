@@ -17,7 +17,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
   onResetQuestions,
   onClose,
 }) => {
-  const [activeTab, setActiveTab] = useState<'list' | 'add' | 'ai'>('list');
+  const [activeTab, setActiveTab] = useState<'list' | 'add'>('list');
   const [questionList, setQuestionList] = useState<Question[]>(questions);
   const [isSaving, setIsSaving] = useState<boolean>(false);
   const [isAiLoading, setIsAiLoading] = useState<boolean>(false);
@@ -158,17 +158,6 @@ export const AdminModal: React.FC<AdminModalProps> = ({
             }`}
           >
             ➕ Tambah Manual
-          </button>
-          <button
-            onClick={() => setActiveTab('ai')}
-            className={`flex-1 py-2 px-3 rounded-xl font-black text-xs sm:text-sm border-2 transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
-              activeTab === 'ai'
-                ? 'bg-[#A29BFE] text-white border-[#2D3436] shadow-[0_3px_0_0_#2D3436]'
-                : 'bg-transparent border-transparent text-[#2D3436]/70 hover:text-[#2D3436]'
-            }`}
-          >
-            <Sparkles className="w-4 h-4" />
-            <span>AI Gemini</span>
           </button>
         </div>
 
@@ -361,66 +350,7 @@ export const AdminModal: React.FC<AdminModalProps> = ({
             </form>
           )}
 
-          {/* TAB 3: AI GEMINI GENERATOR */}
-          {activeTab === 'ai' && (
-            <div className="space-y-4 text-xs sm:text-sm">
-              <div className="bg-purple-50 p-4 rounded-2xl border-2 border-purple-200 text-purple-950 space-y-2">
-                <h3 className="font-black text-base flex items-center gap-2">
-                  <Sparkles className="w-5 h-5 text-purple-600" />
-                  Generator Soal Otomatis dengan AI Gemini
-                </h3>
-                <p className="font-semibold leading-relaxed">
-                  Gunakan kecerdasan buatan Gemini AI untuk menghasilkan soal-soal matematika anak TK secara instan!
-                </p>
-              </div>
-
-              <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <label className="block font-bold text-slate-700 mb-1">Kategori Soal AI</label>
-                  <select
-                    value={aiCategory}
-                    onChange={(e) => setAiCategory(e.target.value as Category)}
-                    className="w-full p-2.5 rounded-xl border-2 border-slate-300 font-bold"
-                  >
-                    <option value="penjumlahan">Penjumlahan ➕</option>
-                    <option value="pengurangan">Pengurangan ➖</option>
-                    <option value="hitung_benda">Hitung Benda 🔢</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block font-bold text-slate-700 mb-1">Jumlah Soal Ditambahkan</label>
-                  <select
-                    value={aiCount}
-                    onChange={(e) => setAiCount(parseInt(e.target.value, 10))}
-                    className="w-full p-2.5 rounded-xl border-2 border-slate-300 font-bold"
-                  >
-                    <option value={3}>3 Soal</option>
-                    <option value={5}>5 Soal</option>
-                    <option value={10}>10 Soal</option>
-                  </select>
-                </div>
-              </div>
-
-              <button
-                onClick={handleGenerateAi}
-                disabled={isAiLoading}
-                className="w-full py-4 bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-black text-base rounded-2xl shadow-xl flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
-              >
-                {isAiLoading ? (
-                  <>
-                    <Sparkles className="w-5 h-5 animate-spin" />
-                    <span>Gemini AI Sedang Membuat Soal Lucu...</span>
-                  </>
-                ) : (
-                  <>
-                    <Sparkles className="w-5 h-5" />
-                    <span>Buat Soal Sekarang dengan AI! ✨</span>
-                  </>
-                )}
-              </button>
-            </div>
-          )}
+          {/* AI Gemini Generator Removed */}
         </div>
 
         {/* Footer */}
