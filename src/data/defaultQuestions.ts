@@ -8,12 +8,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 2,
-    "operandB": 5,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 5 hasilnya adalah 7!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_2",
@@ -22,12 +22,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 6,
-    "operandB": 3,
+    "operandA": 7,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 3 hasilnya adalah 9!"
+    "explanation": "7 ditambah 1 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_3",
@@ -36,12 +36,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 3,
     "operator": "+",
     "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "2 ditambah 3 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_4",
@@ -50,12 +50,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 3 hasilnya adalah 7!"
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_5",
@@ -64,12 +64,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 5,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_6",
@@ -78,12 +78,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 2,
-    "operandB": 2,
+    "operandA": 5,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "5 ditambah 4 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_7",
@@ -92,146 +92,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 1,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
-  },
-  {
-    "id": "q_math_penjumlahan_8",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 2,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_9",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 1,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_10",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 2,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_11",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
-    "operandA": 1,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_12",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🚀",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_13",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐼",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_14",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 1,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_15",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
-    "operandA": 2,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_16",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🦖",
-    "operandA": 1,
-    "operandB": 8,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 8 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_17",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "⚽",
     "operandA": 5,
     "operandB": 3,
     "operator": "+",
@@ -240,152 +100,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "5 ditambah 3 hasilnya adalah 8!"
   },
   {
-    "id": "q_math_penjumlahan_18",
+    "id": "q_math_penjumlahan_8",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍪",
-    "operandA": 3,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 4 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_19",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍌",
-    "operandA": 3,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 6 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_20",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 2,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_21",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 2,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_22",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
-    "operandA": 2,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 4 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_23",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 4,
-    "operandB": 5,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_24",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_25",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🛸",
-    "operandA": 1,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 6 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_26",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 2,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_27",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
-    "operandA": 2,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_28",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
+    "visualItem": "🍦",
     "operandA": 6,
     "operandB": 3,
     "operator": "+",
@@ -394,26 +114,54 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "6 ditambah 3 hasilnya adalah 9!"
   },
   {
-    "id": "q_math_penjumlahan_29",
+    "id": "q_math_penjumlahan_9",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍟",
-    "operandA": 2,
-    "operandB": 3,
+    "visualItem": "🌸",
+    "operandA": 4,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
-    "id": "q_math_penjumlahan_30",
+    "id": "q_math_penjumlahan_10",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍎",
+    "visualItem": "🍓",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
+    "id": "q_math_penjumlahan_11",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 9,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 4 hasilnya adalah 9!"
+  },
+  {
+    "id": "q_math_penjumlahan_12",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
     "operandA": 2,
     "operandB": 4,
     "operator": "+",
@@ -422,18 +170,270 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
-    "id": "q_math_penjumlahan_31",
+    "id": "q_math_penjumlahan_13",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🎈",
+    "visualItem": "🐼",
+    "operandA": 6,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_14",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍰",
+    "operandA": 3,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_15",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 1,
+    "operandB": 5,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_16",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
     "operandA": 5,
     "operandB": 1,
     "operator": "+",
     "correctAnswer": 6,
     "timerSeconds": 20,
     "explanation": "5 ditambah 1 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_17",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "⚽",
+    "operandA": 1,
+    "operandB": 7,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 7 hasilnya adalah 8!"
+  },
+  {
+    "id": "q_math_penjumlahan_18",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍪",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
+    "id": "q_math_penjumlahan_19",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍌",
+    "operandA": 4,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_20",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 1,
+    "operandB": 7,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 7 hasilnya adalah 8!"
+  },
+  {
+    "id": "q_math_penjumlahan_21",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_22",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🦁",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_23",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
+    "id": "q_math_penjumlahan_24",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐞",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_25",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🛸",
+    "operandA": 2,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_26",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐧",
+    "operandA": 1,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_27",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🧸",
+    "operandA": 1,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+  },
+  {
+    "id": "q_math_penjumlahan_28",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 2,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_29",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_30",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 3,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_31",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🎈",
+    "operandA": 1,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_32",
@@ -443,11 +443,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⭐️",
     "operandA": 4,
-    "operandB": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_33",
@@ -457,11 +457,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍩",
     "operandA": 2,
-    "operandB": 1,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_34",
@@ -470,12 +470,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 2,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_35",
@@ -484,12 +484,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 1,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_36",
@@ -513,11 +513,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐥",
     "operandA": 2,
-    "operandB": 6,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_38",
@@ -526,12 +526,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 1,
-    "operandB": 8,
+    "operandA": 2,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 8 hasilnya adalah 9!"
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_39",
@@ -541,11 +541,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🌸",
     "operandA": 1,
-    "operandB": 5,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_40",
@@ -554,12 +554,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_41",
@@ -568,12 +568,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 1,
-    "operandB": 4,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+    "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_42",
@@ -582,12 +582,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 4,
+    "operandA": 2,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_43",
@@ -596,12 +596,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_44",
@@ -610,12 +610,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+    "explanation": "6 ditambah 1 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_45",
@@ -624,12 +624,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 1,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_46",
@@ -639,11 +639,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🦖",
     "operandA": 3,
-    "operandB": 5,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_47",
@@ -653,11 +653,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⚽",
     "operandA": 1,
-    "operandB": 5,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_48",
@@ -667,11 +667,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍪",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_49",
@@ -680,12 +680,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 6,
-    "operandB": 2,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 2 hasilnya adalah 8!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_50",
@@ -694,12 +694,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 3,
+    "operandA": 1,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_51",
@@ -708,12 +708,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 6,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 3 hasilnya adalah 9!"
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_52",
@@ -722,12 +722,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_53",
@@ -736,12 +736,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 1,
-    "operandB": 5,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "6 ditambah 3 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_54",
@@ -751,11 +751,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐞",
     "operandA": 1,
-    "operandB": 5,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_55",
@@ -765,11 +765,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🛸",
     "operandA": 4,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_56",
@@ -779,11 +779,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐧",
     "operandA": 1,
-    "operandB": 5,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_57",
@@ -792,12 +792,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 4,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_58",
@@ -806,12 +806,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 2,
-    "operandB": 2,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_59",
@@ -820,12 +820,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 1,
-    "operandB": 7,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 7 hasilnya adalah 8!"
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_60",
@@ -835,11 +835,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍎",
     "operandA": 2,
-    "operandB": 5,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 5 hasilnya adalah 7!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_61",
@@ -848,12 +848,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "3 ditambah 6 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_62",
@@ -862,12 +862,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_63",
@@ -876,12 +876,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "2 ditambah 5 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_64",
@@ -890,12 +890,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 2,
-    "operandB": 4,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 4 hasilnya adalah 6!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_65",
@@ -904,12 +904,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 1,
-    "operandB": 5,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_66",
@@ -918,12 +918,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 3,
+    "operandA": 5,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_67",
@@ -932,12 +932,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 4,
+    "operandA": 1,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_68",
@@ -946,20 +946,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "5 ditambah 2 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_69",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
     "operandA": 1,
     "operandB": 5,
     "operator": "+",
@@ -968,18 +954,32 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 5 hasilnya adalah 6!"
   },
   {
+    "id": "q_math_penjumlahan_69",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 2,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+  },
+  {
     "id": "q_math_penjumlahan_70",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 1,
-    "operandB": 8,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 8 hasilnya adalah 9!"
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_71",
@@ -989,11 +989,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐢",
     "operandA": 3,
-    "operandB": 4,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+    "explanation": "3 ditambah 5 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_72",
@@ -1003,11 +1003,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🚀",
     "operandA": 4,
-    "operandB": 1,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "4 ditambah 5 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_73",
@@ -1016,12 +1016,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 5,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_74",
@@ -1030,12 +1030,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 3 hasilnya adalah 7!"
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_75",
@@ -1044,12 +1044,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 4,
-    "operandB": 4,
+    "operandA": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_76",
@@ -1072,12 +1072,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 1,
-    "operandB": 8,
+    "operandA": 6,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 8 hasilnya adalah 9!"
+    "explanation": "6 ditambah 2 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_78",
@@ -1087,11 +1087,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍪",
     "operandA": 3,
-    "operandB": 2,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "3 ditambah 6 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_79",
@@ -1100,12 +1100,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 6,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 3 hasilnya adalah 9!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_80",
@@ -1115,11 +1115,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍭",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_81",
@@ -1129,11 +1129,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍕",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_82",
@@ -1142,12 +1142,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 2,
+    "operandA": 6,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "6 ditambah 1 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_83",
@@ -1156,12 +1156,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 2,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_84",
@@ -1170,12 +1170,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 8,
+    "operandA": 5,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "8 ditambah 1 hasilnya adalah 9!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_85",
@@ -1184,12 +1184,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 5,
+    "operandA": 3,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_86",
@@ -1198,12 +1198,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "5 ditambah 3 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_87",
@@ -1212,12 +1212,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 2,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+    "explanation": "1 ditambah 6 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_88",
@@ -1226,12 +1226,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 1,
-    "operandB": 7,
+    "operandA": 2,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 7 hasilnya adalah 8!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_89",
@@ -1241,11 +1241,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍟",
     "operandA": 3,
-    "operandB": 5,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_90",
@@ -1254,34 +1254,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 7,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "7 ditambah 2 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_91",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🎈",
-    "operandA": 4,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_92",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "⭐️",
     "operandA": 4,
     "operandB": 2,
     "operator": "+",
@@ -1290,18 +1262,46 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
+    "id": "q_math_penjumlahan_91",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🎈",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_92",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "⭐️",
+    "operandA": 2,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+  },
+  {
     "id": "q_math_penjumlahan_93",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_94",
@@ -1310,12 +1310,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+    "explanation": "3 ditambah 6 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_95",
@@ -1324,104 +1324,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 2,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_96",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 6,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_97",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 2,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_98",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 2,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_99",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 1,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_100",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 1,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_101",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
-    "operandA": 1,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_102",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🚀",
     "operandA": 1,
     "operandB": 1,
     "operator": "+",
@@ -1430,18 +1332,116 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
+    "id": "q_math_penjumlahan_96",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_97",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 1,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+  },
+  {
+    "id": "q_math_penjumlahan_98",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
+    "id": "q_math_penjumlahan_99",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_100",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 2,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_101",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
+    "operandA": 4,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "4 ditambah 4 hasilnya adalah 8!"
+  },
+  {
+    "id": "q_math_penjumlahan_102",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
+    "operandA": 6,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+  },
+  {
     "id": "q_math_penjumlahan_103",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 3,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_104",
@@ -1451,11 +1451,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍰",
     "operandA": 2,
-    "operandB": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 4 hasilnya adalah 6!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_105",
@@ -1464,12 +1464,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 2,
-    "operandB": 4,
+    "operandA": 3,
+    "operandB": 3,
     "operator": "+",
     "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 4 hasilnya adalah 6!"
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_106",
@@ -1478,12 +1478,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_107",
@@ -1492,12 +1492,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 8,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 7,
     "operator": "+",
     "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "8 ditambah 1 hasilnya adalah 9!"
+    "explanation": "2 ditambah 7 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_108",
@@ -1507,11 +1507,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍪",
     "operandA": 1,
-    "operandB": 4,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+    "explanation": "1 ditambah 5 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_109",
@@ -1520,12 +1520,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 3 hasilnya adalah 7!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_110",
@@ -1535,11 +1535,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍭",
     "operandA": 5,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_111",
@@ -1548,12 +1548,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_112",
@@ -1562,12 +1562,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 2,
-    "operandB": 7,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 7 hasilnya adalah 9!"
+    "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_113",
@@ -1590,12 +1590,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "3 ditambah 5 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_115",
@@ -1604,12 +1604,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 4,
-    "operandB": 2,
+    "operandA": 7,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "7 ditambah 1 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_116",
@@ -1618,12 +1618,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_117",
@@ -1632,12 +1632,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+    "explanation": "5 ditambah 3 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_118",
@@ -1646,12 +1646,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 4,
-    "operandB": 5,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
+    "explanation": "7 ditambah 2 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_119",
@@ -1660,12 +1660,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 4,
-    "operandB": 5,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_120",
@@ -1674,12 +1674,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 2,
+    "operandA": 6,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "6 ditambah 1 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_121",
@@ -1689,11 +1689,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🎈",
     "operandA": 2,
-    "operandB": 3,
+    "operandB": 7,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+    "explanation": "2 ditambah 7 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_122",
@@ -1703,11 +1703,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⭐️",
     "operandA": 1,
-    "operandB": 7,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 7 hasilnya adalah 8!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_123",
@@ -1716,12 +1716,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "6 ditambah 3 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_124",
@@ -1731,11 +1731,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🚗",
     "operandA": 2,
-    "operandB": 6,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_125",
@@ -1744,12 +1744,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_126",
@@ -1759,11 +1759,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍬",
     "operandA": 1,
-    "operandB": 6,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 6 hasilnya adalah 7!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_127",
@@ -1772,12 +1772,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 4,
+    "operandA": 1,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_128",
@@ -1786,12 +1786,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 1,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+    "explanation": "1 ditambah 5 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_129",
@@ -1814,12 +1814,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 3,
-    "operandB": 6,
+    "operandA": 7,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 6 hasilnya adalah 9!"
+    "explanation": "7 ditambah 1 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_131",
@@ -1828,12 +1828,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_132",
@@ -1856,12 +1856,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_134",
@@ -1870,12 +1870,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_135",
@@ -1884,12 +1884,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 4,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "3 ditambah 5 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_136",
@@ -1898,12 +1898,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 3,
-    "operandB": 6,
+    "operandA": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 6 hasilnya adalah 9!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_137",
@@ -1913,11 +1913,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⚽",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 6 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_138",
@@ -1926,12 +1926,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 7,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "7 ditambah 1 hasilnya adalah 8!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_139",
@@ -1940,12 +1940,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "3 ditambah 4 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_140",
@@ -1954,12 +1954,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_141",
@@ -1969,11 +1969,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍕",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_142",
@@ -1983,11 +1983,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🦁",
     "operandA": 2,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "2 ditambah 3 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_143",
@@ -1997,11 +1997,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍇",
     "operandA": 3,
-    "operandB": 6,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 6 hasilnya adalah 9!"
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_144",
@@ -2010,12 +2010,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "8 ditambah 1 hasilnya adalah 9!"
+    "explanation": "7 ditambah 1 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_145",
@@ -2024,12 +2024,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 7,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "+",
     "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "7 ditambah 2 hasilnya adalah 9!"
+    "explanation": "6 ditambah 3 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_146",
@@ -2038,12 +2038,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 3,
+    "operandA": 1,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_147",
@@ -2052,12 +2052,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 2,
-    "operandB": 6,
+    "operandA": 4,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+    "explanation": "4 ditambah 5 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_148",
@@ -2066,20 +2066,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 1,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_149",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍟",
     "operandA": 4,
     "operandB": 1,
     "operator": "+",
@@ -2088,18 +2074,32 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
+    "id": "q_math_penjumlahan_149",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
     "id": "q_math_penjumlahan_150",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 4,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "2 ditambah 5 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_151",
@@ -2109,11 +2109,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🎈",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_152",
@@ -2122,12 +2122,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 4,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_153",
@@ -2137,11 +2137,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍩",
     "operandA": 1,
-    "operandB": 3,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_154",
@@ -2150,12 +2150,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 2,
+    "operandA": 4,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_155",
@@ -2164,12 +2164,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_156",
@@ -2178,34 +2178,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 2,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_157",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 2,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_158",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
     "operandA": 1,
     "operandB": 6,
     "operator": "+",
@@ -2214,18 +2186,46 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 6 hasilnya adalah 7!"
   },
   {
+    "id": "q_math_penjumlahan_157",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_158",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 7,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 9,
+    "timerSeconds": 20,
+    "explanation": "7 ditambah 2 hasilnya adalah 9!"
+  },
+  {
     "id": "q_math_penjumlahan_159",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 2,
-    "operandB": 5,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 5 hasilnya adalah 7!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_160",
@@ -2234,12 +2234,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 2,
+    "operandA": 1,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_161",
@@ -2263,11 +2263,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🚀",
     "operandA": 5,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+    "explanation": "5 ditambah 3 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_163",
@@ -2276,12 +2276,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 6,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 2 hasilnya adalah 8!"
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_164",
@@ -2290,12 +2290,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "8 ditambah 1 hasilnya adalah 9!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_165",
@@ -2304,12 +2304,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 3,
+    "operandA": 5,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_166",
@@ -2318,12 +2318,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 3,
-    "operandB": 3,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_167",
@@ -2333,11 +2333,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⚽",
     "operandA": 4,
-    "operandB": 5,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
+    "explanation": "4 ditambah 4 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_168",
@@ -2346,12 +2346,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_169",
@@ -2374,12 +2374,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 3,
-    "operandB": 4,
+    "operandA": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_171",
@@ -2388,12 +2388,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 4,
+    "operandA": 2,
     "operandB": 5,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
+    "explanation": "2 ditambah 5 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_172",
@@ -2402,76 +2402,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 1,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 6 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_173",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 6,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "6 ditambah 3 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_174",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
-    "operandA": 2,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_175",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🛸",
-    "operandA": 1,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_176",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_177",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
     "operandA": 4,
     "operandB": 2,
     "operator": "+",
@@ -2480,18 +2410,88 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
+    "id": "q_math_penjumlahan_173",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_174",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐞",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_175",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🛸",
+    "operandA": 3,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_176",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐧",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_177",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🧸",
+    "operandA": 3,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+  },
+  {
     "id": "q_math_penjumlahan_178",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 3,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "+",
     "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+    "explanation": "4 ditambah 3 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_179",
@@ -2501,11 +2501,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍟",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_180",
@@ -2514,12 +2514,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "3 ditambah 4 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_181",
@@ -2528,12 +2528,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+    "explanation": "4 ditambah 4 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_182",
@@ -2543,11 +2543,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⭐️",
     "operandA": 4,
-    "operandB": 3,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 3 hasilnya adalah 7!"
+    "explanation": "4 ditambah 4 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_183",
@@ -2556,12 +2556,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 4,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 8,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "1 ditambah 8 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_184",
@@ -2570,12 +2570,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 2,
-    "operandB": 3,
+    "operandA": 6,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+    "explanation": "6 ditambah 2 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_185",
@@ -2584,12 +2584,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 2,
-    "operandB": 3,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_186",
@@ -2598,12 +2598,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_187",
@@ -2612,12 +2612,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
+    "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_188",
@@ -2626,12 +2626,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_189",
@@ -2641,11 +2641,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🌸",
     "operandA": 1,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_190",
@@ -2655,11 +2655,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍓",
     "operandA": 1,
-    "operandB": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_191",
@@ -2668,12 +2668,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 4 hasilnya adalah 9!"
+    "explanation": "7 ditambah 2 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_192",
@@ -2682,12 +2682,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 4,
-    "operandB": 4,
+    "operandA": 2,
+    "operandB": 6,
     "operator": "+",
     "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_193",
@@ -2696,12 +2696,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 2,
+    "operandA": 4,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_194",
@@ -2710,20 +2710,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 8,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "8 ditambah 1 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_195",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
     "operandA": 1,
     "operandB": 1,
     "operator": "+",
@@ -2732,18 +2718,32 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
+    "id": "q_math_penjumlahan_195",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 2,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
+  },
+  {
     "id": "q_math_penjumlahan_196",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 1,
-    "operandB": 3,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_197",
@@ -2752,12 +2752,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "6 ditambah 1 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_198",
@@ -2766,12 +2766,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 3,
-    "operandB": 5,
+    "operandA": 1,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_199",
@@ -2780,12 +2780,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_200",
@@ -2794,12 +2794,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 4,
-    "operandB": 4,
+    "operandA": 1,
+    "operandB": 8,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
+    "explanation": "1 ditambah 8 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_201",
@@ -2808,12 +2808,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 3,
-    "operandB": 4,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+    "explanation": "6 ditambah 3 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_202",
@@ -2822,12 +2822,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 3,
-    "operandB": 3,
+    "operandA": 2,
+    "operandB": 4,
     "operator": "+",
     "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_203",
@@ -2836,12 +2836,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 1,
-    "operandB": 2,
+    "operandA": 2,
+    "operandB": 1,
     "operator": "+",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_204",
@@ -2851,11 +2851,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐞",
     "operandA": 1,
-    "operandB": 5,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_205",
@@ -2864,12 +2864,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_206",
@@ -2878,12 +2878,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 1,
-    "operandB": 5,
+    "operandA": 3,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "3 ditambah 4 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_207",
@@ -2892,146 +2892,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 3,
-    "operandB": 5,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_208",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_209",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍟",
-    "operandA": 1,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_210",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍎",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_211",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🎈",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_212",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "⭐️",
-    "operandA": 2,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
-  },
-  {
-    "id": "q_math_penjumlahan_213",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍩",
-    "operandA": 6,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "6 ditambah 2 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_214",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🚗",
-    "operandA": 2,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_215",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 2,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_216",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 3,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 3 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_217",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
     "operandA": 5,
     "operandB": 1,
     "operator": "+",
@@ -3040,18 +2900,158 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "5 ditambah 1 hasilnya adalah 6!"
   },
   {
+    "id": "q_math_penjumlahan_208",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_209",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 2,
+    "operandB": 6,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+  },
+  {
+    "id": "q_math_penjumlahan_210",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_211",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🎈",
+    "operandA": 1,
+    "operandB": 6,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 6 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_212",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "⭐️",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_213",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍩",
+    "operandA": 3,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_214",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🚗",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_215",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐰",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_216",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 1,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_217",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 6,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 9,
+    "timerSeconds": 20,
+    "explanation": "6 ditambah 3 hasilnya adalah 9!"
+  },
+  {
     "id": "q_math_penjumlahan_218",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "3 ditambah 4 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_219",
@@ -3060,12 +3060,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 2,
-    "operandB": 2,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_220",
@@ -3074,12 +3074,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "2 ditambah 3 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_221",
@@ -3089,11 +3089,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐢",
     "operandA": 3,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_222",
@@ -3102,12 +3102,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 4,
-    "operandB": 2,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "5 ditambah 3 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_223",
@@ -3117,11 +3117,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐼",
     "operandA": 2,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 2 hasilnya adalah 4!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_224",
@@ -3130,12 +3130,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_225",
@@ -3144,12 +3144,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 5,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
+    "explanation": "3 ditambah 5 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_226",
@@ -3159,11 +3159,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🦖",
     "operandA": 1,
-    "operandB": 6,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 6 hasilnya adalah 7!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_227",
@@ -3172,12 +3172,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_228",
@@ -3186,12 +3186,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 7,
-    "operandB": 1,
+    "operandA": 6,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "7 ditambah 1 hasilnya adalah 8!"
+    "explanation": "6 ditambah 2 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_229",
@@ -3201,11 +3201,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍌",
     "operandA": 1,
-    "operandB": 3,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_230",
@@ -3214,174 +3214,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 5,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_231",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 6,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_232",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
-    "operandA": 1,
-    "operandB": 5,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_233",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 1,
-    "operandB": 6,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 6 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_234",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
-    "operandA": 5,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_235",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🛸",
-    "operandA": 1,
-    "operandB": 8,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 8 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_236",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 3,
-    "operandB": 5,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_237",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
-    "operandA": 3,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 3 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_238",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
-    "operandA": 2,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 4 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_239",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍟",
-    "operandA": 2,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "2 ditambah 3 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_240",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍎",
-    "operandA": 7,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "7 ditambah 1 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_241",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🎈",
-    "operandA": 1,
-    "operandB": 5,
-    "operator": "+",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
-  },
-  {
-    "id": "q_math_penjumlahan_242",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "⭐️",
     "operandA": 1,
     "operandB": 1,
     "operator": "+",
@@ -3390,26 +3222,54 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
-    "id": "q_math_penjumlahan_243",
+    "id": "q_math_penjumlahan_231",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍩",
-    "operandA": 5,
-    "operandB": 3,
+    "visualItem": "🍕",
+    "operandA": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
+    "explanation": "4 ditambah 1 hasilnya adalah 5!"
   },
   {
-    "id": "q_math_penjumlahan_244",
+    "id": "q_math_penjumlahan_232",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🚗",
+    "visualItem": "🦁",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_233",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 9,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 4 hasilnya adalah 9!"
+  },
+  {
+    "id": "q_math_penjumlahan_234",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐞",
     "operandA": 1,
     "operandB": 2,
     "operator": "+",
@@ -3418,40 +3278,110 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
-    "id": "q_math_penjumlahan_245",
+    "id": "q_math_penjumlahan_235",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 5,
-    "operandB": 1,
+    "visualItem": "🛸",
+    "operandA": 4,
+    "operandB": 2,
     "operator": "+",
     "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
-    "id": "q_math_penjumlahan_246",
+    "id": "q_math_penjumlahan_236",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 7,
+    "visualItem": "🐧",
+    "operandA": 1,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "7 ditambah 1 hasilnya adalah 8!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
-    "id": "q_math_penjumlahan_247",
+    "id": "q_math_penjumlahan_237",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🐥",
+    "visualItem": "🧸",
+    "operandA": 1,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+  },
+  {
+    "id": "q_math_penjumlahan_238",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
+    "id": "q_math_penjumlahan_239",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+  },
+  {
+    "id": "q_math_penjumlahan_240",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 1,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+  },
+  {
+    "id": "q_math_penjumlahan_241",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🎈 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🎈",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_242",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "⭐️",
     "operandA": 3,
     "operandB": 1,
     "operator": "+",
@@ -3460,12 +3390,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
-    "id": "q_math_penjumlahan_248",
+    "id": "q_math_penjumlahan_243",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍦",
+    "visualItem": "🍩",
     "operandA": 1,
     "operandB": 6,
     "operator": "+",
@@ -3474,26 +3404,26 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 6 hasilnya adalah 7!"
   },
   {
-    "id": "q_math_penjumlahan_249",
+    "id": "q_math_penjumlahan_244",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🌸",
+    "visualItem": "🚗",
     "operandA": 4,
-    "operandB": 4,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
-    "id": "q_math_penjumlahan_250",
+    "id": "q_math_penjumlahan_245",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍓",
+    "visualItem": "🐰",
     "operandA": 1,
     "operandB": 5,
     "operator": "+",
@@ -3502,18 +3432,88 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "1 ditambah 5 hasilnya adalah 6!"
   },
   {
+    "id": "q_math_penjumlahan_246",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 1,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+  },
+  {
+    "id": "q_math_penjumlahan_247",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐥 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 1,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_248",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍦 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 6,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "6 ditambah 2 hasilnya adalah 8!"
+  },
+  {
+    "id": "q_math_penjumlahan_249",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 1,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+  },
+  {
+    "id": "q_math_penjumlahan_250",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 2,
+    "operandB": 6,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+  },
+  {
     "id": "q_math_penjumlahan_251",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 2,
+    "operandA": 7,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "7 ditambah 1 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_252",
@@ -3536,12 +3536,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐼 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 2,
-    "operandB": 6,
+    "operandA": 3,
+    "operandB": 5,
     "operator": "+",
     "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+    "explanation": "3 ditambah 5 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_254",
@@ -3550,12 +3550,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 6,
+    "operandA": 3,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 2 hasilnya adalah 8!"
+    "explanation": "3 ditambah 2 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_255",
@@ -3564,12 +3564,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐱 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "4 ditambah 4 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_256",
@@ -3592,12 +3592,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "4 ditambah 4 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_258",
@@ -3606,12 +3606,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍪 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 3,
-    "operandB": 6,
+    "operandA": 2,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 6 hasilnya adalah 9!"
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_259",
@@ -3620,12 +3620,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 5,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_260",
@@ -3634,12 +3634,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 3,
-    "operandB": 6,
+    "operandA": 2,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 6 hasilnya adalah 9!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_261",
@@ -3649,11 +3649,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍕",
     "operandA": 1,
-    "operandB": 4,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_262",
@@ -3662,12 +3662,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_263",
@@ -3676,12 +3676,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "3 ditambah 5 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_264",
@@ -3690,12 +3690,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 2,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "7 ditambah 2 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_265",
@@ -3704,12 +3704,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 5,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 5,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+    "explanation": "2 ditambah 5 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_266",
@@ -3718,12 +3718,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_267",
@@ -3733,11 +3733,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🧸",
     "operandA": 1,
-    "operandB": 6,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 6 hasilnya adalah 7!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_268",
@@ -3746,12 +3746,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+    "explanation": "5 ditambah 3 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_269",
@@ -3760,12 +3760,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 3,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 7,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 3 hasilnya adalah 6!"
+    "explanation": "1 ditambah 7 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_270",
@@ -3774,12 +3774,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍎 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 1,
-    "operandB": 5,
+    "operandA": 2,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 5 hasilnya adalah 6!"
+    "explanation": "2 ditambah 2 hasilnya adalah 4!"
   },
   {
     "id": "q_math_penjumlahan_271",
@@ -3789,11 +3789,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🎈",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_272",
@@ -3802,12 +3802,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⭐️ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 3 hasilnya adalah 8!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_273",
@@ -3816,12 +3816,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍩 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 3,
+    "operandA": 2,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 1 hasilnya adalah 4!"
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_274",
@@ -3830,12 +3830,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚗 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 7,
-    "operandB": 1,
+    "operandA": 1,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "7 ditambah 1 hasilnya adalah 8!"
+    "explanation": "1 ditambah 6 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_275",
@@ -3844,12 +3844,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 1,
+    "operandA": 6,
     "operandB": 2,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
+    "explanation": "6 ditambah 2 hasilnya adalah 8!"
   },
   {
     "id": "q_math_penjumlahan_276",
@@ -3873,11 +3873,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐥",
     "operandA": 2,
-    "operandB": 1,
+    "operandB": 7,
     "operator": "+",
-    "correctAnswer": 3,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+    "explanation": "2 ditambah 7 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_278",
@@ -3887,11 +3887,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍦",
     "operandA": 2,
-    "operandB": 6,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "2 ditambah 6 hasilnya adalah 8!"
+    "explanation": "2 ditambah 4 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_279",
@@ -3900,12 +3900,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🌸 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 3,
-    "operandB": 5,
+    "operandA": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_280",
@@ -3914,12 +3914,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍓 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 2,
+    "operandB": 3,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 ditambah 1 hasilnya adalah 7!"
+    "explanation": "2 ditambah 3 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_281",
@@ -3928,12 +3928,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🐢 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 4,
-    "operandB": 2,
+    "operandA": 5,
+    "operandB": 4,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 2 hasilnya adalah 6!"
+    "explanation": "5 ditambah 4 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_282",
@@ -3942,12 +3942,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🚀 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 4,
+    "operandA": 1,
     "operandB": 1,
     "operator": "+",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 ditambah 1 hasilnya adalah 5!"
+    "explanation": "1 ditambah 1 hasilnya adalah 2!"
   },
   {
     "id": "q_math_penjumlahan_283",
@@ -3970,12 +3970,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍰 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 1,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "4 ditambah 2 hasilnya adalah 6!"
   },
   {
     "id": "q_math_penjumlahan_285",
@@ -3985,11 +3985,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐱",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_penjumlahan_286",
@@ -3998,12 +3998,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🦖 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 3,
-    "operandB": 4,
+    "operandA": 8,
+    "operandB": 1,
     "operator": "+",
-    "correctAnswer": 7,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 4 hasilnya adalah 7!"
+    "explanation": "8 ditambah 1 hasilnya adalah 9!"
   },
   {
     "id": "q_math_penjumlahan_287",
@@ -4012,12 +4012,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua ⚽ jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 3,
-    "operandB": 5,
+    "operandA": 1,
+    "operandB": 6,
     "operator": "+",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "3 ditambah 5 hasilnya adalah 8!"
+    "explanation": "1 ditambah 6 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_288",
@@ -4027,11 +4027,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍪",
     "operandA": 5,
-    "operandB": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "5 ditambah 1 hasilnya adalah 6!"
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
   },
   {
     "id": "q_math_penjumlahan_289",
@@ -4040,118 +4040,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah jumlah semua 🍌 jika digabungkan?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 4,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "4 ditambah 4 hasilnya adalah 8!"
-  },
-  {
-    "id": "q_math_penjumlahan_290",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 1,
-    "operandB": 1,
-    "operator": "+",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
-  },
-  {
-    "id": "q_math_penjumlahan_291",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 1,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_292",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
-    "operandA": 1,
-    "operandB": 4,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 4 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_293",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 4,
-    "operandB": 5,
-    "operator": "+",
-    "correctAnswer": 9,
-    "timerSeconds": 20,
-    "explanation": "4 ditambah 5 hasilnya adalah 9!"
-  },
-  {
-    "id": "q_math_penjumlahan_294",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
-    "operandA": 1,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "1 ditambah 2 hasilnya adalah 3!"
-  },
-  {
-    "id": "q_math_penjumlahan_295",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🛸",
-    "operandA": 4,
-    "operandB": 3,
-    "operator": "+",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "4 ditambah 3 hasilnya adalah 7!"
-  },
-  {
-    "id": "q_math_penjumlahan_296",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "+",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "3 ditambah 2 hasilnya adalah 5!"
-  },
-  {
-    "id": "q_math_penjumlahan_297",
-    "category": "penjumlahan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
     "operandA": 3,
     "operandB": 1,
     "operator": "+",
@@ -4160,12 +4048,26 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 ditambah 1 hasilnya adalah 4!"
   },
   {
-    "id": "q_math_penjumlahan_298",
+    "id": "q_math_penjumlahan_290",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🍭 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🐬",
+    "visualItem": "🍭",
+    "operandA": 7,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "7 ditambah 1 hasilnya adalah 8!"
+  },
+  {
+    "id": "q_math_penjumlahan_291",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍕 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
     "operandA": 4,
     "operandB": 5,
     "operator": "+",
@@ -4174,18 +4076,116 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 ditambah 5 hasilnya adalah 9!"
   },
   {
-    "id": "q_math_penjumlahan_299",
+    "id": "q_math_penjumlahan_292",
     "category": "penjumlahan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "title": "Berapakah jumlah semua 🦁 jika digabungkan?",
     "visualType": "emoji",
-    "visualItem": "🍟",
+    "visualItem": "🦁",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "+",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "5 ditambah 2 hasilnya adalah 7!"
+  },
+  {
+    "id": "q_math_penjumlahan_293",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍇 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
     "operandA": 2,
     "operandB": 2,
     "operator": "+",
     "correctAnswer": 4,
     "timerSeconds": 20,
     "explanation": "2 ditambah 2 hasilnya adalah 4!"
+  },
+  {
+    "id": "q_math_penjumlahan_294",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐞 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐞",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_295",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🛸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🛸",
+    "operandA": 2,
+    "operandB": 7,
+    "operator": "+",
+    "correctAnswer": 9,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 7 hasilnya adalah 9!"
+  },
+  {
+    "id": "q_math_penjumlahan_296",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐧 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐧",
+    "operandA": 1,
+    "operandB": 3,
+    "operator": "+",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 3 hasilnya adalah 4!"
+  },
+  {
+    "id": "q_math_penjumlahan_297",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🧸 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🧸",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_298",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🐬 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 2,
+    "operandB": 1,
+    "operator": "+",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "2 ditambah 1 hasilnya adalah 3!"
+  },
+  {
+    "id": "q_math_penjumlahan_299",
+    "category": "penjumlahan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah jumlah semua 🍟 jika digabungkan?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 1,
+    "operandB": 4,
+    "operator": "+",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "1 ditambah 4 hasilnya adalah 5!"
   },
   {
     "id": "q_math_penjumlahan_300",
@@ -4195,11 +4195,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍎",
     "operandA": 1,
-    "operandB": 1,
+    "operandB": 2,
     "operator": "+",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "1 ditambah 1 hasilnya adalah 2!"
+    "explanation": "1 ditambah 2 hasilnya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_1",
@@ -4208,12 +4208,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 8,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_2",
@@ -4223,11 +4223,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⭐️",
     "operandA": 3,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_3",
@@ -4236,12 +4236,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍩 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 9,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_4",
@@ -4250,202 +4250,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚗 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 7,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 2 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_5",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 7,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 3 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_6",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 8,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 5 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_7",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐥 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 6,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_8",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍦 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 5,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_9",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🌸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_10",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍓 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 8,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_11",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐢 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
-    "operandA": 7,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 3 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_12",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚀 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚀",
-    "operandA": 6,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_13",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐼 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐼",
-    "operandA": 7,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 1 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_14",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 9,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 6 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_15",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐱 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_16",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦖 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦖",
-    "operandA": 6,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_17",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⚽ setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "⚽",
-    "operandA": 7,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 2 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_18",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍪 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍪",
     "operandA": 5,
     "operandB": 1,
     "operator": "-",
@@ -4454,40 +4258,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "5 dikurangi 1 sisanya adalah 4!"
   },
   {
-    "id": "q_math_pengurangan_19",
+    "id": "q_math_pengurangan_5",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍌 setelah dikurangi?",
+    "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🍌",
-    "operandA": 9,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_20",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍭 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 8,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 4 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_21",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍕 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
+    "visualItem": "🐰",
     "operandA": 4,
     "operandB": 1,
     "operator": "-",
@@ -4496,18 +4272,242 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
+    "id": "q_math_pengurangan_6",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_7",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐥 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_8",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍦 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 8,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 1 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_9",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🌸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 7,
+    "operandB": 6,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_10",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍓 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_11",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐢 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
+    "operandA": 8,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+  },
+  {
+    "id": "q_math_pengurangan_12",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚀 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
+    "operandA": 9,
+    "operandB": 8,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 8 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_13",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐼 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐼",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_14",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍰",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_15",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 4,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_16",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_17",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⚽ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⚽",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_18",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍪 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍪",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_19",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍌 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍌",
+    "operandA": 7,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_20",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍭 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 9,
+    "operandB": 8,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 8 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_21",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍕 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
     "id": "q_math_pengurangan_22",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🦁 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 9,
+    "operandA": 5,
     "operandB": 4,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_23",
@@ -4516,12 +4516,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍇 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 3,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_24",
@@ -4530,12 +4530,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 7,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "-",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_25",
@@ -4545,11 +4545,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🛸",
     "operandA": 8,
-    "operandB": 2,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_26",
@@ -4558,12 +4558,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐧 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_27",
@@ -4572,20 +4572,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🧸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 9,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 2 sisanya adalah 7!"
-  },
-  {
-    "id": "q_math_pengurangan_28",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
     "operandA": 6,
     "operandB": 1,
     "operator": "-",
@@ -4594,18 +4580,32 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "6 dikurangi 1 sisanya adalah 5!"
   },
   {
+    "id": "q_math_pengurangan_28",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+  },
+  {
     "id": "q_math_pengurangan_29",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🍟 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 6,
+    "operandA": 4,
     "operandB": 2,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_30",
@@ -4615,11 +4615,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍎",
     "operandA": 7,
-    "operandB": 6,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+    "explanation": "7 dikurangi 5 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_31",
@@ -4628,12 +4628,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 9,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_32",
@@ -4642,34 +4642,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa ⭐️ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 5,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_33",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍩 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍩",
-    "operandA": 9,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 2 sisanya adalah 7!"
-  },
-  {
-    "id": "q_math_pengurangan_34",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚗 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚗",
     "operandA": 4,
     "operandB": 3,
     "operator": "-",
@@ -4678,18 +4650,46 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
+    "id": "q_math_pengurangan_33",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍩 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍩",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_34",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚗 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚗",
+    "operandA": 8,
+    "operandB": 7,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+  },
+  {
     "id": "q_math_pengurangan_35",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_36",
@@ -4698,12 +4698,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 5,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+    "explanation": "7 dikurangi 4 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_37",
@@ -4713,11 +4713,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐥",
     "operandA": 3,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_38",
@@ -4726,12 +4726,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍦 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 7,
+    "operandA": 8,
     "operandB": 4,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_39",
@@ -4740,12 +4740,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🌸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 4,
-    "operandB": 1,
+    "operandA": 8,
+    "operandB": 5,
     "operator": "-",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_40",
@@ -4754,12 +4754,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍓 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 8,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_41",
@@ -4768,12 +4768,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐢 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 5,
-    "operandB": 1,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_42",
@@ -4782,12 +4782,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚀 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 7,
-    "operandB": 6,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_43",
@@ -4796,12 +4796,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐼 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 8,
-    "operandB": 3,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_44",
@@ -4810,12 +4810,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 9,
+    "operandB": 7,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "9 dikurangi 7 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_45",
@@ -4824,12 +4824,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐱 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 8,
-    "operandB": 6,
+    "operandA": 6,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 6 sisanya adalah 2!"
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_46",
@@ -4838,118 +4838,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦖 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 9,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 6 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_47",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⚽ setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "⚽",
-    "operandA": 9,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 6 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_48",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍪 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍪",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_49",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍌 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍌",
-    "operandA": 7,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_50",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍭 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_51",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍕 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_52",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦁 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_53",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍇 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 6,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_54",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐞 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
     "operandA": 4,
     "operandB": 1,
     "operator": "-",
@@ -4958,18 +4846,130 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
+    "id": "q_math_pengurangan_47",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⚽ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⚽",
+    "operandA": 8,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_48",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍪 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍪",
+    "operandA": 9,
+    "operandB": 6,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 6 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_49",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍌 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍌",
+    "operandA": 8,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_50",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍭 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_51",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍕 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_52",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦁 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦁",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_53",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍇 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_54",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐞 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐞",
+    "operandA": 6,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
+  },
+  {
     "id": "q_math_pengurangan_55",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🛸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 9,
-    "operandB": 7,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 7 sisanya adalah 2!"
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_56",
@@ -4979,11 +4979,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐧",
     "operandA": 8,
-    "operandB": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+    "explanation": "8 dikurangi 2 sisanya adalah 6!"
   },
   {
     "id": "q_math_pengurangan_57",
@@ -4992,12 +4992,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🧸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_58",
@@ -5006,12 +5006,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 6,
-    "operandB": 2,
+    "operandA": 7,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+    "explanation": "7 dikurangi 4 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_59",
@@ -5020,12 +5020,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍟 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 8,
-    "operandB": 5,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "-",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 5 sisanya adalah 3!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_60",
@@ -5034,12 +5034,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍎 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 6,
-    "operandB": 2,
+    "operandA": 8,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_61",
@@ -5049,11 +5049,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🎈",
     "operandA": 7,
-    "operandB": 4,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_62",
@@ -5062,132 +5062,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa ⭐️ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 5,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_63",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍩 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍩",
-    "operandA": 9,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 5 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_64",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚗 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚗",
-    "operandA": 7,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_65",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 8,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_66",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 8,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 4 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_67",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐥 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 9,
-    "operandB": 8,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 8 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_68",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍦 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_69",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🌸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 4,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_70",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍓 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 7,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 1 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_71",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐢 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
     "operandA": 3,
     "operandB": 2,
     "operator": "-",
@@ -5196,54 +5070,110 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
-    "id": "q_math_pengurangan_72",
+    "id": "q_math_pengurangan_63",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚀 setelah dikurangi?",
+    "title": "Berapakah sisa 🍩 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🚀",
-    "operandA": 4,
-    "operandB": 2,
+    "visualItem": "🍩",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_64",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚗 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚗",
+    "operandA": 5,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
   },
   {
-    "id": "q_math_pengurangan_73",
+    "id": "q_math_pengurangan_65",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐼 setelah dikurangi?",
+    "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🐼",
+    "visualItem": "🐰",
     "operandA": 9,
-    "operandB": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 3 sisanya adalah 6!"
+    "explanation": "9 dikurangi 1 sisanya adalah 8!"
   },
   {
-    "id": "q_math_pengurangan_74",
+    "id": "q_math_pengurangan_66",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍰 setelah dikurangi?",
+    "title": "Berapakah sisa 🍬 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 7,
-    "operandB": 4,
+    "visualItem": "🍬",
+    "operandA": 4,
+    "operandB": 1,
     "operator": "-",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
-    "id": "q_math_pengurangan_75",
+    "id": "q_math_pengurangan_67",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "title": "Berapakah sisa 🐥 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🐱",
+    "visualItem": "🐥",
+    "operandA": 7,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 5 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_68",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍦 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 6,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_69",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🌸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 7,
+    "operandB": 6,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_70",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍓 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
     "operandA": 3,
     "operandB": 1,
     "operator": "-",
@@ -5252,18 +5182,88 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
-    "id": "q_math_pengurangan_76",
+    "id": "q_math_pengurangan_71",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "title": "Berapakah sisa 🐢 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🦖",
+    "visualItem": "🐢",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_72",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚀 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
+    "operandA": 7,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 1 sisanya adalah 6!"
+  },
+  {
+    "id": "q_math_pengurangan_73",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐼 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐼",
+    "operandA": 6,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_74",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍰",
     "operandA": 4,
     "operandB": 3,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
     "explanation": "4 dikurangi 3 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_75",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 9,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_76",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
+    "operandA": 6,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 2 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_77",
@@ -5273,11 +5273,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⚽",
     "operandA": 9,
-    "operandB": 4,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
   },
   {
     "id": "q_math_pengurangan_78",
@@ -5287,11 +5287,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍪",
     "operandA": 8,
-    "operandB": 2,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_79",
@@ -5301,11 +5301,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍌",
     "operandA": 5,
-    "operandB": 3,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_80",
@@ -5314,12 +5314,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍭 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_81",
@@ -5328,12 +5328,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍕 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 8,
-    "operandB": 7,
+    "operandA": 7,
+    "operandB": 6,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+    "explanation": "7 dikurangi 6 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_82",
@@ -5342,12 +5342,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦁 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 9,
-    "operandB": 4,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_83",
@@ -5356,12 +5356,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍇 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 7,
-    "operandB": 5,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_84",
@@ -5370,12 +5370,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "-",
     "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_85",
@@ -5385,11 +5385,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🛸",
     "operandA": 5,
-    "operandB": 1,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_86",
@@ -5398,76 +5398,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐧 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_87",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🧸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
-    "operandA": 6,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_88",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_89",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍟 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍟",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_90",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍎 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍎",
-    "operandA": 6,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_91",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🎈 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🎈",
     "operandA": 4,
     "operandB": 3,
     "operator": "-",
@@ -5476,68 +5406,68 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
-    "id": "q_math_pengurangan_92",
+    "id": "q_math_pengurangan_87",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⭐️ setelah dikurangi?",
+    "title": "Berapakah sisa 🧸 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "⭐️",
-    "operandA": 6,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_93",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍩 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍩",
-    "operandA": 7,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 1 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_94",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚗 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚗",
-    "operandA": 4,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_95",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 3,
-    "operandB": 2,
+    "visualItem": "🧸",
+    "operandA": 8,
+    "operandB": 7,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "8 dikurangi 7 sisanya adalah 1!"
   },
   {
-    "id": "q_math_pengurangan_96",
+    "id": "q_math_pengurangan_88",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "title": "Berapakah sisa 🐬 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🍬",
+    "visualItem": "🐬",
+    "operandA": 9,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_89",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍟 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_90",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍎 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_91",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🎈 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🎈",
     "operandA": 8,
     "operandB": 3,
     "operator": "-",
@@ -5546,18 +5476,88 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "8 dikurangi 3 sisanya adalah 5!"
   },
   {
+    "id": "q_math_pengurangan_92",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⭐️ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⭐️",
+    "operandA": 9,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_93",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍩 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍩",
+    "operandA": 6,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_94",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚗 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚗",
+    "operandA": 6,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_95",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐰",
+    "operandA": 8,
+    "operandB": 7,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_96",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
     "id": "q_math_pengurangan_97",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🐥 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_98",
@@ -5567,11 +5567,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍦",
     "operandA": 6,
-    "operandB": 5,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+    "explanation": "6 dikurangi 2 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_99",
@@ -5580,104 +5580,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🌸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 7,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 2 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_100",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍓 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 7,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_101",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐢 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
-    "operandA": 4,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_102",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚀 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚀",
-    "operandA": 6,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_103",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐼 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐼",
-    "operandA": 4,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_104",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 6,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_105",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐱 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_106",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦖 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦖",
     "operandA": 5,
     "operandB": 4,
     "operator": "-",
@@ -5686,18 +5588,116 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
+    "id": "q_math_pengurangan_100",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍓 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_101",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐢 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
+    "operandA": 9,
+    "operandB": 6,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 6 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_102",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚀 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
+    "operandA": 8,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 1 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_103",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐼 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐼",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_104",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍰",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_105",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 9,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 5 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_106",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
+    "operandA": 4,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+  },
+  {
     "id": "q_math_pengurangan_107",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa ⚽ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 5,
+    "operandB": 4,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_108",
@@ -5706,12 +5706,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍪 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 1,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_109",
@@ -5734,12 +5734,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍭 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 8,
-    "operandB": 2,
+    "operandA": 9,
+    "operandB": 6,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "9 dikurangi 6 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_111",
@@ -5748,12 +5748,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍕 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 7,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_112",
@@ -5762,12 +5762,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦁 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 4,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_113",
@@ -5776,12 +5776,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍇 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 9,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "9 dikurangi 1 sisanya adalah 8!"
   },
   {
     "id": "q_math_pengurangan_114",
@@ -5790,12 +5790,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_115",
@@ -5804,12 +5804,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🛸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 8,
-    "operandB": 4,
+    "operandA": 6,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 4 sisanya adalah 4!"
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_116",
@@ -5818,12 +5818,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐧 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 6,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_117",
@@ -5833,11 +5833,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🧸",
     "operandA": 8,
-    "operandB": 2,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_118",
@@ -5846,12 +5846,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 6,
-    "operandB": 4,
+    "operandA": 9,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+    "explanation": "9 dikurangi 1 sisanya adalah 8!"
   },
   {
     "id": "q_math_pengurangan_119",
@@ -5861,11 +5861,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍟",
     "operandA": 7,
-    "operandB": 6,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+    "explanation": "7 dikurangi 4 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_120",
@@ -5874,12 +5874,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍎 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 9,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_121",
@@ -5888,12 +5888,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 5,
-    "operandB": 1,
+    "operandA": 8,
+    "operandB": 4,
     "operator": "-",
     "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_122",
@@ -5917,11 +5917,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍩",
     "operandA": 8,
-    "operandB": 5,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 5 sisanya adalah 3!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_124",
@@ -5930,12 +5930,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚗 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 6,
+    "operandB": 4,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+    "explanation": "6 dikurangi 4 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_125",
@@ -5944,12 +5944,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 9,
-    "operandB": 6,
+    "operandA": 6,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 6 sisanya adalah 3!"
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_126",
@@ -5958,48 +5958,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 7,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_127",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐥 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 7,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 1 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_128",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍦 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 7,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 2 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_129",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🌸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
     "operandA": 3,
     "operandB": 1,
     "operator": "-",
@@ -6008,18 +5966,60 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
+    "id": "q_math_pengurangan_127",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐥 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 8,
+    "operandB": 7,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_128",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍦 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 8,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_129",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🌸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+  },
+  {
     "id": "q_math_pengurangan_130",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🍓 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 6,
-    "operandB": 2,
+    "operandA": 8,
+    "operandB": 6,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+    "explanation": "8 dikurangi 6 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_131",
@@ -6029,11 +6029,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐢",
     "operandA": 9,
-    "operandB": 1,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
   },
   {
     "id": "q_math_pengurangan_132",
@@ -6042,12 +6042,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚀 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 9,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "7 dikurangi 5 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_133",
@@ -6056,230 +6056,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐼 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 9,
-    "operandB": 7,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 7 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_134",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_135",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐱 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
-    "operandA": 7,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_136",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦖 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦖",
-    "operandA": 9,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
-  },
-  {
-    "id": "q_math_pengurangan_137",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⚽ setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "⚽",
-    "operandA": 6,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_138",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍪 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍪",
-    "operandA": 7,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_139",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍌 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍌",
-    "operandA": 7,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_140",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍭 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 6,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_141",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍕 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 8,
-    "operandB": 7,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 7 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_142",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦁 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
-    "operandA": 8,
-    "operandB": 6,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 6 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_143",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍇 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_144",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐞 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
-    "operandA": 4,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_145",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🛸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🛸",
-    "operandA": 6,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_146",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐧 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 9,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 2 sisanya adalah 7!"
-  },
-  {
-    "id": "q_math_pengurangan_147",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🧸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
-    "operandA": 6,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_148",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
-    "operandA": 6,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_149",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍟 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍟",
     "operandA": 7,
     "operandB": 2,
     "operator": "-",
@@ -6288,12 +6064,54 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "7 dikurangi 2 sisanya adalah 5!"
   },
   {
-    "id": "q_math_pengurangan_150",
+    "id": "q_math_pengurangan_134",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍎 setelah dikurangi?",
+    "title": "Berapakah sisa 🍰 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🍎",
+    "visualItem": "🍰",
+    "operandA": 7,
+    "operandB": 6,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_135",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 9,
+    "operandB": 8,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 8 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_136",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
+    "operandA": 5,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_137",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⚽ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⚽",
     "operandA": 8,
     "operandB": 4,
     "operator": "-",
@@ -6302,18 +6120,200 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
+    "id": "q_math_pengurangan_138",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍪 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍪",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_139",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍌 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍌",
+    "operandA": 5,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_140",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍭 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_141",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍕 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 7,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_142",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦁 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦁",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_143",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍇 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
+    "operandA": 7,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_144",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐞 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐞",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_145",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🛸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🛸",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_146",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐧 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐧",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_147",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🧸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🧸",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_148",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_149",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍟 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 8,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+  },
+  {
+    "id": "q_math_pengurangan_150",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍎 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 4,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+  },
+  {
     "id": "q_math_pengurangan_151",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "-",
     "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_152",
@@ -6322,12 +6322,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa ⭐️ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 8,
-    "operandB": 3,
+    "operandA": 9,
+    "operandB": 7,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+    "explanation": "9 dikurangi 7 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_153",
@@ -6350,12 +6350,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚗 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 8,
-    "operandB": 5,
+    "operandA": 7,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 5 sisanya adalah 3!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_155",
@@ -6364,12 +6364,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 8,
-    "operandB": 3,
+    "operandA": 6,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+    "explanation": "6 dikurangi 4 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_156",
@@ -6378,12 +6378,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 9,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "7 dikurangi 4 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_157",
@@ -6406,202 +6406,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍦 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 6,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_159",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🌸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 7,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_160",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍓 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 9,
-    "operandB": 8,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 8 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_161",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐢 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_162",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚀 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚀",
-    "operandA": 6,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_163",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐼 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐼",
-    "operandA": 8,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 4 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_164",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_165",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐱 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
-    "operandA": 4,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_166",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦖 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦖",
-    "operandA": 9,
-    "operandB": 7,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 7 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_167",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⚽ setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "⚽",
-    "operandA": 7,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_168",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍪 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍪",
-    "operandA": 4,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_169",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍌 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍌",
-    "operandA": 6,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_170",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍭 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_171",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍕 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_172",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦁 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
     "operandA": 5,
     "operandB": 2,
     "operator": "-",
@@ -6610,18 +6414,214 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "5 dikurangi 2 sisanya adalah 3!"
   },
   {
-    "id": "q_math_pengurangan_173",
+    "id": "q_math_pengurangan_159",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍇 setelah dikurangi?",
+    "title": "Berapakah sisa 🌸 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🍇",
+    "visualItem": "🌸",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_160",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍓 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 6,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_161",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐢 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
     "operandA": 4,
     "operandB": 2,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
     "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_162",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚀 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
+    "operandA": 8,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_163",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐼 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐼",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_164",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍰",
+    "operandA": 9,
+    "operandB": 7,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 7 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_165",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_166",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_167",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⚽ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⚽",
+    "operandA": 6,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_168",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍪 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍪",
+    "operandA": 9,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 3 sisanya adalah 6!"
+  },
+  {
+    "id": "q_math_pengurangan_169",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍌 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍌",
+    "operandA": 7,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_170",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍭 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_171",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍕 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 9,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_172",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦁 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦁",
+    "operandA": 9,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 6,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 3 sisanya adalah 6!"
+  },
+  {
+    "id": "q_math_pengurangan_173",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍇 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_174",
@@ -6644,454 +6644,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🛸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 7,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 2 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_176",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐧 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 9,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 3 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_177",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🧸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
-    "operandA": 7,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_178",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐬",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_179",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍟 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍟",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_180",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍎 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍎",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_181",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🎈 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🎈",
-    "operandA": 9,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_182",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⭐️ setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "⭐️",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_183",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍩 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍩",
-    "operandA": 6,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_184",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚗 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚗",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_185",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_186",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 6,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_187",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐥 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 9,
-    "operandB": 7,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 7 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_188",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍦 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 7,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_189",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🌸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 6,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_190",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍓 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_191",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐢 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
-    "operandA": 6,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_192",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🚀 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🚀",
-    "operandA": 4,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_193",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐼 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐼",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_194",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍰",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_195",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐱 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐱",
-    "operandA": 9,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 8,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
-  },
-  {
-    "id": "q_math_pengurangan_196",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦖 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦖",
-    "operandA": 6,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_197",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa ⚽ setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "⚽",
-    "operandA": 7,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_198",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍪 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍪",
-    "operandA": 9,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 7,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 2 sisanya adalah 7!"
-  },
-  {
-    "id": "q_math_pengurangan_199",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍌 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍌",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_200",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍭 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 4,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_201",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍕 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
-    "operandA": 5,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_202",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🦁 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🦁",
-    "operandA": 5,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_203",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍇 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍇",
-    "operandA": 6,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 3,
-    "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
-  },
-  {
-    "id": "q_math_pengurangan_204",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐞 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐞",
-    "operandA": 3,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_205",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🛸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🛸",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_206",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐧 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐧",
-    "operandA": 9,
-    "operandB": 8,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 8 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_207",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🧸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🧸",
     "operandA": 5,
     "operandB": 1,
     "operator": "-",
@@ -7100,91 +6652,119 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "5 dikurangi 1 sisanya adalah 4!"
   },
   {
-    "id": "q_math_pengurangan_208",
+    "id": "q_math_pengurangan_176",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐧 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐧",
+    "operandA": 8,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_177",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🧸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🧸",
+    "operandA": 6,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_178",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🐬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 7,
-    "operandB": 6,
+    "operandA": 5,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
   },
   {
-    "id": "q_math_pengurangan_209",
+    "id": "q_math_pengurangan_179",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🍟 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 7,
-    "operandB": 6,
+    "operandA": 9,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+    "explanation": "9 dikurangi 3 sisanya adalah 6!"
   },
   {
-    "id": "q_math_pengurangan_210",
+    "id": "q_math_pengurangan_180",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🍎 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 7,
-    "operandB": 3,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 3 sisanya adalah 4!"
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
   },
   {
-    "id": "q_math_pengurangan_211",
+    "id": "q_math_pengurangan_181",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 7,
-    "operandB": 6,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 6 sisanya adalah 1!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
-    "id": "q_math_pengurangan_212",
+    "id": "q_math_pengurangan_182",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa ⭐️ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 6,
+    "operandA": 8,
     "operandB": 5,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
   },
   {
-    "id": "q_math_pengurangan_213",
+    "id": "q_math_pengurangan_183",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🍩 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 9,
+    "operandB": 8,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "9 dikurangi 8 sisanya adalah 1!"
   },
   {
-    "id": "q_math_pengurangan_214",
+    "id": "q_math_pengurangan_184",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🚗 setelah dikurangi?",
@@ -7198,12 +6778,264 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "8 dikurangi 1 sisanya adalah 7!"
   },
   {
-    "id": "q_math_pengurangan_215",
+    "id": "q_math_pengurangan_185",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐰",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_186",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 8,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_187",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐥 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 7,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_188",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍦 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 8,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 7,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 1 sisanya adalah 7!"
+  },
+  {
+    "id": "q_math_pengurangan_189",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🌸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 6,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_190",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍓 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 7,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 5 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_191",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐢 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
+    "operandA": 8,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_192",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚀 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚀",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_193",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐼 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐼",
+    "operandA": 6,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_194",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍰",
+    "operandA": 7,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_195",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐱 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐱",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_196",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦖 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦖",
+    "operandA": 5,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_197",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⚽ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⚽",
+    "operandA": 8,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_198",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍪 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍪",
+    "operandA": 7,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_199",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍌 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍌",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_200",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍭 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 4,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_201",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍕 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_202",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🦁 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🦁",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_203",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍇 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍇",
     "operandA": 3,
     "operandB": 1,
     "operator": "-",
@@ -7212,18 +7044,186 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
-    "id": "q_math_pengurangan_216",
+    "id": "q_math_pengurangan_204",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
-    "visualItem": "🍬",
+    "visualItem": "🐞",
+    "operandA": 4,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_205",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🛸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🛸",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_206",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐧 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐧",
+    "operandA": 5,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_207",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🧸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🧸",
+    "operandA": 9,
+    "operandB": 7,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 7 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_208",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐬",
+    "operandA": 6,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_209",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍟 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍟",
+    "operandA": 8,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_210",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍎 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_211",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🎈 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🎈",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+  },
+  {
+    "id": "q_math_pengurangan_212",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa ⭐️ setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "⭐️",
+    "operandA": 5,
+    "operandB": 3,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_213",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍩 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍩",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_214",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🚗 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🚗",
     "operandA": 5,
     "operandB": 4,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
     "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_215",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐰",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_216",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_217",
@@ -7233,11 +7233,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐥",
     "operandA": 8,
-    "operandB": 5,
+    "operandB": 7,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 5 sisanya adalah 3!"
+    "explanation": "8 dikurangi 7 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_218",
@@ -7246,12 +7246,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍦 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 8,
-    "operandB": 2,
+    "operandA": 9,
+    "operandB": 8,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "9 dikurangi 8 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_219",
@@ -7260,12 +7260,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🌸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 7,
+    "operandA": 4,
     "operandB": 1,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 1 sisanya adalah 6!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_220",
@@ -7274,12 +7274,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍓 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 9,
+    "operandA": 5,
     "operandB": 4,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_221",
@@ -7288,12 +7288,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐢 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 7,
-    "operandB": 4,
+    "operandA": 8,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+    "explanation": "8 dikurangi 3 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_222",
@@ -7302,12 +7302,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚀 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 8,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_223",
@@ -7316,12 +7316,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐼 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 8,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "8 dikurangi 2 sisanya adalah 6!"
   },
   {
     "id": "q_math_pengurangan_224",
@@ -7330,12 +7330,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 5,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 2 sisanya adalah 3!"
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_225",
@@ -7344,12 +7344,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐱 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 6,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_226",
@@ -7358,12 +7358,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦖 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 8,
-    "operandB": 6,
+    "operandA": 5,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 6 sisanya adalah 2!"
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_227",
@@ -7373,11 +7373,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⚽",
     "operandA": 8,
-    "operandB": 7,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_228",
@@ -7386,12 +7386,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍪 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 3,
+    "operandA": 6,
     "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_229",
@@ -7401,11 +7401,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍌",
     "operandA": 4,
-    "operandB": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_230",
@@ -7414,12 +7414,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍭 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_231",
@@ -7428,12 +7428,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍕 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_232",
@@ -7456,12 +7456,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍇 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 9,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_234",
@@ -7470,12 +7470,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 9,
-    "operandB": 5,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 5 sisanya adalah 4!"
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_235",
@@ -7484,12 +7484,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🛸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_236",
@@ -7498,12 +7498,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐧 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_237",
@@ -7512,12 +7512,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🧸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 1,
     "operator": "-",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 1 sisanya adalah 7!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_238",
@@ -7527,11 +7527,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐬",
     "operandA": 8,
-    "operandB": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+    "explanation": "8 dikurangi 2 sisanya adalah 6!"
   },
   {
     "id": "q_math_pengurangan_239",
@@ -7540,20 +7540,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍟 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 3,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_240",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍎 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍎",
     "operandA": 6,
     "operandB": 4,
     "operator": "-",
@@ -7562,18 +7548,32 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "6 dikurangi 4 sisanya adalah 2!"
   },
   {
+    "id": "q_math_pengurangan_240",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍎 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍎",
+    "operandA": 4,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
+  },
+  {
     "id": "q_math_pengurangan_241",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 6,
-    "operandB": 5,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_242",
@@ -7582,12 +7582,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa ⭐️ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 8,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "8 dikurangi 4 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_243",
@@ -7596,12 +7596,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍩 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 9,
+    "operandA": 4,
     "operandB": 1,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_244",
@@ -7610,104 +7610,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚗 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 9,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 6,
-    "timerSeconds": 20,
-    "explanation": "9 dikurangi 3 sisanya adalah 6!"
-  },
-  {
-    "id": "q_math_pengurangan_245",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐰 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐰",
-    "operandA": 5,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_246",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍬 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍬",
-    "operandA": 5,
-    "operandB": 4,
-    "operator": "-",
-    "correctAnswer": 1,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
-  },
-  {
-    "id": "q_math_pengurangan_247",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐥 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐥",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_248",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍦 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍦",
-    "operandA": 8,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 5,
-    "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
-  },
-  {
-    "id": "q_math_pengurangan_249",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🌸 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🌸",
-    "operandA": 5,
-    "operandB": 1,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "5 dikurangi 1 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_250",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍓 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍓",
-    "operandA": 7,
-    "operandB": 3,
-    "operator": "-",
-    "correctAnswer": 4,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 3 sisanya adalah 4!"
-  },
-  {
-    "id": "q_math_pengurangan_251",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🐢 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🐢",
     "operandA": 4,
     "operandB": 3,
     "operator": "-",
@@ -7716,18 +7618,116 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
+    "id": "q_math_pengurangan_245",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐰 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐰",
+    "operandA": 9,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 5,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+  },
+  {
+    "id": "q_math_pengurangan_246",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍬 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍬",
+    "operandA": 3,
+    "operandB": 2,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_247",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐥 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐥",
+    "operandA": 9,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 8,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+  },
+  {
+    "id": "q_math_pengurangan_248",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍦 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍦",
+    "operandA": 9,
+    "operandB": 6,
+    "operator": "-",
+    "correctAnswer": 3,
+    "timerSeconds": 20,
+    "explanation": "9 dikurangi 6 sisanya adalah 3!"
+  },
+  {
+    "id": "q_math_pengurangan_249",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🌸 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🌸",
+    "operandA": 3,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_250",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍓 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍓",
+    "operandA": 6,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 2,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+  },
+  {
+    "id": "q_math_pengurangan_251",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🐢 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🐢",
+    "operandA": 5,
+    "operandB": 1,
+    "operator": "-",
+    "correctAnswer": 4,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
+  },
+  {
     "id": "q_math_pengurangan_252",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🚀 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 5,
+    "operandA": 9,
     "operandB": 4,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_253",
@@ -7736,12 +7736,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐼 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 8,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_254",
@@ -7750,12 +7750,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 5,
-    "operandB": 3,
+    "operandA": 9,
+    "operandB": 7,
     "operator": "-",
     "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 3 sisanya adalah 2!"
+    "explanation": "9 dikurangi 7 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_255",
@@ -7765,11 +7765,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐱",
     "operandA": 6,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_256",
@@ -7778,12 +7778,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦖 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 9,
-    "operandB": 4,
+    "operandA": 7,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+    "explanation": "7 dikurangi 5 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_257",
@@ -7792,12 +7792,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa ⚽ setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 6,
-    "operandB": 3,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_258",
@@ -7806,12 +7806,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍪 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 3,
-    "operandB": 2,
+    "operandA": 8,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "8 dikurangi 1 sisanya adalah 7!"
   },
   {
     "id": "q_math_pengurangan_259",
@@ -7820,34 +7820,6 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍌 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 7,
-    "operandB": 5,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_260",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍭 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍭",
-    "operandA": 4,
-    "operandB": 2,
-    "operator": "-",
-    "correctAnswer": 2,
-    "timerSeconds": 20,
-    "explanation": "4 dikurangi 2 sisanya adalah 2!"
-  },
-  {
-    "id": "q_math_pengurangan_261",
-    "category": "pengurangan",
-    "kategori_soal": "Matematika Umum",
-    "title": "Berapakah sisa 🍕 setelah dikurangi?",
-    "visualType": "emoji",
-    "visualItem": "🍕",
     "operandA": 3,
     "operandB": 1,
     "operator": "-",
@@ -7856,18 +7828,46 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
+    "id": "q_math_pengurangan_260",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍭 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍭",
+    "operandA": 5,
+    "operandB": 4,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+  },
+  {
+    "id": "q_math_pengurangan_261",
+    "category": "pengurangan",
+    "kategori_soal": "Matematika Umum",
+    "title": "Berapakah sisa 🍕 setelah dikurangi?",
+    "visualType": "emoji",
+    "visualItem": "🍕",
+    "operandA": 6,
+    "operandB": 5,
+    "operator": "-",
+    "correctAnswer": 1,
+    "timerSeconds": 20,
+    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+  },
+  {
     "id": "q_math_pengurangan_262",
     "category": "pengurangan",
     "kategori_soal": "Matematika Umum",
     "title": "Berapakah sisa 🦁 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 7,
-    "operandB": 5,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_263",
@@ -7877,11 +7877,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍇",
     "operandA": 5,
-    "operandB": 4,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "5 dikurangi 2 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_264",
@@ -7890,12 +7890,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 7,
-    "operandB": 5,
+    "operandA": 4,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
+    "explanation": "4 dikurangi 1 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_265",
@@ -7904,12 +7904,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🛸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 8,
-    "operandB": 3,
+    "operandA": 9,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 3 sisanya adalah 5!"
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
   },
   {
     "id": "q_math_pengurangan_266",
@@ -7919,11 +7919,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🐧",
     "operandA": 9,
-    "operandB": 3,
+    "operandB": 4,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 3 sisanya adalah 6!"
+    "explanation": "9 dikurangi 4 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_267",
@@ -7933,11 +7933,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🧸",
     "operandA": 6,
-    "operandB": 4,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_268",
@@ -7946,12 +7946,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 9,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "9 dikurangi 1 sisanya adalah 8!"
   },
   {
     "id": "q_math_pengurangan_269",
@@ -7960,12 +7960,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍟 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 8,
-    "operandB": 7,
+    "operandA": 9,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
   },
   {
     "id": "q_math_pengurangan_270",
@@ -7988,12 +7988,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🎈 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 9,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_272",
@@ -8003,11 +8003,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⭐️",
     "operandA": 7,
-    "operandB": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 3 sisanya adalah 4!"
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_273",
@@ -8017,11 +8017,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "🍩",
     "operandA": 3,
-    "operandB": 2,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 2 sisanya adalah 1!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_274",
@@ -8030,12 +8030,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚗 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 6,
-    "operandB": 4,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_275",
@@ -8044,12 +8044,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 4,
-    "operandB": 1,
+    "operandA": 9,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+    "explanation": "9 dikurangi 5 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_276",
@@ -8072,12 +8072,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐥 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_278",
@@ -8086,12 +8086,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍦 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 6,
-    "operandB": 5,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_279",
@@ -8100,12 +8100,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🌸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 6,
-    "operandB": 3,
+    "operandA": 9,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 3 sisanya adalah 3!"
+    "explanation": "9 dikurangi 2 sisanya adalah 7!"
   },
   {
     "id": "q_math_pengurangan_280",
@@ -8114,12 +8114,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍓 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 5,
-    "operandB": 4,
+    "operandA": 8,
+    "operandB": 5,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "5 dikurangi 4 sisanya adalah 1!"
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_281",
@@ -8128,12 +8128,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐢 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 7,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_282",
@@ -8142,12 +8142,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🚀 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 7,
-    "operandB": 4,
+    "operandA": 3,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 4 sisanya adalah 3!"
+    "explanation": "3 dikurangi 2 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_283",
@@ -8156,12 +8156,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐼 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 6,
-    "operandB": 1,
+    "operandA": 4,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 1 sisanya adalah 5!"
+    "explanation": "4 dikurangi 2 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_284",
@@ -8170,12 +8170,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍰 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 4,
-    "operandB": 1,
+    "operandA": 6,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 1 sisanya adalah 3!"
+    "explanation": "6 dikurangi 2 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_285",
@@ -8184,12 +8184,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐱 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 6,
-    "operandB": 5,
+    "operandA": 5,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 5 sisanya adalah 1!"
+    "explanation": "5 dikurangi 3 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_286",
@@ -8198,12 +8198,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦖 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 9,
-    "operandB": 4,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 4 sisanya adalah 5!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_287",
@@ -8213,11 +8213,11 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "visualType": "emoji",
     "visualItem": "⚽",
     "operandA": 9,
-    "operandB": 1,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 1 sisanya adalah 8!"
+    "explanation": "9 dikurangi 3 sisanya adalah 6!"
   },
   {
     "id": "q_math_pengurangan_288",
@@ -8226,12 +8226,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍪 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 6,
-    "operandB": 2,
+    "operandA": 3,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 2 sisanya adalah 4!"
+    "explanation": "3 dikurangi 1 sisanya adalah 2!"
   },
   {
     "id": "q_math_pengurangan_289",
@@ -8240,12 +8240,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍌 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 3,
-    "operandB": 1,
+    "operandA": 6,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+    "explanation": "6 dikurangi 3 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_290",
@@ -8268,12 +8268,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍕 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 8,
-    "operandB": 2,
+    "operandA": 6,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 2 sisanya adalah 6!"
+    "explanation": "6 dikurangi 1 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_292",
@@ -8282,12 +8282,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🦁 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 9,
-    "operandB": 2,
+    "operandA": 7,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 2 sisanya adalah 7!"
+    "explanation": "7 dikurangi 3 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_293",
@@ -8296,12 +8296,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍇 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 6,
-    "operandB": 4,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "6 dikurangi 4 sisanya adalah 2!"
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_294",
@@ -8310,12 +8310,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐞 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 8,
-    "operandB": 7,
+    "operandA": 9,
+    "operandB": 8,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "8 dikurangi 7 sisanya adalah 1!"
+    "explanation": "9 dikurangi 8 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_295",
@@ -8324,12 +8324,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🛸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 3,
+    "operandA": 7,
     "operandB": 1,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "3 dikurangi 1 sisanya adalah 2!"
+    "explanation": "7 dikurangi 1 sisanya adalah 6!"
   },
   {
     "id": "q_math_pengurangan_296",
@@ -8338,12 +8338,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐧 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 9,
-    "operandB": 5,
+    "operandA": 7,
+    "operandB": 2,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 5 sisanya adalah 4!"
+    "explanation": "7 dikurangi 2 sisanya adalah 5!"
   },
   {
     "id": "q_math_pengurangan_297",
@@ -8352,12 +8352,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🧸 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 7,
-    "operandB": 5,
+    "operandA": 4,
+    "operandB": 3,
     "operator": "-",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "7 dikurangi 5 sisanya adalah 2!"
+    "explanation": "4 dikurangi 3 sisanya adalah 1!"
   },
   {
     "id": "q_math_pengurangan_298",
@@ -8366,12 +8366,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🐬 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 9,
+    "operandA": 8,
     "operandB": 5,
     "operator": "-",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "9 dikurangi 5 sisanya adalah 4!"
+    "explanation": "8 dikurangi 5 sisanya adalah 3!"
   },
   {
     "id": "q_math_pengurangan_299",
@@ -8380,12 +8380,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍟 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 5,
+    "operandB": 1,
     "operator": "-",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "5 dikurangi 1 sisanya adalah 4!"
   },
   {
     "id": "q_math_pengurangan_300",
@@ -8394,12 +8394,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Berapakah sisa 🍎 setelah dikurangi?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 4,
-    "operandB": 3,
+    "operandA": 5,
+    "operandB": 4,
     "operator": "-",
     "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "4 dikurangi 3 sisanya adalah 1!"
+    "explanation": "5 dikurangi 4 sisanya adalah 1!"
   },
   {
     "id": "q_math_hitung_benda_1",
@@ -8408,12 +8408,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 5,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🎈 lucu!"
+    "explanation": "Ada tepat 3 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_2",
@@ -8422,12 +8422,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 9,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 ⭐️ lucu!"
+    "explanation": "Ada tepat 7 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_3",
@@ -8436,12 +8436,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 6,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍩 lucu!"
+    "explanation": "Ada tepat 5 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_4",
@@ -8478,12 +8478,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 7,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍬 lucu!"
+    "explanation": "Ada tepat 2 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_7",
@@ -8492,12 +8492,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐥 lucu!"
+    "explanation": "Ada tepat 6 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_8",
@@ -8506,12 +8506,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍦 lucu!"
+    "explanation": "Ada tepat 3 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_9",
@@ -8520,12 +8520,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🌸 lucu!"
+    "explanation": "Ada tepat 1 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_10",
@@ -8534,12 +8534,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍓 lucu!"
+    "explanation": "Ada tepat 5 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_11",
@@ -8548,12 +8548,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐢 lucu!"
+    "explanation": "Ada tepat 6 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_12",
@@ -8562,12 +8562,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 5,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🚀 lucu!"
+    "explanation": "Ada tepat 2 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_13",
@@ -8590,12 +8590,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍰 lucu!"
+    "explanation": "Ada tepat 7 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_15",
@@ -8618,12 +8618,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 1,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🦖 lucu!"
+    "explanation": "Ada tepat 4 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_17",
@@ -8632,12 +8632,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 1,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 ⚽ lucu!"
+    "explanation": "Ada tepat 2 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_18",
@@ -8646,12 +8646,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍪 lucu!"
+    "explanation": "Ada tepat 3 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_19",
@@ -8660,12 +8660,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍌 lucu!"
+    "explanation": "Ada tepat 6 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_20",
@@ -8674,12 +8674,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 8,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍭 lucu!"
+    "explanation": "Ada tepat 2 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_21",
@@ -8688,12 +8688,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 9,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍕 lucu!"
+    "explanation": "Ada tepat 1 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_22",
@@ -8702,12 +8702,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 9,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🦁 lucu!"
+    "explanation": "Ada tepat 4 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_23",
@@ -8716,12 +8716,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 5,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍇 lucu!"
+    "explanation": "Ada tepat 7 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_24",
@@ -8758,12 +8758,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 6,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🐧 lucu!"
+    "explanation": "Ada tepat 5 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_27",
@@ -8772,12 +8772,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🧸 lucu!"
+    "explanation": "Ada tepat 1 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_28",
@@ -8786,12 +8786,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 1,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🐬 lucu!"
+    "explanation": "Ada tepat 5 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_29",
@@ -8800,12 +8800,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 8,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍟 lucu!"
+    "explanation": "Ada tepat 5 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_30",
@@ -8828,12 +8828,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 8,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🎈 lucu!"
+    "explanation": "Ada tepat 4 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_32",
@@ -8842,12 +8842,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 4,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 ⭐️ lucu!"
+    "explanation": "Ada tepat 1 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_33",
@@ -8870,12 +8870,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 9,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🚗 lucu!"
+    "explanation": "Ada tepat 1 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_35",
@@ -8884,12 +8884,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 4,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐰 lucu!"
+    "explanation": "Ada tepat 7 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_36",
@@ -8898,12 +8898,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍬 lucu!"
+    "explanation": "Ada tepat 7 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_37",
@@ -8912,12 +8912,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 5,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐥 lucu!"
+    "explanation": "Ada tepat 4 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_38",
@@ -8926,12 +8926,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 3,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍦 lucu!"
+    "explanation": "Ada tepat 4 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_39",
@@ -8940,12 +8940,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 2,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🌸 lucu!"
+    "explanation": "Ada tepat 1 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_40",
@@ -8954,12 +8954,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍓 lucu!"
+    "explanation": "Ada tepat 6 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_41",
@@ -8968,12 +8968,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 9,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐢 lucu!"
+    "explanation": "Ada tepat 7 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_42",
@@ -8982,12 +8982,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🚀 lucu!"
+    "explanation": "Ada tepat 1 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_43",
@@ -9010,12 +9010,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍰 lucu!"
+    "explanation": "Ada tepat 7 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_45",
@@ -9024,12 +9024,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 9,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐱 lucu!"
+    "explanation": "Ada tepat 3 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_46",
@@ -9038,12 +9038,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 6,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🦖 lucu!"
+    "explanation": "Ada tepat 5 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_47",
@@ -9052,12 +9052,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 3,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 ⚽ lucu!"
+    "explanation": "Ada tepat 2 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_48",
@@ -9066,12 +9066,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 1,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍪 lucu!"
+    "explanation": "Ada tepat 6 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_49",
@@ -9080,12 +9080,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍌 lucu!"
+    "explanation": "Ada tepat 7 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_50",
@@ -9094,12 +9094,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 1,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍭 lucu!"
+    "explanation": "Ada tepat 5 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_51",
@@ -9108,12 +9108,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 7,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍕 lucu!"
+    "explanation": "Ada tepat 9 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_52",
@@ -9122,12 +9122,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🦁 lucu!"
+    "explanation": "Ada tepat 5 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_53",
@@ -9136,12 +9136,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 3,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍇 lucu!"
+    "explanation": "Ada tepat 4 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_54",
@@ -9150,12 +9150,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 6,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🐞 lucu!"
+    "explanation": "Ada tepat 3 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_55",
@@ -9164,12 +9164,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 3,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🛸 lucu!"
+    "explanation": "Ada tepat 7 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_56",
@@ -9178,12 +9178,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 5,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐧 lucu!"
+    "explanation": "Ada tepat 9 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_57",
@@ -9192,12 +9192,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 8,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🧸 lucu!"
+    "explanation": "Ada tepat 9 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_58",
@@ -9206,12 +9206,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🐬 lucu!"
+    "explanation": "Ada tepat 5 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_59",
@@ -9220,12 +9220,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 6,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍟 lucu!"
+    "explanation": "Ada tepat 9 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_60",
@@ -9234,12 +9234,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 1,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍎 lucu!"
+    "explanation": "Ada tepat 7 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_61",
@@ -9248,12 +9248,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 9,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🎈 lucu!"
+    "explanation": "Ada tepat 8 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_62",
@@ -9262,12 +9262,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 7,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 ⭐️ lucu!"
+    "explanation": "Ada tepat 2 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_63",
@@ -9276,12 +9276,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 7,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍩 lucu!"
+    "explanation": "Ada tepat 4 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_64",
@@ -9290,12 +9290,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 4,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🚗 lucu!"
+    "explanation": "Ada tepat 9 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_65",
@@ -9304,12 +9304,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 3,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐰 lucu!"
+    "explanation": "Ada tepat 4 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_66",
@@ -9318,12 +9318,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 8,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍬 lucu!"
+    "explanation": "Ada tepat 2 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_67",
@@ -9332,12 +9332,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 3,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐥 lucu!"
+    "explanation": "Ada tepat 6 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_68",
@@ -9346,12 +9346,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 5,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍦 lucu!"
+    "explanation": "Ada tepat 8 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_69",
@@ -9374,12 +9374,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 5,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍓 lucu!"
+    "explanation": "Ada tepat 1 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_71",
@@ -9388,12 +9388,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 5,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐢 lucu!"
+    "explanation": "Ada tepat 9 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_72",
@@ -9402,12 +9402,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 5,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🚀 lucu!"
+    "explanation": "Ada tepat 2 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_73",
@@ -9430,12 +9430,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 7,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍰 lucu!"
+    "explanation": "Ada tepat 3 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_75",
@@ -9444,12 +9444,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐱 lucu!"
+    "explanation": "Ada tepat 1 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_76",
@@ -9458,12 +9458,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 9,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🦖 lucu!"
+    "explanation": "Ada tepat 2 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_77",
@@ -9472,12 +9472,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 ⚽ lucu!"
+    "explanation": "Ada tepat 5 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_78",
@@ -9486,12 +9486,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 9,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍪 lucu!"
+    "explanation": "Ada tepat 5 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_79",
@@ -9500,12 +9500,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 8,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍌 lucu!"
+    "explanation": "Ada tepat 2 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_80",
@@ -9514,12 +9514,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 6,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍭 lucu!"
+    "explanation": "Ada tepat 8 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_81",
@@ -9528,12 +9528,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 2,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍕 lucu!"
+    "explanation": "Ada tepat 3 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_82",
@@ -9542,12 +9542,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🦁 lucu!"
+    "explanation": "Ada tepat 7 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_83",
@@ -9570,12 +9570,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 5,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐞 lucu!"
+    "explanation": "Ada tepat 2 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_85",
@@ -9584,12 +9584,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 9,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🛸 lucu!"
+    "explanation": "Ada tepat 2 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_86",
@@ -9598,12 +9598,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 5,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐧 lucu!"
+    "explanation": "Ada tepat 6 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_87",
@@ -9612,12 +9612,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 5,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🧸 lucu!"
+    "explanation": "Ada tepat 1 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_88",
@@ -9626,12 +9626,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐬 lucu!"
+    "explanation": "Ada tepat 3 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_89",
@@ -9640,12 +9640,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍟 lucu!"
+    "explanation": "Ada tepat 1 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_90",
@@ -9654,12 +9654,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 4,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍎 lucu!"
+    "explanation": "Ada tepat 6 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_91",
@@ -9668,12 +9668,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 7,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🎈 lucu!"
+    "explanation": "Ada tepat 2 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_92",
@@ -9682,12 +9682,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 ⭐️ lucu!"
+    "explanation": "Ada tepat 6 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_93",
@@ -9696,12 +9696,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍩 lucu!"
+    "explanation": "Ada tepat 5 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_94",
@@ -9710,12 +9710,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 7,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🚗 lucu!"
+    "explanation": "Ada tepat 6 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_95",
@@ -9724,12 +9724,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🐰 lucu!"
+    "explanation": "Ada tepat 5 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_96",
@@ -9738,12 +9738,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍬 lucu!"
+    "explanation": "Ada tepat 6 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_97",
@@ -9752,12 +9752,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐥 lucu!"
+    "explanation": "Ada tepat 6 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_98",
@@ -9766,12 +9766,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍦 lucu!"
+    "explanation": "Ada tepat 7 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_99",
@@ -9780,12 +9780,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 9,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🌸 lucu!"
+    "explanation": "Ada tepat 4 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_100",
@@ -9794,12 +9794,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍓 lucu!"
+    "explanation": "Ada tepat 5 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_101",
@@ -9822,12 +9822,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 8,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🚀 lucu!"
+    "explanation": "Ada tepat 5 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_103",
@@ -9836,12 +9836,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐼 di layar?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 3,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐼 lucu!"
+    "explanation": "Ada tepat 8 🐼 lucu!"
   },
   {
     "id": "q_math_hitung_benda_104",
@@ -9850,12 +9850,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 4,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍰 lucu!"
+    "explanation": "Ada tepat 5 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_105",
@@ -9864,12 +9864,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 8,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐱 lucu!"
+    "explanation": "Ada tepat 5 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_106",
@@ -9878,12 +9878,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 6,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🦖 lucu!"
+    "explanation": "Ada tepat 5 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_107",
@@ -9920,12 +9920,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 7,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍌 lucu!"
+    "explanation": "Ada tepat 4 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_110",
@@ -9934,12 +9934,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 2,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍭 lucu!"
+    "explanation": "Ada tepat 3 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_111",
@@ -9948,12 +9948,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 2,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍕 lucu!"
+    "explanation": "Ada tepat 1 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_112",
@@ -9962,12 +9962,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 9,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🦁 lucu!"
+    "explanation": "Ada tepat 1 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_113",
@@ -9990,12 +9990,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 4,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐞 lucu!"
+    "explanation": "Ada tepat 9 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_115",
@@ -10004,12 +10004,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 5,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🛸 lucu!"
+    "explanation": "Ada tepat 9 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_116",
@@ -10018,12 +10018,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 6,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🐧 lucu!"
+    "explanation": "Ada tepat 9 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_117",
@@ -10046,12 +10046,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 8,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐬 lucu!"
+    "explanation": "Ada tepat 2 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_119",
@@ -10060,12 +10060,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 3,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍟 lucu!"
+    "explanation": "Ada tepat 1 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_120",
@@ -10074,12 +10074,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 2,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍎 lucu!"
+    "explanation": "Ada tepat 3 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_121",
@@ -10088,12 +10088,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🎈 lucu!"
+    "explanation": "Ada tepat 5 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_122",
@@ -10102,12 +10102,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 1,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 ⭐️ lucu!"
+    "explanation": "Ada tepat 3 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_123",
@@ -10116,12 +10116,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍩 lucu!"
+    "explanation": "Ada tepat 6 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_124",
@@ -10130,12 +10130,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 7,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🚗 lucu!"
+    "explanation": "Ada tepat 2 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_125",
@@ -10144,12 +10144,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐰 lucu!"
+    "explanation": "Ada tepat 6 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_126",
@@ -10158,12 +10158,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 5,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍬 lucu!"
+    "explanation": "Ada tepat 8 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_127",
@@ -10172,12 +10172,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 3,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐥 lucu!"
+    "explanation": "Ada tepat 5 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_128",
@@ -10186,12 +10186,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 6,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍦 lucu!"
+    "explanation": "Ada tepat 4 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_129",
@@ -10200,12 +10200,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 4,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🌸 lucu!"
+    "explanation": "Ada tepat 2 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_130",
@@ -10214,12 +10214,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 4,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍓 lucu!"
+    "explanation": "Ada tepat 7 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_131",
@@ -10228,12 +10228,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐢 lucu!"
+    "explanation": "Ada tepat 3 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_132",
@@ -10256,12 +10256,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐼 di layar?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐼 lucu!"
+    "explanation": "Ada tepat 7 🐼 lucu!"
   },
   {
     "id": "q_math_hitung_benda_134",
@@ -10270,12 +10270,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 6,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍰 lucu!"
+    "explanation": "Ada tepat 2 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_135",
@@ -10284,12 +10284,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 6,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🐱 lucu!"
+    "explanation": "Ada tepat 2 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_136",
@@ -10298,12 +10298,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 9,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🦖 lucu!"
+    "explanation": "Ada tepat 3 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_137",
@@ -10312,12 +10312,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 8,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 ⚽ lucu!"
+    "explanation": "Ada tepat 4 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_138",
@@ -10326,12 +10326,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 6,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍪 lucu!"
+    "explanation": "Ada tepat 5 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_139",
@@ -10340,12 +10340,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍌 lucu!"
+    "explanation": "Ada tepat 3 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_140",
@@ -10354,12 +10354,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 6,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍭 lucu!"
+    "explanation": "Ada tepat 9 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_141",
@@ -10368,12 +10368,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 8,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍕 lucu!"
+    "explanation": "Ada tepat 9 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_142",
@@ -10382,12 +10382,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🦁 lucu!"
+    "explanation": "Ada tepat 1 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_143",
@@ -10396,12 +10396,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 1,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍇 lucu!"
+    "explanation": "Ada tepat 6 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_144",
@@ -10410,12 +10410,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 8,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐞 lucu!"
+    "explanation": "Ada tepat 6 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_145",
@@ -10424,12 +10424,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🛸 lucu!"
+    "explanation": "Ada tepat 3 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_146",
@@ -10438,12 +10438,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 1,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🐧 lucu!"
+    "explanation": "Ada tepat 4 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_147",
@@ -10452,12 +10452,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 5,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🧸 lucu!"
+    "explanation": "Ada tepat 6 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_148",
@@ -10466,12 +10466,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 9,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐬 lucu!"
+    "explanation": "Ada tepat 2 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_149",
@@ -10480,12 +10480,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 6,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍟 lucu!"
+    "explanation": "Ada tepat 4 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_150",
@@ -10494,12 +10494,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍎 lucu!"
+    "explanation": "Ada tepat 1 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_151",
@@ -10508,12 +10508,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 1,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🎈 lucu!"
+    "explanation": "Ada tepat 5 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_152",
@@ -10522,12 +10522,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 5,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 ⭐️ lucu!"
+    "explanation": "Ada tepat 2 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_153",
@@ -10536,12 +10536,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍩 lucu!"
+    "explanation": "Ada tepat 1 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_154",
@@ -10550,12 +10550,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🚗 lucu!"
+    "explanation": "Ada tepat 7 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_155",
@@ -10564,12 +10564,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐰 lucu!"
+    "explanation": "Ada tepat 7 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_156",
@@ -10578,12 +10578,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 3,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍬 lucu!"
+    "explanation": "Ada tepat 4 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_157",
@@ -10592,12 +10592,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 7,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🐥 lucu!"
+    "explanation": "Ada tepat 4 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_158",
@@ -10620,12 +10620,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 1,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🌸 lucu!"
+    "explanation": "Ada tepat 6 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_160",
@@ -10634,12 +10634,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍓 lucu!"
+    "explanation": "Ada tepat 1 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_161",
@@ -10648,12 +10648,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 9,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐢 lucu!"
+    "explanation": "Ada tepat 2 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_162",
@@ -10662,12 +10662,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 1,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🚀 lucu!"
+    "explanation": "Ada tepat 4 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_163",
@@ -10676,12 +10676,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐼 di layar?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 4,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐼 lucu!"
+    "explanation": "Ada tepat 6 🐼 lucu!"
   },
   {
     "id": "q_math_hitung_benda_164",
@@ -10690,12 +10690,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 5,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍰 lucu!"
+    "explanation": "Ada tepat 1 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_165",
@@ -10704,12 +10704,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 5,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐱 lucu!"
+    "explanation": "Ada tepat 9 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_166",
@@ -10718,12 +10718,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🦖 lucu!"
+    "explanation": "Ada tepat 7 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_167",
@@ -10732,12 +10732,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 4,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 ⚽ lucu!"
+    "explanation": "Ada tepat 1 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_168",
@@ -10746,12 +10746,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍪 lucu!"
+    "explanation": "Ada tepat 3 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_169",
@@ -10760,12 +10760,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 7,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍌 lucu!"
+    "explanation": "Ada tepat 6 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_170",
@@ -10774,12 +10774,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 2,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍭 lucu!"
+    "explanation": "Ada tepat 7 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_171",
@@ -10788,12 +10788,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 7,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍕 lucu!"
+    "explanation": "Ada tepat 6 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_172",
@@ -10802,12 +10802,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 3,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🦁 lucu!"
+    "explanation": "Ada tepat 1 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_173",
@@ -10816,12 +10816,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 9,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍇 lucu!"
+    "explanation": "Ada tepat 8 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_174",
@@ -10844,12 +10844,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 6,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🛸 lucu!"
+    "explanation": "Ada tepat 8 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_176",
@@ -10858,12 +10858,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 4,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐧 lucu!"
+    "explanation": "Ada tepat 7 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_177",
@@ -10872,12 +10872,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 6,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🧸 lucu!"
+    "explanation": "Ada tepat 5 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_178",
@@ -10886,12 +10886,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 9,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐬 lucu!"
+    "explanation": "Ada tepat 3 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_179",
@@ -10900,12 +10900,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍟 lucu!"
+    "explanation": "Ada tepat 3 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_180",
@@ -10914,12 +10914,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 7,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍎 lucu!"
+    "explanation": "Ada tepat 4 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_181",
@@ -10928,12 +10928,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 3,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🎈 lucu!"
+    "explanation": "Ada tepat 7 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_182",
@@ -10942,12 +10942,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 3,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 ⭐️ lucu!"
+    "explanation": "Ada tepat 2 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_183",
@@ -10956,12 +10956,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 4,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍩 lucu!"
+    "explanation": "Ada tepat 8 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_184",
@@ -10970,12 +10970,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 2,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🚗 lucu!"
+    "explanation": "Ada tepat 3 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_185",
@@ -10984,12 +10984,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 5,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐰 lucu!"
+    "explanation": "Ada tepat 2 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_186",
@@ -10998,12 +10998,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 2,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍬 lucu!"
+    "explanation": "Ada tepat 4 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_187",
@@ -11012,12 +11012,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 3,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐥 lucu!"
+    "explanation": "Ada tepat 5 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_188",
@@ -11026,12 +11026,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍦 lucu!"
+    "explanation": "Ada tepat 5 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_189",
@@ -11040,12 +11040,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 6,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🌸 lucu!"
+    "explanation": "Ada tepat 4 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_190",
@@ -11054,12 +11054,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 1,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍓 lucu!"
+    "explanation": "Ada tepat 7 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_191",
@@ -11068,12 +11068,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 4,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐢 lucu!"
+    "explanation": "Ada tepat 7 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_192",
@@ -11082,12 +11082,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 6,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🚀 lucu!"
+    "explanation": "Ada tepat 7 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_193",
@@ -11110,12 +11110,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 7,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍰 lucu!"
+    "explanation": "Ada tepat 1 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_195",
@@ -11124,12 +11124,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 9,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐱 lucu!"
+    "explanation": "Ada tepat 8 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_196",
@@ -11138,12 +11138,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 5,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🦖 lucu!"
+    "explanation": "Ada tepat 7 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_197",
@@ -11152,12 +11152,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 7,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 ⚽ lucu!"
+    "explanation": "Ada tepat 5 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_198",
@@ -11166,12 +11166,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 2,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍪 lucu!"
+    "explanation": "Ada tepat 4 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_199",
@@ -11180,12 +11180,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 7,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍌 lucu!"
+    "explanation": "Ada tepat 6 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_200",
@@ -11208,12 +11208,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 6,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍕 lucu!"
+    "explanation": "Ada tepat 9 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_202",
@@ -11222,12 +11222,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 4,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🦁 lucu!"
+    "explanation": "Ada tepat 8 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_203",
@@ -11236,12 +11236,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 8,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍇 lucu!"
+    "explanation": "Ada tepat 5 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_204",
@@ -11250,12 +11250,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 3,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐞 lucu!"
+    "explanation": "Ada tepat 1 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_205",
@@ -11264,12 +11264,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 8,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🛸 lucu!"
+    "explanation": "Ada tepat 5 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_206",
@@ -11278,12 +11278,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐧 lucu!"
+    "explanation": "Ada tepat 3 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_207",
@@ -11292,12 +11292,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 6,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🧸 lucu!"
+    "explanation": "Ada tepat 3 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_208",
@@ -11306,12 +11306,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 9,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐬 lucu!"
+    "explanation": "Ada tepat 5 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_209",
@@ -11320,12 +11320,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 9,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍟 lucu!"
+    "explanation": "Ada tepat 8 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_210",
@@ -11334,12 +11334,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 2,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍎 lucu!"
+    "explanation": "Ada tepat 9 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_211",
@@ -11348,12 +11348,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 2,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🎈 lucu!"
+    "explanation": "Ada tepat 1 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_212",
@@ -11362,12 +11362,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 2,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 ⭐️ lucu!"
+    "explanation": "Ada tepat 7 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_213",
@@ -11376,12 +11376,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 8,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍩 lucu!"
+    "explanation": "Ada tepat 4 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_214",
@@ -11390,12 +11390,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 2,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🚗 lucu!"
+    "explanation": "Ada tepat 9 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_215",
@@ -11404,12 +11404,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 5,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐰 lucu!"
+    "explanation": "Ada tepat 7 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_216",
@@ -11418,12 +11418,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 5,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍬 lucu!"
+    "explanation": "Ada tepat 9 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_217",
@@ -11446,12 +11446,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 6,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍦 lucu!"
+    "explanation": "Ada tepat 9 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_219",
@@ -11460,12 +11460,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 1,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🌸 lucu!"
+    "explanation": "Ada tepat 6 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_220",
@@ -11488,12 +11488,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 3,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐢 lucu!"
+    "explanation": "Ada tepat 4 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_222",
@@ -11516,12 +11516,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐼 di layar?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 4,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐼 lucu!"
+    "explanation": "Ada tepat 9 🐼 lucu!"
   },
   {
     "id": "q_math_hitung_benda_224",
@@ -11530,12 +11530,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 7,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍰 lucu!"
+    "explanation": "Ada tepat 2 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_225",
@@ -11544,12 +11544,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 1,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🐱 lucu!"
+    "explanation": "Ada tepat 4 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_226",
@@ -11558,12 +11558,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 6,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🦖 lucu!"
+    "explanation": "Ada tepat 8 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_227",
@@ -11572,12 +11572,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 6,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 ⚽ lucu!"
+    "explanation": "Ada tepat 8 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_228",
@@ -11586,12 +11586,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 2,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍪 lucu!"
+    "explanation": "Ada tepat 1 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_229",
@@ -11600,12 +11600,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 3,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍌 lucu!"
+    "explanation": "Ada tepat 7 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_230",
@@ -11614,12 +11614,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 4,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍭 lucu!"
+    "explanation": "Ada tepat 5 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_231",
@@ -11628,12 +11628,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 2,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍕 lucu!"
+    "explanation": "Ada tepat 9 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_232",
@@ -11642,12 +11642,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 9,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🦁 lucu!"
+    "explanation": "Ada tepat 4 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_233",
@@ -11656,12 +11656,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍇 lucu!"
+    "explanation": "Ada tepat 5 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_234",
@@ -11670,12 +11670,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 8,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐞 lucu!"
+    "explanation": "Ada tepat 9 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_235",
@@ -11684,12 +11684,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 6,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🛸 lucu!"
+    "explanation": "Ada tepat 2 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_236",
@@ -11698,12 +11698,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐧 lucu!"
+    "explanation": "Ada tepat 3 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_237",
@@ -11712,12 +11712,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🧸 lucu!"
+    "explanation": "Ada tepat 1 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_238",
@@ -11726,12 +11726,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🐬 lucu!"
+    "explanation": "Ada tepat 5 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_239",
@@ -11754,12 +11754,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍎 lucu!"
+    "explanation": "Ada tepat 3 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_241",
@@ -11768,12 +11768,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 2,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🎈 lucu!"
+    "explanation": "Ada tepat 1 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_242",
@@ -11782,12 +11782,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 2,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 ⭐️ lucu!"
+    "explanation": "Ada tepat 7 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_243",
@@ -11810,12 +11810,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 8,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🚗 lucu!"
+    "explanation": "Ada tepat 1 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_245",
@@ -11824,12 +11824,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 5,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐰 lucu!"
+    "explanation": "Ada tepat 7 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_246",
@@ -11838,12 +11838,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍬 di layar?",
     "visualType": "emoji",
     "visualItem": "🍬",
-    "operandA": 7,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍬 lucu!"
+    "explanation": "Ada tepat 9 🍬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_247",
@@ -11852,12 +11852,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐥 lucu!"
+    "explanation": "Ada tepat 7 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_248",
@@ -11866,12 +11866,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍦 di layar?",
     "visualType": "emoji",
     "visualItem": "🍦",
-    "operandA": 3,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍦 lucu!"
+    "explanation": "Ada tepat 4 🍦 lucu!"
   },
   {
     "id": "q_math_hitung_benda_249",
@@ -11880,12 +11880,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 4,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🌸 lucu!"
+    "explanation": "Ada tepat 5 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_250",
@@ -11894,12 +11894,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 7,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🍓 lucu!"
+    "explanation": "Ada tepat 3 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_251",
@@ -11908,12 +11908,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🐢 lucu!"
+    "explanation": "Ada tepat 3 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_252",
@@ -11922,12 +11922,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 4,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🚀 lucu!"
+    "explanation": "Ada tepat 8 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_253",
@@ -11936,12 +11936,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐼 di layar?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 4,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐼 lucu!"
+    "explanation": "Ada tepat 6 🐼 lucu!"
   },
   {
     "id": "q_math_hitung_benda_254",
@@ -11950,12 +11950,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 5,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍰 lucu!"
+    "explanation": "Ada tepat 8 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_255",
@@ -11964,12 +11964,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 5,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🐱 lucu!"
+    "explanation": "Ada tepat 3 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_256",
@@ -11978,12 +11978,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦖 di layar?",
     "visualType": "emoji",
     "visualItem": "🦖",
-    "operandA": 4,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🦖 lucu!"
+    "explanation": "Ada tepat 6 🦖 lucu!"
   },
   {
     "id": "q_math_hitung_benda_257",
@@ -11992,12 +11992,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 1,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 ⚽ lucu!"
+    "explanation": "Ada tepat 8 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_258",
@@ -12006,12 +12006,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 6,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍪 lucu!"
+    "explanation": "Ada tepat 3 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_259",
@@ -12020,12 +12020,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍌 lucu!"
+    "explanation": "Ada tepat 6 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_260",
@@ -12034,12 +12034,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 4,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍭 lucu!"
+    "explanation": "Ada tepat 1 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_261",
@@ -12048,12 +12048,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 5,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍕 lucu!"
+    "explanation": "Ada tepat 1 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_262",
@@ -12062,12 +12062,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 4,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🦁 lucu!"
+    "explanation": "Ada tepat 2 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_263",
@@ -12076,12 +12076,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 3,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍇 lucu!"
+    "explanation": "Ada tepat 2 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_264",
@@ -12090,12 +12090,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 1,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🐞 lucu!"
+    "explanation": "Ada tepat 3 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_265",
@@ -12104,12 +12104,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🛸 lucu!"
+    "explanation": "Ada tepat 1 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_266",
@@ -12118,12 +12118,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐧 lucu!"
+    "explanation": "Ada tepat 6 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_267",
@@ -12132,12 +12132,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 3,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🧸 lucu!"
+    "explanation": "Ada tepat 7 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_268",
@@ -12160,12 +12160,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🍟 lucu!"
+    "explanation": "Ada tepat 6 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_270",
@@ -12174,12 +12174,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 5,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍎 lucu!"
+    "explanation": "Ada tepat 3 🍎 lucu!"
   },
   {
     "id": "q_math_hitung_benda_271",
@@ -12188,12 +12188,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🎈 di layar?",
     "visualType": "emoji",
     "visualItem": "🎈",
-    "operandA": 2,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🎈 lucu!"
+    "explanation": "Ada tepat 4 🎈 lucu!"
   },
   {
     "id": "q_math_hitung_benda_272",
@@ -12202,12 +12202,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⭐️ di layar?",
     "visualType": "emoji",
     "visualItem": "⭐️",
-    "operandA": 9,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 ⭐️ lucu!"
+    "explanation": "Ada tepat 7 ⭐️ lucu!"
   },
   {
     "id": "q_math_hitung_benda_273",
@@ -12216,12 +12216,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍩 di layar?",
     "visualType": "emoji",
     "visualItem": "🍩",
-    "operandA": 6,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🍩 lucu!"
+    "explanation": "Ada tepat 4 🍩 lucu!"
   },
   {
     "id": "q_math_hitung_benda_274",
@@ -12230,12 +12230,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚗 di layar?",
     "visualType": "emoji",
     "visualItem": "🚗",
-    "operandA": 3,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🚗 lucu!"
+    "explanation": "Ada tepat 5 🚗 lucu!"
   },
   {
     "id": "q_math_hitung_benda_275",
@@ -12244,12 +12244,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐰 di layar?",
     "visualType": "emoji",
     "visualItem": "🐰",
-    "operandA": 9,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐰 lucu!"
+    "explanation": "Ada tepat 4 🐰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_276",
@@ -12272,12 +12272,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐥 di layar?",
     "visualType": "emoji",
     "visualItem": "🐥",
-    "operandA": 7,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🐥 lucu!"
+    "explanation": "Ada tepat 1 🐥 lucu!"
   },
   {
     "id": "q_math_hitung_benda_278",
@@ -12300,12 +12300,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🌸 di layar?",
     "visualType": "emoji",
     "visualItem": "🌸",
-    "operandA": 5,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🌸 lucu!"
+    "explanation": "Ada tepat 2 🌸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_280",
@@ -12314,12 +12314,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍓 di layar?",
     "visualType": "emoji",
     "visualItem": "🍓",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🍓 lucu!"
+    "explanation": "Ada tepat 5 🍓 lucu!"
   },
   {
     "id": "q_math_hitung_benda_281",
@@ -12328,12 +12328,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐢 di layar?",
     "visualType": "emoji",
     "visualItem": "🐢",
-    "operandA": 6,
+    "operandA": 1,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 6,
+    "correctAnswer": 1,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 6 🐢 lucu!"
+    "explanation": "Ada tepat 1 🐢 lucu!"
   },
   {
     "id": "q_math_hitung_benda_282",
@@ -12342,12 +12342,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🚀 di layar?",
     "visualType": "emoji",
     "visualItem": "🚀",
-    "operandA": 1,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🚀 lucu!"
+    "explanation": "Ada tepat 4 🚀 lucu!"
   },
   {
     "id": "q_math_hitung_benda_283",
@@ -12356,12 +12356,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐼 di layar?",
     "visualType": "emoji",
     "visualItem": "🐼",
-    "operandA": 4,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐼 lucu!"
+    "explanation": "Ada tepat 3 🐼 lucu!"
   },
   {
     "id": "q_math_hitung_benda_284",
@@ -12370,12 +12370,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍰 di layar?",
     "visualType": "emoji",
     "visualItem": "🍰",
-    "operandA": 4,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🍰 lucu!"
+    "explanation": "Ada tepat 9 🍰 lucu!"
   },
   {
     "id": "q_math_hitung_benda_285",
@@ -12384,12 +12384,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐱 di layar?",
     "visualType": "emoji",
     "visualItem": "🐱",
-    "operandA": 2,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🐱 lucu!"
+    "explanation": "Ada tepat 5 🐱 lucu!"
   },
   {
     "id": "q_math_hitung_benda_286",
@@ -12412,12 +12412,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa ⚽ di layar?",
     "visualType": "emoji",
     "visualItem": "⚽",
-    "operandA": 9,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 ⚽ lucu!"
+    "explanation": "Ada tepat 4 ⚽ lucu!"
   },
   {
     "id": "q_math_hitung_benda_288",
@@ -12426,12 +12426,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍪 di layar?",
     "visualType": "emoji",
     "visualItem": "🍪",
-    "operandA": 1,
+    "operandA": 4,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 4,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍪 lucu!"
+    "explanation": "Ada tepat 4 🍪 lucu!"
   },
   {
     "id": "q_math_hitung_benda_289",
@@ -12440,12 +12440,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍌 di layar?",
     "visualType": "emoji",
     "visualItem": "🍌",
-    "operandA": 3,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍌 lucu!"
+    "explanation": "Ada tepat 2 🍌 lucu!"
   },
   {
     "id": "q_math_hitung_benda_290",
@@ -12454,12 +12454,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍭 di layar?",
     "visualType": "emoji",
     "visualItem": "🍭",
-    "operandA": 3,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🍭 lucu!"
+    "explanation": "Ada tepat 6 🍭 lucu!"
   },
   {
     "id": "q_math_hitung_benda_291",
@@ -12468,12 +12468,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍕 di layar?",
     "visualType": "emoji",
     "visualItem": "🍕",
-    "operandA": 5,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 5,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 5 🍕 lucu!"
+    "explanation": "Ada tepat 7 🍕 lucu!"
   },
   {
     "id": "q_math_hitung_benda_292",
@@ -12482,12 +12482,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🦁 di layar?",
     "visualType": "emoji",
     "visualItem": "🦁",
-    "operandA": 8,
+    "operandA": 3,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 3,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🦁 lucu!"
+    "explanation": "Ada tepat 3 🦁 lucu!"
   },
   {
     "id": "q_math_hitung_benda_293",
@@ -12496,12 +12496,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍇 di layar?",
     "visualType": "emoji",
     "visualItem": "🍇",
-    "operandA": 1,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍇 lucu!"
+    "explanation": "Ada tepat 5 🍇 lucu!"
   },
   {
     "id": "q_math_hitung_benda_294",
@@ -12510,12 +12510,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐞 di layar?",
     "visualType": "emoji",
     "visualItem": "🐞",
-    "operandA": 9,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 9,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 9 🐞 lucu!"
+    "explanation": "Ada tepat 6 🐞 lucu!"
   },
   {
     "id": "q_math_hitung_benda_295",
@@ -12524,12 +12524,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🛸 di layar?",
     "visualType": "emoji",
     "visualItem": "🛸",
-    "operandA": 7,
+    "operandA": 2,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 7,
+    "correctAnswer": 2,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 7 🛸 lucu!"
+    "explanation": "Ada tepat 2 🛸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_296",
@@ -12538,12 +12538,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐧 di layar?",
     "visualType": "emoji",
     "visualItem": "🐧",
-    "operandA": 4,
+    "operandA": 6,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 4,
+    "correctAnswer": 6,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 4 🐧 lucu!"
+    "explanation": "Ada tepat 6 🐧 lucu!"
   },
   {
     "id": "q_math_hitung_benda_297",
@@ -12552,12 +12552,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🧸 di layar?",
     "visualType": "emoji",
     "visualItem": "🧸",
-    "operandA": 2,
+    "operandA": 9,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 2,
+    "correctAnswer": 9,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 2 🧸 lucu!"
+    "explanation": "Ada tepat 9 🧸 lucu!"
   },
   {
     "id": "q_math_hitung_benda_298",
@@ -12566,12 +12566,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🐬 di layar?",
     "visualType": "emoji",
     "visualItem": "🐬",
-    "operandA": 3,
+    "operandA": 5,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 3,
+    "correctAnswer": 5,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 3 🐬 lucu!"
+    "explanation": "Ada tepat 5 🐬 lucu!"
   },
   {
     "id": "q_math_hitung_benda_299",
@@ -12580,12 +12580,12 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍟 di layar?",
     "visualType": "emoji",
     "visualItem": "🍟",
-    "operandA": 1,
+    "operandA": 8,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 1,
+    "correctAnswer": 8,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 1 🍟 lucu!"
+    "explanation": "Ada tepat 8 🍟 lucu!"
   },
   {
     "id": "q_math_hitung_benda_300",
@@ -12594,28 +12594,28 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "title": "Ayo hitung! Ada berapa 🍎 di layar?",
     "visualType": "emoji",
     "visualItem": "🍎",
-    "operandA": 8,
+    "operandA": 7,
     "operandB": 0,
     "operator": "?",
-    "correctAnswer": 8,
+    "correctAnswer": 7,
     "timerSeconds": 20,
-    "explanation": "Ada tepat 8 🍎 lucu!"
+    "explanation": "Ada tepat 7 🍎 lucu!"
   },
   {
     "id": "q_math_visual_1",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
       "4",
+      "3",
       "5"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
@@ -12624,18 +12624,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_2",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "8 sisi",
       "5 sisi",
-      "6 sisi"
+      "6 sisi",
+      "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -12643,18 +12643,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_3",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "11",
+      "10",
       "12",
-      "10"
+      "11"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -12662,17 +12662,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_4",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
       "3",
+      "1",
       "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -12681,7 +12681,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_5",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -12700,17 +12700,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_6",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "7",
       "6",
+      "7",
       "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -12719,18 +12719,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_7",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "3",
-      "2",
-      "1"
+      "1",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -12738,18 +12738,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_8",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "6 sisi",
-      "9 sisi",
-      "7 sisi"
+      "7 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -12757,7 +12757,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_9",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -12776,123 +12776,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_10",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "1",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_11",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8 sisi",
-      "11 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_12",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10",
-      "9",
-      "8"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_13",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "4",
-      "2",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
-  },
-  {
-    "id": "q_math_visual_14",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7 sisi",
-      "10 sisi",
-      "8 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
-  },
-  {
-    "id": "q_math_visual_15",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "5",
-      "6",
-      "7"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
-  },
-  {
-    "id": "q_math_visual_16",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -12906,31 +12792,31 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
-    "id": "q_math_visual_17",
+    "id": "q_math_visual_11",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
-    "visualItem": "🟦",
+    "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "7 sisi",
-      "4 sisi",
-      "5 sisi"
+      "11 sisi",
+      "9 sisi",
+      "8 sisi"
     ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
   {
-    "id": "q_math_visual_18",
+    "id": "q_math_visual_12",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
-    "visualItem": "🟢",
+    "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -12938,8 +12824,122 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "9",
+      "10",
+      "8"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_13",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "4",
+      "3",
+      "2"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
+  },
+  {
+    "id": "q_math_visual_14",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8 sisi",
+      "10 sisi",
+      "7 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
+  },
+  {
+    "id": "q_math_visual_15",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7",
+      "6",
+      "5"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
+  },
+  {
+    "id": "q_math_visual_16",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "1",
+      "2",
+      "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_17",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "5 sisi",
+      "4 sisi",
+      "7 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
+  },
+  {
+    "id": "q_math_visual_18",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
       "8",
-      "10"
+      "10",
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -12947,7 +12947,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_19",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -12966,18 +12966,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_20",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "10 sisi",
       "9 sisi",
-      "12 sisi",
-      "10 sisi"
+      "12 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -12985,18 +12985,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_21",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "10",
       "11",
-      "9",
-      "10"
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -13004,18 +13004,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_22",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
       "3",
-      "2"
+      "2",
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13023,18 +13023,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_23",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "6 sisi",
-      "7 sisi"
+      "7 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13042,18 +13042,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_24",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "6",
       "7",
-      "8",
-      "6"
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13061,17 +13061,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_25",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
       "3",
+      "4",
       "5"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
@@ -13080,18 +13080,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_26",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "8 sisi",
-      "5 sisi",
-      "6 sisi"
+      "6 sisi",
+      "5 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -13099,18 +13099,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_27",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "12",
+      "11",
       "10",
-      "11"
+      "12"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -13118,7 +13118,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_28",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -13137,17 +13137,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_29",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "10 sisi",
+      "9 sisi",
       "12 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
@@ -13156,7 +13156,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_30",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -13175,18 +13175,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_31",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
       "1",
-      "2"
+      "2",
+      "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13194,18 +13194,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_32",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "7 sisi",
       "6 sisi",
-      "9 sisi",
-      "7 sisi"
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13213,17 +13213,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_33",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "8",
       "7",
+      "8",
       "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -13232,17 +13232,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_34",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "1",
+      "2",
       "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -13251,7 +13251,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_35",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -13270,18 +13270,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_36",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "9",
       "10",
-      "8"
+      "8",
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -13289,7 +13289,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_37",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -13299,8 +13299,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "2",
-      "4",
-      "3"
+      "3",
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
   },
@@ -13308,7 +13308,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_38",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -13327,7 +13327,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_39",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -13346,7 +13346,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_40",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -13355,9 +13355,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
+      "3",
       "1",
-      "3"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13365,7 +13365,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_41",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -13384,18 +13384,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_42",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "8",
-      "9",
-      "10"
+      "10",
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -13403,18 +13403,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_43",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
+      "1",
       "2",
-      "1"
+      "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13422,7 +13422,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_44",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -13431,9 +13431,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
+      "12 sisi",
       "10 sisi",
-      "12 sisi"
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -13441,18 +13441,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_45",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "9",
+      "10",
       "11",
-      "10"
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -13460,17 +13460,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_46",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
       "3",
+      "1",
       "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -13479,18 +13479,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_47",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "9 sisi",
-      "7 sisi",
-      "6 sisi"
+      "6 sisi",
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13498,18 +13498,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_48",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7",
       "6",
-      "8"
+      "8",
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13517,7 +13517,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_49",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -13536,7 +13536,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_50",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -13555,17 +13555,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_51",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "11",
       "10",
+      "11",
       "12"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
@@ -13574,18 +13574,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_52",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "3",
-      "2",
-      "1"
+      "1",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13593,18 +13593,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_53",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "9 sisi",
       "12 sisi",
-      "10 sisi",
-      "9 sisi"
+      "10 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -13612,18 +13612,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_54",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "6",
-      "8",
-      "7"
+      "7",
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13631,18 +13631,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_55",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "1",
       "3",
-      "2",
-      "1"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13650,7 +13650,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_56",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -13669,7 +13669,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_57",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -13688,7 +13688,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_58",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -13707,18 +13707,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_59",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "11 sisi",
-      "8 sisi",
-      "9 sisi"
+      "9 sisi",
+      "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -13726,18 +13726,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_60",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "9",
       "10",
-      "8",
-      "9"
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -13745,18 +13745,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_61",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
       "2",
-      "3"
+      "3",
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
   },
@@ -13764,18 +13764,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_62",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "10 sisi",
       "7 sisi",
-      "8 sisi",
-      "10 sisi"
+      "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
   },
@@ -13783,18 +13783,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_63",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "5",
-      "7",
-      "6"
+      "6",
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -13802,7 +13802,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_64",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -13811,8 +13811,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
       "2",
+      "3",
       "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -13821,7 +13821,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_65",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -13830,9 +13830,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "4 sisi",
+      "7 sisi",
       "5 sisi",
-      "7 sisi"
+      "4 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
   },
@@ -13840,18 +13840,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_66",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "10",
+      "9",
       "8",
-      "9"
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -13859,7 +13859,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_67",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -13868,8 +13868,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "3",
+      "2",
       "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -13878,18 +13878,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_68",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "12 sisi",
       "10 sisi",
-      "9 sisi"
+      "9 sisi",
+      "12 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -13897,18 +13897,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_69",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "9",
-      "11",
-      "10"
+      "10",
+      "11"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -13916,18 +13916,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_70",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
+      "2",
       "3",
-      "2"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -13935,18 +13935,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_71",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7 sisi",
+      "9 sisi",
       "6 sisi",
-      "9 sisi"
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13954,18 +13954,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_72",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "8",
       "6",
-      "7"
+      "7",
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -13973,18 +13973,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_73",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
       "3",
-      "5"
+      "5",
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -13992,7 +13992,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_74",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -14002,8 +14002,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "6 sisi",
-      "5 sisi",
-      "8 sisi"
+      "8 sisi",
+      "5 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -14011,18 +14011,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_75",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "11",
       "12",
-      "10"
+      "10",
+      "11"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -14030,18 +14030,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_76",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "2",
       "3",
-      "1",
-      "2"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14049,18 +14049,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_77",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "10 sisi",
-      "12 sisi"
+      "12 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -14068,7 +14068,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_78",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -14077,8 +14077,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "6",
       "8",
+      "6",
       "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -14087,18 +14087,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_79",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "1",
       "3",
-      "2",
-      "1"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14106,18 +14106,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_80",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7 sisi",
+      "9 sisi",
       "6 sisi",
-      "9 sisi"
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -14125,7 +14125,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_81",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -14144,18 +14144,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_82",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "2",
       "3",
-      "1",
-      "2"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14163,18 +14163,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_83",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "8 sisi",
+      "9 sisi",
       "11 sisi",
-      "9 sisi"
+      "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -14182,18 +14182,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_84",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "10",
       "8",
-      "9",
-      "10"
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -14201,17 +14201,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_85",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "4",
+      "2",
       "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
@@ -14220,7 +14220,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_86",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -14239,7 +14239,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_87",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -14249,8 +14249,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "6",
-      "5",
-      "7"
+      "7",
+      "5"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -14258,7 +14258,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_88",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -14277,17 +14277,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_89",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "5 sisi",
       "4 sisi",
+      "5 sisi",
       "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
@@ -14296,7 +14296,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_90",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -14315,17 +14315,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_91",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
       "2",
+      "1",
       "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -14334,17 +14334,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_92",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "12 sisi",
       "10 sisi",
+      "12 sisi",
       "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
@@ -14353,18 +14353,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_93",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "9",
       "10",
-      "11"
+      "11",
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -14372,18 +14372,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_94",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "2",
       "3",
-      "1",
-      "2"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14391,18 +14391,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_95",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "6 sisi",
-      "7 sisi"
+      "7 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -14410,17 +14410,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_96",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "6",
       "7",
+      "6",
       "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -14429,7 +14429,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_97",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -14438,9 +14438,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
+      "5",
       "3",
-      "5"
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -14448,7 +14448,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_98",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -14457,9 +14457,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "8 sisi",
+      "5 sisi",
       "6 sisi",
-      "5 sisi"
+      "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -14467,18 +14467,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_99",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "12",
-      "10",
-      "11"
+      "11",
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -14486,7 +14486,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_100",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -14505,17 +14505,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_101",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "10 sisi",
       "9 sisi",
+      "10 sisi",
       "12 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
@@ -14524,18 +14524,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_102",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7",
+      "8",
       "6",
-      "8"
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -14543,18 +14543,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_103",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "1",
-      "3"
+      "3",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14562,7 +14562,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_104",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -14572,8 +14572,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "7 sisi",
-      "6 sisi",
-      "9 sisi"
+      "9 sisi",
+      "6 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -14581,7 +14581,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_105",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -14600,7 +14600,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_106",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -14610,8 +14610,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "1",
-      "2",
-      "3"
+      "3",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14619,18 +14619,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_107",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "8 sisi",
       "9 sisi",
-      "11 sisi",
-      "8 sisi"
+      "11 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -14638,7 +14638,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_108",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -14648,8 +14648,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "9",
-      "10",
-      "8"
+      "8",
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -14657,7 +14657,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_109",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -14666,8 +14666,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
       "4",
+      "3",
       "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
@@ -14676,7 +14676,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_110",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -14685,8 +14685,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "10 sisi",
       "7 sisi",
+      "10 sisi",
       "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
@@ -14695,7 +14695,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_111",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -14714,7 +14714,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_112",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -14733,18 +14733,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_113",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "7 sisi",
       "5 sisi",
-      "4 sisi",
-      "7 sisi"
+      "4 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
   },
@@ -14752,18 +14752,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_114",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "9",
       "10",
-      "8"
+      "8",
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -14771,7 +14771,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_115",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -14790,18 +14790,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_116",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "12 sisi",
-      "10 sisi",
-      "9 sisi"
+      "9 sisi",
+      "10 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -14809,18 +14809,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_117",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "10",
       "9",
-      "11",
-      "10"
+      "11"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -14828,18 +14828,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_118",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "3",
       "2",
-      "1",
-      "3"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -14847,7 +14847,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_119",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -14866,18 +14866,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_120",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "8",
       "6",
-      "7",
-      "8"
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -14885,18 +14885,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_121",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
       "5",
-      "3"
+      "3",
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -14904,18 +14904,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_122",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "8 sisi",
-      "5 sisi",
-      "6 sisi"
+      "6 sisi",
+      "5 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -14923,17 +14923,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_123",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "12",
       "11",
+      "12",
       "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
@@ -14942,7 +14942,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_124",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -14961,18 +14961,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_125",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "12 sisi",
-      "10 sisi"
+      "10 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -14980,18 +14980,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_126",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "6",
-      "8",
-      "7"
+      "7",
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -14999,18 +14999,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_127",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
+      "1",
       "3",
-      "1"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -15018,18 +15018,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_128",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "6 sisi",
-      "9 sisi",
-      "7 sisi"
+      "7 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -15037,7 +15037,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_129",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -15046,8 +15046,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "8",
       "6",
+      "8",
       "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -15056,463 +15056,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_130",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "1",
-      "3",
-      "2"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_131",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8 sisi",
-      "9 sisi",
-      "11 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_132",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "9",
-      "8",
-      "10"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_133",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "4",
-      "3",
-      "2"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
-  },
-  {
-    "id": "q_math_visual_134",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8 sisi",
-      "10 sisi",
-      "7 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
-  },
-  {
-    "id": "q_math_visual_135",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "6",
-      "5"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
-  },
-  {
-    "id": "q_math_visual_136",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "1",
-      "3",
-      "2"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_137",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7 sisi",
-      "5 sisi",
-      "4 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
-  },
-  {
-    "id": "q_math_visual_138",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "9",
-      "10",
-      "8"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_139",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "2",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_140",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "12 sisi",
-      "10 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_141",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10",
-      "11",
-      "9"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_142",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "2",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_143",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "6 sisi",
-      "7 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_144",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8",
-      "7",
-      "6"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_145",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "5",
-      "4"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
-  },
-  {
-    "id": "q_math_visual_146",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "5 sisi",
-      "8 sisi",
-      "6 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
-  },
-  {
-    "id": "q_math_visual_147",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10",
-      "12",
-      "11"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
-  },
-  {
-    "id": "q_math_visual_148",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "2",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_149",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "9 sisi",
-      "10 sisi",
-      "12 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_150",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "8",
-      "6"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_151",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "3",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_152",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7 sisi",
-      "6 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_153",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "6",
-      "8"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_154",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -15528,10 +15072,10 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
-    "id": "q_math_visual_155",
+    "id": "q_math_visual_131",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -15547,29 +15091,29 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
   {
-    "id": "q_math_visual_156",
+    "id": "q_math_visual_132",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "10",
       "9",
-      "8",
-      "10"
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
   {
-    "id": "q_math_visual_157",
+    "id": "q_math_visual_133",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -15578,9 +15122,465 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
+      "3",
       "2",
+      "4"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
+  },
+  {
+    "id": "q_math_visual_134",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10 sisi",
+      "8 sisi",
+      "7 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
+  },
+  {
+    "id": "q_math_visual_135",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "5",
+      "7",
+      "6"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
+  },
+  {
+    "id": "q_math_visual_136",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "1",
+      "2"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_137",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "5 sisi",
+      "4 sisi",
+      "7 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
+  },
+  {
+    "id": "q_math_visual_138",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8",
+      "9",
+      "10"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_139",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "1",
+      "3",
+      "2"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_140",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "12 sisi",
+      "10 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_141",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "11",
+      "10",
+      "9"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_142",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "1",
+      "2"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_143",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "6 sisi",
+      "7 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_144",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "6",
+      "7",
+      "8"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_145",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "4",
+      "5",
       "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
+  },
+  {
+    "id": "q_math_visual_146",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "6 sisi",
+      "5 sisi",
+      "8 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
+  },
+  {
+    "id": "q_math_visual_147",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "12",
+      "10",
+      "11"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
+  },
+  {
+    "id": "q_math_visual_148",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "1",
+      "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_149",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10 sisi",
+      "12 sisi",
+      "9 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_150",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "6",
+      "8",
+      "7"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_151",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "2",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_152",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "6 sisi",
+      "7 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_153",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8",
+      "6",
+      "7"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_154",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "2",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_155",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "11 sisi",
+      "8 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_156",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10",
+      "8",
+      "9"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_157",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "2",
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
   },
@@ -15588,17 +15588,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_158",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "8 sisi",
       "10 sisi",
+      "8 sisi",
       "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
@@ -15607,7 +15607,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_159",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -15626,123 +15626,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_160",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "3",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_161",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7 sisi",
-      "4 sisi",
-      "5 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
-  },
-  {
-    "id": "q_math_visual_162",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8",
-      "10",
-      "9"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_163",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "1",
-      "2",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_164",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "9 sisi",
-      "12 sisi",
-      "10 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_165",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "11",
-      "10",
-      "9"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_166",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -15756,21 +15642,135 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
-    "id": "q_math_visual_167",
+    "id": "q_math_visual_161",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
-    "visualItem": "🟨",
+    "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
     "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "5 sisi",
       "7 sisi",
-      "6 sisi",
+      "4 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
+  },
+  {
+    "id": "q_math_visual_162",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9",
+      "8",
+      "10"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_163",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "3",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_164",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "12 sisi",
+      "10 sisi",
       "9 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_165",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9",
+      "10",
+      "11"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_166",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "3",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_167",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "6 sisi",
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -15778,7 +15778,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_168",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -15797,18 +15797,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_169",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "3",
       "5",
-      "4",
-      "3"
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -15816,7 +15816,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_170",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -15825,8 +15825,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "5 sisi",
       "8 sisi",
+      "5 sisi",
       "6 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
@@ -15835,7 +15835,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_171",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -15844,8 +15844,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "12",
       "10",
+      "12",
       "11"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
@@ -15854,66 +15854,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_172",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "3",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_173",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "9 sisi",
-      "10 sisi",
-      "12 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_174",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "6",
-      "8"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_175",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -15927,10 +15870,67 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
+    "id": "q_math_visual_173",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "12 sisi",
+      "9 sisi",
+      "10 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_174",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8",
+      "7",
+      "6"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_175",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "1",
+      "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
     "id": "q_math_visual_176",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -15949,7 +15949,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_177",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -15958,9 +15958,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "6",
+      "8",
       "7",
-      "8"
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -15968,18 +15968,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_178",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
+      "1",
       "3",
-      "1"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -15987,18 +15987,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_179",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "11 sisi",
       "9 sisi",
-      "8 sisi",
-      "11 sisi"
+      "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -16006,18 +16006,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_180",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "8",
       "10",
-      "9"
+      "9",
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -16025,7 +16025,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_181",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -16044,7 +16044,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_182",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -16053,8 +16053,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "10 sisi",
       "7 sisi",
+      "10 sisi",
       "8 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
@@ -16063,7 +16063,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_183",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -16082,17 +16082,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_184",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "1",
+      "2",
       "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -16101,17 +16101,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_185",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "7 sisi",
       "5 sisi",
+      "7 sisi",
       "4 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
@@ -16120,18 +16120,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_186",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "8",
+      "9",
       "10",
-      "9"
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -16139,18 +16139,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_187",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "3",
-      "2",
-      "1"
+      "1",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -16158,18 +16158,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_188",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "12 sisi",
-      "10 sisi"
+      "10 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -16177,18 +16177,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_189",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "9",
       "11",
-      "10",
-      "9"
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -16196,18 +16196,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_190",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
+      "2",
       "3",
-      "2"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -16215,7 +16215,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_191",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -16225,8 +16225,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "7 sisi",
-      "9 sisi",
-      "6 sisi"
+      "6 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16234,18 +16234,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_192",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7",
       "6",
-      "8"
+      "8",
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16253,7 +16253,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_193",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -16262,9 +16262,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "5",
+      "4",
       "3",
-      "4"
+      "5"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -16272,18 +16272,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_194",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "5 sisi",
       "8 sisi",
-      "6 sisi"
+      "6 sisi",
+      "5 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -16291,18 +16291,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_195",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "10",
-      "11",
-      "12"
+      "12",
+      "11"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -16310,7 +16310,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_196",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -16329,7 +16329,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_197",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -16348,18 +16348,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_198",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "6",
-      "7",
-      "8"
+      "8",
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16367,18 +16367,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_199",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
+      "1",
       "3",
-      "1"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -16386,18 +16386,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_200",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7 sisi",
+      "6 sisi",
       "9 sisi",
-      "6 sisi"
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16405,18 +16405,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_201",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "8",
-      "6",
-      "7"
+      "7",
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16424,18 +16424,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_202",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "3",
-      "1"
+      "1",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -16443,18 +16443,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_203",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "11 sisi",
       "9 sisi",
-      "8 sisi"
+      "8 sisi",
+      "11 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -16462,123 +16462,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_204",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8",
-      "10",
-      "9"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_205",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "4",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
-  },
-  {
-    "id": "q_math_visual_206",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8 sisi",
-      "7 sisi",
-      "10 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
-  },
-  {
-    "id": "q_math_visual_207",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "5",
-      "6"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
-  },
-  {
-    "id": "q_math_visual_208",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "3",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_209",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "5 sisi",
-      "4 sisi",
-      "7 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
-  },
-  {
-    "id": "q_math_visual_210",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -16592,10 +16478,124 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
   {
+    "id": "q_math_visual_205",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "4",
+      "3",
+      "2"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
+  },
+  {
+    "id": "q_math_visual_206",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10 sisi",
+      "7 sisi",
+      "8 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
+  },
+  {
+    "id": "q_math_visual_207",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "5",
+      "7",
+      "6"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
+  },
+  {
+    "id": "q_math_visual_208",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "2",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_209",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "4 sisi",
+      "7 sisi",
+      "5 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
+  },
+  {
+    "id": "q_math_visual_210",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9",
+      "10",
+      "8"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
     "id": "q_math_visual_211",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -16604,9 +16604,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
+      "3",
       "1",
-      "3"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -16614,18 +16614,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_212",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "12 sisi",
-      "9 sisi",
-      "10 sisi"
+      "10 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -16633,7 +16633,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_213",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -16652,18 +16652,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_214",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "1",
       "2",
-      "3",
-      "1"
+      "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -16671,18 +16671,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_215",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "6 sisi",
-      "7 sisi"
+      "7 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16690,18 +16690,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_216",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "7",
       "8",
-      "6"
+      "6",
+      "7"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16709,17 +16709,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_217",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
       "3",
+      "4",
       "5"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
@@ -16728,18 +16728,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_218",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "8 sisi",
       "6 sisi",
-      "5 sisi",
-      "8 sisi"
+      "5 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -16747,18 +16747,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_219",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "10",
+      "11",
       "12",
-      "11"
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -16766,66 +16766,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_220",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "1",
-      "3",
-      "2"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_221",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "12 sisi",
-      "10 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_222",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "6",
-      "8"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_223",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -16839,10 +16782,67 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
+    "id": "q_math_visual_221",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "12 sisi",
+      "10 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_222",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7",
+      "8",
+      "6"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_223",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "1",
+      "2",
+      "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
     "id": "q_math_visual_224",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -16852,8 +16852,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "7 sisi",
-      "9 sisi",
-      "6 sisi"
+      "6 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16861,18 +16861,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_225",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "6",
+      "7",
       "8",
-      "7"
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -16880,7 +16880,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_226",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -16889,8 +16889,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
       "2",
+      "3",
       "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
@@ -16899,7 +16899,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_227",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -16918,18 +16918,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_228",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "10",
       "8",
-      "9"
+      "9",
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -16937,18 +16937,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_229",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "3",
-      "2",
-      "4"
+      "4",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
   },
@@ -16956,18 +16956,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_230",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "10 sisi",
       "8 sisi",
-      "7 sisi",
-      "10 sisi"
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
   },
@@ -16975,18 +16975,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_231",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
+      "5",
       "7",
-      "6",
-      "5"
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -16994,7 +16994,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_232",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -17013,18 +17013,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_233",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "4 sisi",
       "7 sisi",
-      "5 sisi"
+      "5 sisi",
+      "4 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
   },
@@ -17032,18 +17032,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_234",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "9",
+      "10",
       "8",
-      "10"
+      "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -17051,18 +17051,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_235",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "3",
-      "1",
-      "2"
+      "2",
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -17070,7 +17070,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_236",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -17080,8 +17080,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "10 sisi",
-      "9 sisi",
-      "12 sisi"
+      "12 sisi",
+      "9 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -17089,17 +17089,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_237",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "10",
       "11",
+      "10",
       "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
@@ -17108,9 +17108,123 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_238",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "3",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_239",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7 sisi",
+      "9 sisi",
+      "6 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_240",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "6",
+      "7",
+      "8"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_241",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "5",
+      "4"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
+  },
+  {
+    "id": "q_math_visual_242",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8 sisi",
+      "5 sisi",
+      "6 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
+  },
+  {
+    "id": "q_math_visual_243",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "11",
+      "10",
+      "12"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
+  },
+  {
+    "id": "q_math_visual_244",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -17124,124 +17238,10 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
-    "id": "q_math_visual_239",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "6 sisi",
-      "7 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_240",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8",
-      "7",
-      "6"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_241",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "4",
-      "5"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
-  },
-  {
-    "id": "q_math_visual_242",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8 sisi",
-      "6 sisi",
-      "5 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
-  },
-  {
-    "id": "q_math_visual_243",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10",
-      "11",
-      "12"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
-  },
-  {
-    "id": "q_math_visual_244",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "1",
-      "2"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
     "id": "q_math_visual_245",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -17260,17 +17260,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_246",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "6",
       "7",
+      "6",
       "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -17279,7 +17279,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_247",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -17298,7 +17298,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_248",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -17317,294 +17317,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_249",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7",
-      "8",
-      "6"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_250",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "1",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_251",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "11 sisi",
-      "9 sisi",
-      "8 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_252",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "8",
-      "9",
-      "10"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_253",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "4",
-      "2",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
-  },
-  {
-    "id": "q_math_visual_254",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10 sisi",
-      "7 sisi",
-      "8 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
-  },
-  {
-    "id": "q_math_visual_255",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "6",
-      "7",
-      "5"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
-  },
-  {
-    "id": "q_math_visual_256",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "1",
-      "3",
-      "2"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_257",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟦",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "7 sisi",
-      "5 sisi",
-      "4 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
-  },
-  {
-    "id": "q_math_visual_258",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "🟢",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10",
-      "8",
-      "9"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
-  },
-  {
-    "id": "q_math_visual_259",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
-    "visualType": "shapes",
-    "visualItem": "⭐️",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "3",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_260",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 1,
-    "timerSeconds": 25,
-    "optionsText": [
-      "10 sisi",
-      "9 sisi",
-      "12 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_261",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "11",
-      "9",
-      "10"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_262",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "3",
-      "2",
-      "1"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_263",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 3,
-    "timerSeconds": 25,
-    "optionsText": [
-      "9 sisi",
-      "6 sisi",
-      "7 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_264",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
-    "visualType": "shapes",
-    "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -17618,10 +17333,143 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
   {
-    "id": "q_math_visual_265",
+    "id": "q_math_visual_250",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "2",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_251",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8 sisi",
+      "11 sisi",
+      "9 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_252",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10",
+      "9",
+      "8"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_253",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "3",
+      "4"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
+  },
+  {
+    "id": "q_math_visual_254",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7 sisi",
+      "8 sisi",
+      "10 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
+  },
+  {
+    "id": "q_math_visual_255",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7",
+      "5",
+      "6"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
+  },
+  {
+    "id": "q_math_visual_256",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "3",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_257",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -17630,9 +17478,161 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
-      "5",
+      "4 sisi",
+      "7 sisi",
+      "5 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 5!"
+  },
+  {
+    "id": "q_math_visual_258",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "🟢",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "8",
+      "10",
+      "9"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
+  },
+  {
+    "id": "q_math_visual_259",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "visualType": "shapes",
+    "visualItem": "⭐️",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "1",
       "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_260",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🔶",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "12 sisi",
+      "9 sisi",
+      "10 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_261",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10",
+      "11",
+      "9"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_262",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "2",
+      "1",
+      "3"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
+    "id": "q_math_visual_263",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "9 sisi",
+      "7 sisi",
+      "6 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_264",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "visualType": "shapes",
+    "visualItem": "🔺",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7",
+      "8",
+      "6"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_265",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "visualType": "shapes",
+    "visualItem": "🟦",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 2,
+    "timerSeconds": 25,
+    "optionsText": [
+      "4",
+      "3",
+      "5"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -17640,7 +17640,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_266",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -17659,7 +17659,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_267",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -17678,66 +17678,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_268",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "2",
-      "1",
-      "3"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
-  },
-  {
-    "id": "q_math_visual_269",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
-    "visualType": "shapes",
-    "visualItem": "🛑",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "12 sisi",
-      "10 sisi",
-      "9 sisi"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
-  },
-  {
-    "id": "q_math_visual_270",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🔷",
-    "operandA": 0,
-    "operandB": 0,
-    "operator": "=",
-    "correctAnswer": 2,
-    "timerSeconds": 25,
-    "optionsText": [
-      "6",
-      "7",
-      "8"
-    ],
-    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
-  },
-  {
-    "id": "q_math_visual_271",
-    "category": "matematika_visual",
-    "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
-    "visualType": "shapes",
-    "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
@@ -17751,10 +17694,67 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
   {
+    "id": "q_math_visual_269",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "visualType": "shapes",
+    "visualItem": "🛑",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "10 sisi",
+      "9 sisi",
+      "12 sisi"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
+  },
+  {
+    "id": "q_math_visual_270",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🔷",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 1,
+    "timerSeconds": 25,
+    "optionsText": [
+      "7",
+      "6",
+      "8"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
+  },
+  {
+    "id": "q_math_visual_271",
+    "category": "matematika_visual",
+    "kategori_soal": "Matematika Visual",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "visualType": "shapes",
+    "visualItem": "🟨",
+    "operandA": 0,
+    "operandB": 0,
+    "operator": "=",
+    "correctAnswer": 3,
+    "timerSeconds": 25,
+    "optionsText": [
+      "3",
+      "2",
+      "1"
+    ],
+    "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
+  },
+  {
     "id": "q_math_visual_272",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -17773,18 +17773,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_273",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "6",
       "7",
-      "8"
+      "8",
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -17792,18 +17792,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_274",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "2",
       "1",
-      "3"
+      "3",
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -17811,7 +17811,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_275",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -17830,7 +17830,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_276",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
@@ -17839,8 +17839,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "8",
       "10",
+      "8",
       "9"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
@@ -17849,18 +17849,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_277",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah sisa dari 🛑 - 🔷 ?",
+    "title": "🛑 = 6\n🔷 = 4\nBerapakah sisa dari 🛑 - 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
       "2",
-      "4"
+      "4",
+      "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 2!"
   },
@@ -17868,18 +17868,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_278",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat (4 sisi) + 🟨 Persegi Panjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔷 (4 sisi) + 🟨 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "10 sisi",
-      "7 sisi",
-      "8 sisi"
+      "8 sisi",
+      "7 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 8!"
   },
@@ -17887,18 +17887,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_279",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah hasil dari 🟨 + 🟦 ?",
+    "title": "🟨 = 4\n🔺 = 3\n🟦 = 2\nBerapakah hasil dari 🟨 + 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
       "7",
-      "6",
-      "5"
+      "5",
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -17906,18 +17906,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_280",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2.\nBerapakah sisa dari 🔺 - 🟦 ?",
+    "title": "🔺 = 3\n🟦 = 2\nBerapakah sisa dari 🔺 - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
+      "3",
       "1",
-      "2",
-      "3"
+      "2"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -17925,7 +17925,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_281",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak (4 sisi) + 🟢 Bulat (1 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟦 (4 sisi) + 🟢 (1 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -17944,18 +17944,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_282",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat = 4, ⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah hasil dari 🟢 + 🔶 ?",
+    "title": "🟢 = 4\n⭐️ = 5\n🔶 = 5\nBerapakah hasil dari 🟢 + 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 2,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "10",
       "9",
-      "8"
+      "8",
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -17963,7 +17963,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_283",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari ⭐️ - 🔶 ?",
+    "title": "⭐️ = 5\n🔶 = 5\nBerapakah sisa dari ⭐️ - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -17982,18 +17982,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_284",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang (4 sisi) + 🛑 Segienam (6 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔶 (4 sisi) + 🛑 (6 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "10 sisi",
+      "12 sisi",
       "9 sisi",
-      "12 sisi"
+      "10 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
   },
@@ -18001,7 +18001,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_285",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam = 6, 🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah hasil dari 🛑 + 🟨 ?",
+    "title": "🛑 = 6\n🔷 = 4\n🟨 = 4\nBerapakah hasil dari 🛑 + 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -18010,8 +18010,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "9",
       "11",
+      "9",
       "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
@@ -18020,7 +18020,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_286",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4.\nBerapakah sisa dari 🔷 - 🟨 ?",
+    "title": "🔷 = 4\n🟨 = 4\nBerapakah sisa dari 🔷 - 🟨 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -18029,9 +18029,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
+      "2",
       "1",
-      "2"
+      "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -18039,7 +18039,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_287",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang (4 sisi) + 🔺 Segitiga (3 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟨 (4 sisi) + 🔺 (3 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -18048,9 +18048,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "6 sisi",
+      "9 sisi",
       "7 sisi",
-      "9 sisi"
+      "6 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -18058,7 +18058,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_288",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga = 3, 🟦 Kotak = 2, 🟢 Bulat = 4.\nBerapakah hasil dari 🔺 + 🟢 ?",
+    "title": "🔺 = 3\n🟦 = 2\n🟢 = 4\nBerapakah hasil dari 🔺 + 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
@@ -18077,18 +18077,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_289",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🟦 Kotak = 2.\nBerapakah sisa dari ⭐️ - 🟦 ?",
+    "title": "⭐️ = 5\n🟦 = 2\nBerapakah sisa dari ⭐️ - 🟦 ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
-      "4",
+      "3",
       "5",
-      "3"
+      "4"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 3!"
   },
@@ -18096,18 +18096,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_290",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟢 Bulat (1 sisi) + ⭐️ Bintang (5 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🟢 (1 sisi) + ⭐️ (5 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "6 sisi",
       "8 sisi",
-      "5 sisi",
-      "6 sisi"
+      "5 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 6!"
   },
@@ -18115,7 +18115,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_291",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang = 5, 🔶 Jajar Genjang = 5, 🛑 Segienam = 6.\nBerapakah hasil dari ⭐️ + 🛑 ?",
+    "title": "⭐️ = 5\n🔶 = 5\n🛑 = 6\nBerapakah hasil dari ⭐️ + 🛑 ?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
@@ -18124,9 +18124,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "10",
+      "12",
       "11",
-      "12"
+      "10"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 11!"
   },
@@ -18134,18 +18134,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_292",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🔶 Jajar Genjang = 5.\nBerapakah sisa dari 🔷 - 🔶 ?",
+    "title": "🔷 = 4\n🔶 = 5\nBerapakah sisa dari 🔷 - 🔶 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "1",
+      "2",
       "3",
-      "2"
+      "1"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -18153,7 +18153,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_293",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🛑 Segienam (6 sisi) + 🔷 Belah Ketupat (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🛑 (6 sisi) + 🔷 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🛑",
     "operandA": 0,
@@ -18162,8 +18162,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 3,
     "timerSeconds": 25,
     "optionsText": [
-      "9 sisi",
       "12 sisi",
+      "9 sisi",
       "10 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 10!"
@@ -18172,7 +18172,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_294",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔷 Belah Ketupat = 4, 🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah hasil dari 🔷 + 🔺 ?",
+    "title": "🔷 = 4\n🟨 = 4\n🔺 = 3\nBerapakah hasil dari 🔷 + 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🔷",
     "operandA": 0,
@@ -18182,8 +18182,8 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "timerSeconds": 25,
     "optionsText": [
       "7",
-      "6",
-      "8"
+      "8",
+      "6"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
   },
@@ -18191,7 +18191,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_295",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟨 Persegi Panjang = 4, 🔺 Segitiga = 3.\nBerapakah sisa dari 🟨 - 🔺 ?",
+    "title": "🟨 = 4\n🔺 = 3\nBerapakah sisa dari 🟨 - 🔺 ?",
     "visualType": "shapes",
     "visualItem": "🟨",
     "operandA": 0,
@@ -18210,17 +18210,17 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_296",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔺 Segitiga (3 sisi) + 🟦 Kotak (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "🔺 (3 sisi) + 🟦 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "🔺",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "7 sisi",
       "9 sisi",
+      "7 sisi",
       "6 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 7!"
@@ -18229,7 +18229,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_297",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🟦 Kotak = 2, 🟢 Bulat = 4, ⭐️ Bintang = 5.\nBerapakah hasil dari 🟦 + ⭐️ ?",
+    "title": "🟦 = 2\n🟢 = 4\n⭐️ = 5\nBerapakah hasil dari 🟦 + ⭐️ ?",
     "visualType": "shapes",
     "visualItem": "🟦",
     "operandA": 0,
@@ -18248,7 +18248,7 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_298",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🟢 Bulat = 4.\nBerapakah sisa dari 🔶 - 🟢 ?",
+    "title": "🔶 = 5\n🟢 = 4\nBerapakah sisa dari 🔶 - 🟢 ?",
     "visualType": "shapes",
     "visualItem": "🟢",
     "operandA": 0,
@@ -18257,9 +18257,9 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
-      "3",
+      "2",
       "1",
-      "2"
+      "3"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 1!"
   },
@@ -18267,18 +18267,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_299",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "⭐️ Bintang (5 sisi) + 🔶 Jajar Genjang (4 sisi).\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
+    "title": "⭐️ (5 sisi) + 🔶 (4 sisi)\nBerapakah jumlah total sisi jika kedua bentuk digabungkan?",
     "visualType": "shapes",
     "visualItem": "⭐️",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 2,
     "timerSeconds": 25,
     "optionsText": [
       "8 sisi",
-      "11 sisi",
-      "9 sisi"
+      "9 sisi",
+      "11 sisi"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   },
@@ -18286,18 +18286,18 @@ export const DEFAULT_QUESTIONS: Question[] = [
     "id": "q_math_visual_300",
     "category": "matematika_visual",
     "kategori_soal": "Matematika Visual",
-    "title": "🔶 Jajar Genjang = 5, 🛑 Segienam = 6, 🔷 Belah Ketupat = 4.\nBerapakah hasil dari 🔶 + 🔷 ?",
+    "title": "🔶 = 5\n🛑 = 6\n🔷 = 4\nBerapakah hasil dari 🔶 + 🔷 ?",
     "visualType": "shapes",
     "visualItem": "🔶",
     "operandA": 0,
     "operandB": 0,
     "operator": "=",
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "timerSeconds": 25,
     "optionsText": [
+      "9",
       "10",
-      "8",
-      "9"
+      "8"
     ],
     "explanation": "Hasil penjumlahan bentuk geometri adalah 9!"
   }
