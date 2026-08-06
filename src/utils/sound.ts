@@ -1,9 +1,13 @@
-// Web Audio API Sound Generator for Kids Math Quiz
+// Web Audio API Sound Generator & Cheerful BGM Engine for Kids Math Quiz
 
 class SoundEngine {
   private ctx: AudioContext | null = null;
   public enabled: boolean = true;
   public speechEnabled: boolean = true;
+
+  private isBgmPlaying: boolean = false;
+  private bgmTimer: number | null = null;
+  private bgmStep: number = 0;
 
   private initCtx() {
     if (!this.ctx) {
@@ -13,7 +17,98 @@ class SoundEngine {
       }
     }
     if (this.ctx && this.ctx.state === 'suspended') {
-      this.ctx.resume();
+      this.ctx.resume().catch(() => {});
+    }
+  }
+
+  // Cheerful Kids Background Music Loop (Toy Marimba & Music Box Style)
+  startBGM() {
+    if (!this.enabled || this.isBgmPlaying) return;
+    this.isBgmPlaying = true;
+    this.bgmStep = 0;
+
+    // Cheerful C-Major Kids Melody (Frequencies in Hz & Duration in seconds)
+    const melody = [
+      { note: 659.25, dur: 0.18 }, { note: 783.99, dur: 0.18 }, { note: 1046.5, dur: 0.32 }, { note: 0, dur: 0.12 },
+      { note: 880.00, dur: 0.18 }, { note: 783.99, dur: 0.18 }, { note: 659.25, dur: 0.32 }, { note: 0, dur: 0.12 },
+      { note: 587.33, dur: 0.18 }, { note: 659.25, dur: 0.18 }, { note: 698.46, dur: 0.32 }, { note: 0, dur: 0.12 },
+      { note: 659.25, dur: 0.18 }, { note: 587.33, dur: 0.18 }, { note: 523.25, dur: 0.32 }, { note: 0, dur: 0.12 },
+
+      { note: 523.25, dur: 0.18 }, { note: 659.25, dur: 0.18 }, { note: 783.99, dur: 0.18 }, { note: 1046.5, dur: 0.18 },
+      { note: 880.00, dur: 0.18 }, { note: 1046.5, dur: 0.18 }, { note: 783.99, dur: 0.32 }, { note: 0, dur: 0.12 },
+      { note: 698.46, dur: 0.18 }, { note: 659.25, dur: 0.18 }, { note: 587.33, dur: 0.18 }, { note: 392.00, dur: 0.18 },
+      { note: 523.25, dur: 0.35 }, { note: 0, dur: 0.1 },  { note: 523.25, dur: 0.25 }, { note: 0, dur: 0.15 }
+    ];
+
+    const bass = [
+      130.81, 0, 196.00, 0, 174.61, 0, 196.00, 0,
+      130.81, 0, 196.00, 0, 174.61, 0, 196.00, 0,
+      130.81, 0, 196.00, 0, 174.61, 0, 196.00, 0,
+      130.81, 0, 196.00, 0, 196.00, 0, 130.81, 0
+    ];
+
+    this.bgmTimer = window.setInterval(() => {
+      if (!this.enabled || !this.isBgmPlaying) {
+        this.stopBGM();
+        return;
+      }
+      try {
+        this.initCtx();
+        if (!this.ctx) return;
+
+        const step = this.bgmStep % melody.length;
+        const item = melody[step];
+        const bassFreq = bass[step % bass.length];
+
+        // Play melody note
+        if (item.note > 0) {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(item.note, this.ctx.currentTime);
+
+          // Soft music box envelope (Volume at 0.035 for gentle background volume)
+          gain.gain.setValueAtTime(0.035, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.0005, this.ctx.currentTime + item.dur);
+
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+
+          osc.start();
+          osc.stop(this.ctx.currentTime + item.dur + 0.04);
+        }
+
+        // Play warm bass note
+        if (bassFreq > 0 && step % 2 === 0) {
+          const bassOsc = this.ctx.createOscillator();
+          const bassGain = this.ctx.createGain();
+
+          bassOsc.type = 'triangle';
+          bassOsc.frequency.setValueAtTime(bassFreq, this.ctx.currentTime);
+
+          bassGain.gain.setValueAtTime(0.025, this.ctx.currentTime);
+          bassGain.gain.exponentialRampToValueAtTime(0.0005, this.ctx.currentTime + 0.3);
+
+          bassOsc.connect(bassGain);
+          bassGain.connect(this.ctx.destination);
+
+          bassOsc.start();
+          bassOsc.stop(this.ctx.currentTime + 0.32);
+        }
+
+        this.bgmStep++;
+      } catch {
+        // Audio error safety
+      }
+    }, 210); // Bouncy ~140 BPM speed
+  }
+
+  stopBGM() {
+    this.isBgmPlaying = false;
+    if (this.bgmTimer !== null) {
+      clearInterval(this.bgmTimer);
+      this.bgmTimer = null;
     }
   }
 
@@ -183,13 +278,12 @@ class SoundEngine {
       return;
     }
     try {
-      window.speechSynthesis.cancel(); // cancel previous
+      window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'id-ID';
-      utterance.rate = 0.9; // Friendly slightly slower pace for kids
-      utterance.pitch = 1.2; // Cheerful higher pitch for kid feeling
+      utterance.rate = 0.9;
+      utterance.pitch = 1.2;
 
-      // Try finding an Indonesian voice
       const voices = window.speechSynthesis.getVoices();
       const idVoice = voices.find(v => v.lang.includes('id') || v.lang.includes('ID'));
       if (idVoice) {

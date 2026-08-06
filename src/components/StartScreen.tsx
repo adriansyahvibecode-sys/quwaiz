@@ -5,6 +5,8 @@ import { MASCOTS } from '../data/mascots';
 import { soundFx } from '../utils/sound';
 import { Play, Sparkles, Trophy } from 'lucide-react';
 import { NameKeyboard } from './NameKeyboard';
+import { Leaderboard } from './Leaderboard';
+import { QuizResult } from '../types';
 
 interface StartScreenProps {
   settings: QuizSettings;
@@ -13,6 +15,7 @@ interface StartScreenProps {
   onOpenAdmin: () => void;
   totalAvailableQuestions: number;
   highScore: number;
+  history?: QuizResult[];
 }
 
 export const StartScreen: React.FC<StartScreenProps> = ({
@@ -22,6 +25,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({
   onOpenAdmin,
   totalAvailableQuestions,
   highScore,
+  history = [],
 }) => {
   const [selectedMascot, setSelectedMascot] = useState<Mascot>(
     MASCOTS.find((m) => m.id === settings.selectedMascotId) || MASCOTS[0]
@@ -222,6 +226,9 @@ export const StartScreen: React.FC<StartScreenProps> = ({
           })}
         </div>
       </div>
+
+      {/* Top 5 Leaderboard Display */}
+      <Leaderboard history={history} />
 
       {/* Action Button: START */}
       <div className="pt-1">

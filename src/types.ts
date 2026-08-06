@@ -50,10 +50,12 @@ export interface UserAnswer {
   userAnswer: number | null;
   isCorrect: boolean;
   timeSpentSeconds: number;
+  pointsEarned?: number;
 }
 
 export interface QuizResult {
-  score: number; // 0 - 100
+  score: number; // 0 - 100 percentage
+  totalScore: number; // Accumulated PTS points
   totalQuestions: number;
   correctCount: number;
   wrongCount: number;
@@ -64,4 +66,5 @@ export interface QuizResult {
   mascotName: string;
   mascotEmoji: string;
   playerName?: string;
+  isNewRecord?: boolean;
 }

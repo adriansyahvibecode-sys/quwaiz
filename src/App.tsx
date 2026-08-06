@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Question, QuizResult, QuizSettings, UserAnswer } from './types';
 import { MASCOTS } from './data/mascots';
@@ -40,6 +40,10 @@ export default function App() {
   // Modals state
   const [isAdminOpen, setIsAdminOpen] = useState<boolean>(false);
   const [isCertOpen, setIsCertOpen] = useState<boolean>(false);
+  const [quizHistory, setQuizHistory] = useState<QuizResult[]>(() => loadQuizHistory());
+
+  // Count-up Question Timer Ref (Independent of Countdown Timer)
+  const questionStartTimeRef = useRef<number>(Date.now());
 
   // Splash Screen 2-Second Timeout Timer
   useEffect(() => {
@@ -68,6 +72,13 @@ export default function App() {
     }
   }, [screen, countdownVal]);
 
+  // Track exact question start time for count-up timing
+  useEffect(() => {
+    if (screen === 'quiz') {
+      questionStartTimeRef.current = Date.now();
+    }
+  }, [screen, currentIndex]);
+
   // Initial load
   useEffect(() => {
     fetchGoogleSheetQuestions().then(({ math, coding }) => {
@@ -76,12 +87,39 @@ export default function App() {
     });
   }, []);
 
-  // Update soundFx flags when settings change
+  // Update soundFx flags and BGM playback when settings change
   useEffect(() => {
     soundFx.enabled = settings.soundEnabled;
     soundFx.speechEnabled = settings.speechEnabled;
+    if (settings.soundEnabled) {
+      soundFx.startBGM();
+    } else {
+      soundFx.stopBGM();
+    }
     saveLocalSettings(settings);
   }, [settings]);
+
+  // First user interaction gesture listener to start BGM audio safely
+  useEffect(() => {
+    const handleFirstGesture = () => {
+      if (settings.soundEnabled) {
+        soundFx.startBGM();
+      }
+      window.removeEventListener('click', handleFirstGesture);
+      window.removeEventListener('keydown', handleFirstGesture);
+      window.removeEventListener('touchstart', handleFirstGesture);
+    };
+
+    window.addEventListener('click', handleFirstGesture);
+    window.addEventListener('keydown', handleFirstGesture);
+    window.addEventListener('touchstart', handleFirstGesture);
+
+    return () => {
+      window.removeEventListener('click', handleFirstGesture);
+      window.removeEventListener('keydown', handleFirstGesture);
+      window.removeEventListener('touchstart', handleFirstGesture);
+    };
+  }, [settings.soundEnabled]);
 
   // Current selected mascot
   const mascot = useMemo(() => {
@@ -130,13 +168,26 @@ export default function App() {
     const currentQuestion = activeQuestions[currentIndex];
     const isCorrect = answerNum !== null && answerNum === currentQuestion.correctAnswer;
 
+    // Time spent count-up calculation (independent of countdown timer)
+    const timeSpentSeconds = Math.max(1, Math.round((Date.now() - questionStartTimeRef.current) / 1000));
+
+    // Score Calculation Rules:
+    // 1. Correct answer: Base 100 PTS + Speed Bonus (max 100 PTS)
+    // 2. Wrong or missing answer: 0 PTS
+    let pointsEarned = 0;
+    if (isCorrect) {
+      const speedBonus = Math.max(0, Math.round(100 - timeSpentSeconds * 5));
+      pointsEarned = 100 + speedBonus;
+    }
+
     // Record user answer
     const newAnswer: UserAnswer = {
       questionId: currentQuestion.id,
       question: currentQuestion,
       userAnswer: answerNum,
       isCorrect,
-      timeSpentSeconds: 15 - 5, // approx
+      timeSpentSeconds,
+      pointsEarned,
     };
 
     const updatedAnswers = [...userAnswers, newAnswer];
@@ -181,29 +232,43 @@ export default function App() {
     const total = answersList.length;
     const correctCount = answersList.filter((a) => a.isCorrect).length;
     const wrongCount = total - correctCount;
-    const score = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+    const percentageScore = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+
+    // Calculate total score PTS (Base + Speed bonus)
+    const totalScore = answersList.reduce((sum, a) => sum + (a.pointsEarned || 0), 0);
+    const totalTimeSpent = answersList.reduce((sum, a) => sum + a.timeSpentSeconds, 0);
 
     let stars = 1;
-    if (score >= 90) stars = 3;
-    else if (score >= 60) stars = 2;
+    if (percentageScore >= 90) stars = 3;
+    else if (percentageScore >= 60) stars = 2;
+
+    // Check if new high score record
+    const existingHistory = loadQuizHistory();
+    const highestPrev = existingHistory.length > 0
+      ? Math.max(...existingHistory.map((h) => h.totalScore || h.score * 10 || 0))
+      : 0;
+
+    const isNewRecord = totalScore > 0 && totalScore > highestPrev;
 
     const result: QuizResult = {
-      score,
+      score: percentageScore,
+      totalScore,
       totalQuestions: total,
       correctCount,
       wrongCount,
       stars,
-      timeSpentSeconds: 100,
+      timeSpentSeconds: totalTimeSpent,
       answers: answersList,
       completedAt: new Date().toISOString(),
       mascotName: mascot.name,
       mascotEmoji: mascot.emoji,
-      playerName: settings.playerName?.trim() || 'Anak Pintar',
+      playerName: settings.playerName?.trim() || 'MYESHA',
+      isNewRecord,
     };
 
     saveQuizResult(result);
+    setQuizHistory(loadQuizHistory());
     setActiveResult(result);
-    setFeedback(null);
     setScreen('result');
   };
 
@@ -298,7 +363,8 @@ export default function App() {
                 onStartQuiz={handleStartQuiz}
                 onOpenAdmin={() => setIsAdminOpen(true)}
                 totalAvailableQuestions={questionsBank.length}
-                highScore={highScore}
+                highScore={0}
+                history={quizHistory}
               />
             </motion.div>
           )}
@@ -405,6 +471,7 @@ export default function App() {
                 onPlayAgain={handleStartQuiz}
                 onBackToHome={() => setScreen('start')}
                 onOpenCertificate={() => setIsCertOpen(true)}
+                history={quizHistory}
               />
             </motion.div>
           )}
