@@ -35,6 +35,7 @@ export const StartScreen: React.FC<StartScreenProps> = ({
     { id: 'penjumlahan', label: 'Penjumlahan ➕', icon: '🍎', bg: 'bg-[#4ECDC4]' },
     { id: 'pengurangan', label: 'Pengurangan ➖', icon: '🎈', bg: 'bg-[#FF7675]' },
     { id: 'hitung_benda', label: 'Hitung Benda 🔢', icon: '⭐', bg: 'bg-[#FFE66D] text-[#2D3436]' },
+    { id: 'matematika_visual', label: 'Matematika Visual 📐', icon: '🔺', bg: 'bg-[#54A0FF]' },
     { id: 'campuran', label: 'Campuran 🎲', icon: '🎨', bg: 'bg-[#A29BFE]' },
   ];
 

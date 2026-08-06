@@ -46,26 +46,41 @@ export async function fetchGoogleSheetQuestions(): Promise<{ math: Question[], c
       const csvText = await res.text();
       const parsed = parseCSV(csvText);
       if (parsed.length > 1) {
-        const headers = parsed[0];
+        const rawHeaders = parsed[0].map(h => h.trim().toLowerCase());
+        const getIdx = (name: string) => rawHeaders.indexOf(name.toLowerCase());
+
+        const idIdx = getIdx('id') !== -1 ? getIdx('id') : 0;
+        const catIdx = getIdx('category') !== -1 ? getIdx('category') : 1;
+        const titleIdx = getIdx('title') !== -1 ? getIdx('title') : 3;
+        const vTypeIdx = getIdx('visualtype') !== -1 ? getIdx('visualtype') : 4;
+        const vItemIdx = getIdx('visualitem') !== -1 ? getIdx('visualitem') : 5;
+        const opAIdx = getIdx('operanda') !== -1 ? getIdx('operanda') : 6;
+        const opBIdx = getIdx('operandb') !== -1 ? getIdx('operandb') : 7;
+        const opIdx = getIdx('operator') !== -1 ? getIdx('operator') : 8;
+        const ansIdx = getIdx('correctanswer') !== -1 ? getIdx('correctanswer') : 9;
+        const timerIdx = getIdx('timerseconds') !== -1 ? getIdx('timerseconds') : 10;
+        const optTxtIdx = getIdx('optionstext') !== -1 ? getIdx('optionstext') : 11;
+        const expIdx = getIdx('explanation') !== -1 ? getIdx('explanation') : 12;
+
         const math: Question[] = [];
         const coding: Question[] = [];
 
         for (let i = 1; i < parsed.length; i++) {
           const row = parsed[i];
-          if (row.length < headers.length) continue;
+          if (row.length < 5) continue;
 
-          const id = row[0];
-          const category = row[1];
-          const title = row[2];
-          const visualType = row[3] as any;
-          const visualItem = row[4];
-          const operandA = parseInt(row[5], 10) || 0;
-          const operandB = parseInt(row[6], 10) || 0;
-          const operator = row[7] as any;
-          const correctAnswer = parseInt(row[8], 10) || 0;
-          const timerSeconds = parseInt(row[9], 10) || 20;
-          const optionsTextRaw = row[10];
-          const explanation = row[11];
+          const id = row[idIdx] || `q_${i}`;
+          const category = row[catIdx] || 'penjumlahan';
+          const title = row[titleIdx] || '';
+          const visualType = (row[vTypeIdx] || 'emoji') as any;
+          const visualItem = row[vItemIdx] || '🍎';
+          const operandA = parseInt(row[opAIdx], 10) || 0;
+          const operandB = parseInt(row[opBIdx], 10) || 0;
+          const operator = (row[opIdx] || '+') as any;
+          const correctAnswer = parseInt(row[ansIdx], 10) || 0;
+          const timerSeconds = parseInt(row[timerIdx], 10) || 20;
+          const optionsTextRaw = row[optTxtIdx];
+          const explanation = row[expIdx] || '';
 
           let optionsText: string[] | undefined = undefined;
           if (optionsTextRaw) {

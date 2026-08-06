@@ -1,4 +1,4 @@
-export type Category = 'penjumlahan' | 'pengurangan' | 'hitung_benda' | 'perbandingan' | 'campuran';
+export type Category = 'penjumlahan' | 'pengurangan' | 'hitung_benda' | 'perbandingan' | 'geometri' | 'campuran';
 
 export type VisualType = 'emoji' | 'dots' | 'shapes';
 
